@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jacques+Francois&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+
+.p1-container{
+    background: #462828;
+    height: 200vh;
+    max-width: 100vw;
+    /* position: absolute; */
+} 
+
+.basin {
+    height: 90%;
+
+    border-radius: 20px;transform: translateY(-10px);
+}
+
+.text7 {
+    font-size: 25px;
+
+}
+
+.about_motomart{
+    width: 90%;
+    
+}
+
+p{
+    /* font-family: 'Jacques Francois', serif !important; */
+}
+
+.chair{
+    transform: translateY(-100px);
+    width: 60%;
+    height: 90%;
+}
+
+.door {
+    width: 45%;
+    border-radius: 20px;
+}
+
+.s-2{
+    max-height: 100vh;
+}
+
+.s-1{
+    display: grid;
+    place-items: center;
+}
+
+.btn-op {
+    padding: 10px 90px 10px 90px;
+    transform: translateY(-90px)
+    
+}
+
+.text2{
+    font-family: 'Jacques Francois', serif;
+    /* color: red; */
+}

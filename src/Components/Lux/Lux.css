@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.lux-container{
+    background: url(../img/lux-bg.png) no-repeat center center/cover;
+    position: relative;
+    z-index: -89;
+}
+
+.lux-container::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    position: absolute;
+    z-index: -69;
+    opacity: 0.6;
+}
+.lux {
+    background: url(../img/lux-head.png) no-repeat center center/cover;
+    position: absolute;
+    z-index: 1;height: 30%;
+}
+
+.lux-chair {
+    width: 20rem;
+    border-radius: 5%;
+}
+
+.sign{
+    height: 24rem;
+}
+
+.bottom-text{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 100vw;
+
+}
+
+.bottom-text p{
+    width: 50%;
+    color: white;
+    font-family: 'Jacques Francois', serif;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+
+.btn4{
+    background: transparent;
+    color:white;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid white;
+}

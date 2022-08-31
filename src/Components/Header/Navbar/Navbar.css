@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_links {
+    display: flex;
+    gap: 50px;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+.navbar-wrapper{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+}
