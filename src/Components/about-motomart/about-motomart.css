@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jacques+Francois&display=swap');
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,18 +11,40 @@
     background: #462828;
     height: 200vh;
     max-width: 100vw;
-    /* position: absolute; */
 } 
 
 .basin {
-    height: 90%;
-
+    height: 70%;
     border-radius: 20px;transform: translateY(-10px);
+    cursor: pointer;
 }
 
+.basin:hover,
+.door:hover{
+    transform: scale(1.02);
+    transition: all 1s ease-in-out;
+}
+
+.chair:hover{
+    animation: bounce 1s ;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(-100px);
+        transition: all 1s ease-in-out;
+    }
+    50%{
+        transform: translateY(0px);
+        transition: all 1s ease-in-out;
+    }
+    100%{
+        transform: translateY(-100px);
+        transition: all 1s ease-in-out;
+    }
+}
 .text7 {
     font-size: 25px;
-
 }
 
 .about_motomart{
@@ -33,19 +52,17 @@
     
 }
 
-p{
-    /* font-family: 'Jacques Francois', serif !important; */
-}
-
 .chair{
     transform: translateY(-100px);
     width: 60%;
     height: 90%;
+    cursor: pointer;
 }
 
 .door {
     width: 45%;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .s-2{
@@ -59,11 +76,42 @@ p{
 
 .btn-op {
     padding: 10px 90px 10px 90px;
-    transform: translateY(-90px)
+    transform: translateY(-160px)
     
 }
 
 .text2{
     font-family: 'Jacques Francois', serif;
-    /* color: red; */
+}
+
+@media only screen and (max-width:600px) {
+    .basin {
+        /* display: none; */
+        width: 100px;
+        display: grid;
+        place-items: center;
+        display: none;
+    }
+    .door {
+        /* width: 100rem; */
+        display: none;
+    }
+
+    .chair{
+        transform: translateY(0px);
+        width: 60%;
+        height: 90%;
+        padding-top: 50px;
+    }
+
+    .p1-container{
+        height: 100%;
+        max-width: 100vw;
+    } 
+
+    .btn-op {
+        padding: 5px 10px 5px 10px;
+        transform: translateY(0px);
+        display: none;
+    }
 }

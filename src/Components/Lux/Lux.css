@@ -8,6 +8,7 @@
     background: url(../img/lux-bg.png) no-repeat center center/cover;
     position: relative;
     z-index: -89;
+    width: 100vw;
 }
 
 .lux-container::after{
@@ -40,8 +41,7 @@
     display: grid;
     place-items: center;
     text-align: center;
-    width: 100vw;
-
+    /* width: 100%; */
 }
 
 .bottom-text p{
@@ -57,4 +57,14 @@
     color:white;
     padding: 10px 40px 10px 40px;
     border: 1px solid white;
+}
+
+@media only screen and (max-width:600px) {
+    .sign{
+        display: none;
+    }
+
+    .lux-chair{
+        transform: translateX(-65px);
+    }
 }

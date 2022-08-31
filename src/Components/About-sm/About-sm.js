@@ -5,10 +5,10 @@ function About_sm() {
   return (
     <div className="About_sm d-flex align-items-center justify-content-center">
       <div className="container row">
-        <div className="col-6 d-flex justify-content-center align-items-center">
+        <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img src={suji} alt="suji" className="suji" />
         </div>
-        <div className="about_text col-6 text-white">
+        <div className="about_text col-md-6 text-white text-center">
           <h2 className="pt-5">ABOUT SUJIMOTO</h2>
           <p className="text1">
             Sujimoto is a luxury real estate and construction company with a

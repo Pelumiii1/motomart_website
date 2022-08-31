@@ -8,7 +8,7 @@ function Lux() {
       <div className="">
         <div className=" d-flex justify-content-center ">
           <div className="d-flex row w-75 alig">
-            <div className="col-6 d-flex justify-content-center align-items-center ">
+            <div className="col-6 d-md-flex justify-content-center align-items-center ">
               <img src={sign} alt="sign" className="sign" />
             </div>
             <div className="col-6 d-flex justify-content-center align-items-center">

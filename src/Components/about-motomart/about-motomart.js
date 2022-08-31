@@ -8,7 +8,7 @@ function AboutMotomart() {
   return (
     <div className="p1-container container-fluid">
       <div className="row d-flex">
-        <div className="text7 ps-5 mt-5 pt-5 col-6 text-white">
+        <div className="text7 p-xs-3 ps-md-5 mt-5 pt-5 col-md-6 text-white">
           <img src={about_m} alt="about-motomart"  className="about_motomart pb-5 "/>
           <p className="text2 ">
             Motomart is the one-stop shop for affordable luxury sanitary wares,
@@ -21,16 +21,16 @@ function AboutMotomart() {
             interior designer.
           </p>
         </div>
-        <div className="col-6 d-flex justify-content-center">
+        <div className="col-md-6 d-flex justify-content-center">
           <img src={chair} alt="chair"  className="chair"/>
         </div>
       </div>
       <div className="d-flex row s-2">
-        <div className="col-6 text-center s-1 ">
+        <div className="col-md-6 text-center s-1 ">
           <img src={door} alt="door" className="d-flex door" />
           <button className="btn-op rounded">OTHER PRODECTS</button>
         </div>
-        <div className="col-6 d-flex justify-content-center">
+        <div className="col-md-6 d-flex justify-content-center">
           <img src={basin} alt="basin" className="basin " />
         </div>
       </div>

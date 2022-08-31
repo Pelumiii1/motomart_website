@@ -26,10 +26,17 @@
 
 .text1{
     font-family: 'Jacques Francois', serif;
+    font-size: 16px;
     /* color: red; */
 }
 
 .suji {
     border-radius: 50%;
     height: 14rem;
+}
+
+@media only screen and (max-width:600px) {
+    .About_sm {
+        height: 100%;
+    }
 }

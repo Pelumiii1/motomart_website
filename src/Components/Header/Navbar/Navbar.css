@@ -7,6 +7,12 @@
 .navbar_links {
     display: flex;
     gap: 50px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.navbar_links:hover{
+    color: #462828;
 }
 
 p{
@@ -21,4 +27,32 @@ p{
     line-height: 18px;
     align-items: center;
     text-align: right;
+}
+
+@media only screen and (max-width:600px){
+    .empty{
+        display: none;
+    }
+
+    .full {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .navbar_links {
+        gap: 30px;
+        
+    }
+    .navbar_links p {
+        display: flex;
+        padding-top: 10px;
+        font-size: 13px !important;
+    }
+    
+    .icons{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+    }
 }

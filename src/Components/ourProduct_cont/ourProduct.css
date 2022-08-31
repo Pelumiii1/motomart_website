@@ -27,13 +27,20 @@
     width: 90%;
     /* height: ; */
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .img2{
     width: 90%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+.img1:hover,
+.img2:hover{
+    transform: scale(1.02);
+    transition: all 1s ease-in-out;
+}
 
 p{
     font-family: Inter;
@@ -47,8 +54,21 @@ p{
 
 .btn1 {
     height:4rem;
+    /* border: 1px  solid white; */
 }
 
 .btn2 {
     padding: 0px 90px 0px 90px !important;
+    border: 1px  solid white;
+}
+
+@media only screen and (max-width:600px){
+    .our-product-container{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    .grid2{
+        transform: translateY(0px);
+    }
 }
