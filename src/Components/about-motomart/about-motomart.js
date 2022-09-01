@@ -28,7 +28,7 @@ function AboutMotomart() {
       <div className="d-flex row s-2">
         <div className="col-md-6 text-center s-1 ">
           <img src={door} alt="door" className="d-flex door" />
-          <button className="btn-op rounded">OTHER PRODECTS</button>
+          <button className="btn-op rounded">OTHER PRODUCTS</button>
         </div>
         <div className="col-md-6 d-flex justify-content-center">
           <img src={basin} alt="basin" className="basin " />

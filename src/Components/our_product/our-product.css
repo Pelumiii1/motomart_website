@@ -34,15 +34,12 @@
     height: 40%;
 }
 
-@media only screen and (max-width:600px){
+@media (max-width:768px){
     .our-product {
         height: 25% !important;
     }
     .op-container {
         height: 10%;
-    }
-    .our-product{
-        /* height: 20%; */
     }
 
     .banner{

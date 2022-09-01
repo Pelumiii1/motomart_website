@@ -92,8 +92,6 @@
         display: none;
     }
     .door {
-        /* width: 100rem; */
-        /* display: none; */
         width: 50%;
         margin-bottom: 30px;
         border-radius: 10px;
@@ -117,3 +115,24 @@
         display: none;
     }
 }
+
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 768px) and (max-width: 1024px){
+    .basin{
+        height: 25rem;
+    }
+
+    .door{
+        height: 25rem;
+        width: 20rem;
+        margin-top: 20px;
+    }
+
+    .btn-op{
+        transform: translateY(30px);
+    }
+
+    .p1-container{
+        height: 110vh;
+    }
+ }

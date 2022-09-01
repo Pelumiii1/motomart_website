@@ -46,6 +46,21 @@ li {
     font-weight: normal;
 }
 
+input::placeholder,
+textarea::placeholder{
+    color: white;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 10;
+}
+
+input,
+textarea{
+    background-color: ;
+    background: #673B3B;
+    border: 0px solid white;
+
+}
+
 /* For Mobile phone screens */
 @media only screen and (max-width:600px) {
     .info-a {

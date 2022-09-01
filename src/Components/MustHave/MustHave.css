@@ -187,3 +187,25 @@
         transform: translateX(-130px);
     }
 }
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .d1 p{
+        display: flex;
+        text-align: left;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .chair3{
+        z-index: 99;
+    }
+
+    .g4{
+        z-index: -99;
+    }
+    
+    .g4 p{
+        width: 80%;
+        text-align: center;
+    }
+}

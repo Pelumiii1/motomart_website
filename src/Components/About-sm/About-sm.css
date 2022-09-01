@@ -52,7 +52,7 @@
 
 }
 
-@media only screen and (min-width:376px){
+@media (max-width:426px){
     .about-sm{
         width: 14.5rem;
     }
@@ -62,14 +62,28 @@
     }
 }
 
-@media only screen and (min-width:768px){
+@media (min-width:426px) and (max-width:768px){
     .about-sm{
         width: 20rem !important;
     }
 }
 
-@media only screen and (min-width:1024px){
+@media (min-width:769px) and (max-width:1024px){
     .about-sm{
         width: 26rem;
+    }
+}
+
+@media (min-width:1025px) {
+    .about-sm{
+        width: 40rem;
+    }
+
+    .text1{
+        font-size: 1.4rem;
+    }
+
+    .suji{
+        height: 25rem;
     }
 }
