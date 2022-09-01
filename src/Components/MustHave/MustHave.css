@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.musthave_container{
+    background: #221313;
+    height: 100%;
+    position: relative;
+    z-index: -96;
+    padding-top: 100px;
+}
+
+.musthave{
+    height: 10rem;
+}
+
+.chair3{
+    /* height: 30rem; */
+    border-radius: 20px;
+}
+
+
+.head6{
+    opacity: 0.1;
+    position: relative;
+    z-index: -95;
+}
+
+.door2,
+.tub{
+    width: 27em;
+}
+
+.door_text{
+    display: flex;
+    align-items: baseline;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.g2{
+    transform: translate(420px, 100px);
+}
+
+.g4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%!important;
+}
+
+.g4 p{
+    text-align: left;
+    padding-right: 100px;
+}
+
+.musthave_foot{
+    height: 15rem;
+    width: 100%;
+}
+
+.btnc {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn11{
+    padding: 10px 30px 10px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    z-index: 99;
+}
+
+@media only screen and (max-width:426px){
+    .musthave{
+        width: 20rem;
+        margin-bottom: 5rem;
+    }
+
+    .chair3{
+        height: 20rem;
+        margin-bottom: 5rem;
+    }
+    
+    .g2 {
+        transform: translate(0px, 0px);
+        /* height: 20rem !important; */
+    }
+
+    .light{
+        display: none;
+    }
+
+    .tub{
+        width: 20rem;
+        transform: translateX(0px) !important;
+    }
+
+    .g4{
+        width: 100% !important;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .g4 p{
+        padding-right: 5px;
+        /* background: red; */
+        text-align: center;
+    }
+
+    .door2 {
+        width: 20rem;
+    }
+
+    .part2 {
+        display: grid !important;
+        place-items: center !important;
+
+    }
+
+    .door_text{
+        display: flex;
+        align-items: baseline;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:426px){
+    .tub{
+        transform: translateX(105px);
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .part1{
+        display: grid !important;
+    }
+
+    .light{
+        display: none;
+    }
+
+
+
+    .g2{
+        transform: translate(0px, 0px);
+    }
+
+    .g4{
+        display: block ;
+        width: 100% !important;
+        /* background-color: blue; */
+        margin-bottom: 50px;
+    }
+
+    .door2{
+        /* width: 23rem; */
+        height: 30rem;
+    }
+    .d1{
+        /* background-color: red; */
+        width: 100% !important;
+        /* background: red; */
+    }
+    
+    .d1 p{
+        /* background: blue; */
+        display: flex;
+    }
+
+    .door_text{
+        /* background-color: grey; */
+        /* display: flex; */
+        /* align-items: baseline; */
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .tub{
+        transform: translateX(-130px);
+    }
+}

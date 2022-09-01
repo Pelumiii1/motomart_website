@@ -36,10 +36,30 @@
 
 @media only screen and (max-width:600px){
     .our-product {
-    height: 17%;
+        height: 25% !important;
+    }
+    .op-container {
+        height: 10%;
+    }
+    .our-product{
+        /* height: 20%; */
+    }
+
+    .banner{
+        height: 50vh;
+    }
 }
-.op-container {
-    /* background: #462828; */
-    height: 10%;
-}
+
+@media only screen and (max-width:1024px){
+    .our-product{
+        height: 30%;
+    }
+    .banner{
+        height: 40% !important;
+    }
+
+    .op-container{
+        height: 100%;
+    }
+    
 }

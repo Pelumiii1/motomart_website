@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer-container p-3 container-fluid">
       <div className="d-flex row justify-content-evenly p-5 align-items-center ">
-        <div className="col-md-6 col-xs-12 gy-xs-3 bg-success">
+        <div className="col-md-6 col-xs-12 gy-xs-3 ">
           <div className="text-center">
             <img src={motomart} alt="motomart-logo" />
           </div>
@@ -28,7 +28,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-xs-12 bg-danger px-3 info">
+        <div className="col-md-6 col-xs-12 px-3 info">
           <div className="d-flex py-3 gx-0 row">
             <input
               type="text"

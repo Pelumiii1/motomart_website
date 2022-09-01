@@ -27,16 +27,49 @@
 .text1{
     font-family: 'Jacques Francois', serif;
     font-size: 16px;
-    /* color: red; */
 }
 
 .suji {
-    border-radius: 50%;
-    height: 14rem;
+    height: 15rem;
+}
+
+.about-sm{
+    width: 35rem;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width:600px) {
     .About_sm {
         height: 100%;
+        padding-bottom: 3rem;
+        padding: 3rem;
+    }
+
+    .about-sm{
+        width: 23rem;
+        margin-top: 2rem;
+    }
+
+}
+
+@media only screen and (min-width:376px){
+    .about-sm{
+        width: 14.5rem;
+    }
+
+    .text1{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .about-sm{
+        width: 20rem !important;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .about-sm{
+        width: 26rem;
     }
 }

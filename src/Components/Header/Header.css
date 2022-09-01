@@ -8,21 +8,28 @@
 }
 
 
+
 .banner-bg {
     background: url(../img/banner-logo.png) no-repeat center center/cover;
     position: relative;
-    z-index: -99;
+    /* background-color: aqua; */
+    /* z-index: -69; */
+    height: 100vh;
+    opacity: .9;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .banner-bg::after{
     content: '';
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
     background: black;
     position: absolute;
-    z-index: -69;
+    z-index: -99;
     opacity: 0.6;
 }
 
@@ -37,30 +44,41 @@
 
 .text_head{
     margin-top: 50px;
-    width: 90%;
-    height: 400px;
+    /* width: 90%;
+    height: 400px; */
 }
 
 .foot {
     display: grid;
-    margin-top: 490px !important;
+    /* margin-top: 490px !important; */
     place-items: center;
     line-height: 33px;
     font-weight: 400;
     font-size: 25px;
 }
 
-.btn {
-    background: transparent;
-    width: 10rem;
-    margin-bottom: 30px;
+.btn5{
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 40px;
+    border: 1px white solid;
+    /* border-radius: 20%; */
+    z-index: 99;
+    cursor: pointer;
+}
+.btn5:hover{
+    /* transform: scale(1.2,1.2); */
+    /* background: #; */
+    transition: 0.6s all ease-in-out;
 }
 
 .icons{
     gap: 30px;
 }
 
-@media only screen and (max-width:600px){
+
+/* Moblie Screens  */
+@media only screen and (min-width: 375px) and (max-width:767px){
     .text_head{
         margin-top: 50px;
         width: 90%;
@@ -77,7 +95,7 @@
 
     .foot {
         display: grid;
-        margin-top: 390px !important;
+        margin-top: 30px !important;
         place-items: center;
         font-size: 10px;
     }
@@ -88,4 +106,58 @@
     .banner-bg::after{
         height: 100%;
     }
+
+    .banner-bg{
+        height: 100%;
+    }
+
+    .foot h4{
+        font-size: 15px !important;
+    }
+
+    .text_head{
+        margin-top: 10px ;
+    }
+}
+
+
+/* tablet and laptop screen */
+@media only screen and (min-width:767px) and (max-width:2560px){
+    .text_head{
+        width: 35rem !important;
+    }
+    .banner-bg{
+        height: 100vh;
+    }
+
+    .foot {
+        margin-top: 50px;
+    }
+
+    .text_head{
+        margin-left: 0 !important;
+    }
+
+    .foot h4{
+        font-size: 15px !important;
+        width: 70%;
+    }
+    
+    .btn5{
+        padding: 5px 30px;
+        font-size: 18px;
+    }
+
+    .banner-bg::after{
+        height: 100%;
+    }
+}
+
+ /* 4K screens */
+@media only screen and (min-width:2560px){
+    .text_head{
+        width: 80rem;
+    }
+
+
 }

@@ -9,7 +9,7 @@ import tap6 from "../img/img6.png";
 function OurProduct() {
   return (
     <div className="our-product-container d-flex container-fluid row justify-content-center">
-      <div className="d-md-flex w-75">
+      <div className="d-md-flex w-75 mb-5 pb-3">
         <div className="group1 grid1 text-white col-md-4">
           <div>
             <img src={tap1} alt="tap" className="img1" />

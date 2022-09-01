@@ -1,5 +1,7 @@
 import "./About-sm.css";
 import suji from "../img/suji.png";
+import aboutsm from "../img/about-sm.png";
+
 
 function About_sm() {
   return (
@@ -9,7 +11,8 @@ function About_sm() {
           <img src={suji} alt="suji" className="suji" />
         </div>
         <div className="about_text col-md-6 text-white text-center">
-          <h2 className="pt-5">ABOUT SUJIMOTO</h2>
+        <img src={aboutsm} alt="suji" className="about-sm" />
+          
           <p className="text1">
             Sujimoto is a luxury real estate and construction company with a
             vision to redefine the way people live. Dubbed Nigeria’s most
