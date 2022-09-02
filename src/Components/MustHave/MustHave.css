@@ -129,15 +129,22 @@
         align-items: baseline;
         margin-top: 10px;
         margin-left: 0px;
+     
     }
 }
 
+
+/* Small Screens */
 @media only screen and (max-width:426px){
     .tub{
         transform: translateX(105px);
     }
 }
 
+
+
+
+/* Large Sreens */
 @media only screen and (max-width:1024px){
     .part1{
         display: grid !important;
@@ -148,7 +155,6 @@
     }
 
 
-
     .g2{
         transform: translate(0px, 0px);
     }
@@ -156,29 +162,21 @@
     .g4{
         display: block ;
         width: 100% !important;
-        /* background-color: blue; */
         margin-bottom: 50px;
     }
 
     .door2{
-        /* width: 23rem; */
         height: 30rem;
     }
     .d1{
-        /* background-color: red; */
         width: 100% !important;
-        /* background: red; */
     }
     
     .d1 p{
-        /* background: blue; */
         display: flex;
     }
 
     .door_text{
-        /* background-color: grey; */
-        /* display: flex; */
-        /* align-items: baseline; */
         margin-top: 0px;
         margin-left: 0px;
     }
@@ -186,9 +184,12 @@
     .tub{
         transform: translateX(-130px);
     }
+    
 }
 
-@media (min-width: 769px) and (max-width:1024px) {
+
+/* Tablets  to Laptops Screens*/
+@media (min-width: 768px) and (max-width:1024px) {
     .d1 p{
         display: flex;
         text-align: left;
@@ -207,5 +208,58 @@
     .g4 p{
         width: 80%;
         text-align: center;
+    }
+    
+
+}
+
+/* 4k screens */
+@media (min-width:2560px){
+    .musthave{
+        width: 40rem;
+        height: 17rem;
+    }
+    .chair3{
+        width: 40rem;
+    }
+
+    .light{
+        width: 30rem;
+        transform: translate(380px, 95px);
+    }
+
+    .tub{
+        width: 50rem;
+    }
+
+    .tub-text{
+        font-size: 30px;
+        width: 80%;
+    }
+     .d1 .door2 {
+        width: 40rem;
+        height: 50rem;
+     }
+
+     .d1 .door_text{
+        display: flex;
+        align-items:flex-end;
+        text-align: left;
+        width: 40%;
+        font-size: 30px;
+     }
+
+     .btn11{
+        padding: 20px 200px 20px 200px;
+        font-size: 30px;
+     }
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+    .door_text{
+        /* background: grey !important; */
+        text-align: left;
+        align-items: flex-end;
+
     }
 }

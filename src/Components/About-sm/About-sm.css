@@ -62,18 +62,35 @@
     }
 }
 
+
+/* Phone screen */
 @media (min-width:426px) and (max-width:768px){
     .about-sm{
         width: 20rem !important;
     }
 }
 
-@media (min-width:769px) and (max-width:1024px){
+/* Tablets And Laptops */
+@media (min-width:768px) and (max-width:1024px){
     .about-sm{
         width: 26rem;
     }
+
+    .about_text{
+    }
+
+    .about_text p {
+        font-size: 13px;
+    }
+    
 }
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px){
+
+}
+
+/* Large Screens */
 @media (min-width:1025px) {
     .about-sm{
         width: 40rem;
@@ -85,5 +102,12 @@
 
     .suji{
         height: 25rem;
+    }
+    .about_text{
+        font-size: 100px !important;
+    }
+
+    .about_text p{
+        font-size: 18px;
     }
 }

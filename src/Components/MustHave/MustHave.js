@@ -22,7 +22,7 @@ function MustHave() {
         <div className="part2 row d-md-flex text-center">
           <div className="col-md-6 text-center g4">
             <img src={tub} alt="tub" className="tub" />
-            <p className="">
+            <p className="tub-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus
               augue malesuada erat ultrices vulputate tempor et magna.
             </p>

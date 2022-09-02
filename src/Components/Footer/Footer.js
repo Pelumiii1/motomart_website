@@ -5,13 +5,13 @@ function Footer() {
   return (
     <div className="footer-container p-3 container-fluid">
       <div className="d-flex row justify-content-evenly p-5 align-items-center ">
-        <div className="col-md-6 col-xs-12 gy-xs-3 ">
+        <div className="col-md-6 col-xs-12 gy-xs-3 f4">
           <div className="text-center">
             <img src={motomart} alt="motomart-logo" />
           </div>
           <div className="info-a d-md-flex p-3 row my-5 text-center">
-            <div className="col-md-6 ">
-              <ul className="list1">
+            <div className="col-md-6 list1">
+              <ul className="">
                 <a href="#">
                   <li className="py-2">Home</li>
                 </a>
@@ -23,15 +23,15 @@ function Footer() {
                 </a>
               </ul>
             </div>
-            <div className="col-md-6 sec2">
+            <div className="col-md-6 sec2 text-center">
               <p>
-                Contact:<span className="d-flex">+234 909 532 1622; </span>
+                Contact:<span className="d-flex justify-content-center">+234 909 532 1622; </span>
                 <span>+234 802 411 2236</span>
               </p>
               <div>
                 <p>
                   Address:
-                  <span className="d-flex ">
+                  <span className="d-flex text-center justify-content-center">
                     168 Awolowo Road Ikoyi, Lagos.
                   </span>
                 </p>
@@ -40,12 +40,12 @@ function Footer() {
           </div>
         </div>
         <div className="col-md-6 col-xs-12 px-3 info">
-          <div className="d-flex py-3 gx-0 form-row">
-            <div className="col ">
+          <div className=" form_head gx-0 form-row">
+            <div className="col-md-6">
               <input
                 type="text"
                 placeholder="First Name"
-                className=" p-2 text"
+                className=" p-2 form_g text g5"
               ></input>
             </div>
             <div className="col">
@@ -53,7 +53,7 @@ function Footer() {
                 type="text"
                 id="lastname"
                 placeholder="Last Name"
-                className="col-12 p-2 text"
+                className="col-lg-12 p-2 form_g g3 text"
               ></input>
             </div>
           </div>

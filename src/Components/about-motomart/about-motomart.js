@@ -30,7 +30,7 @@ function AboutMotomart() {
           <img src={door} alt="door" className="d-flex door" />
           <button className="btn-op rounded">OTHER PRODUCTS</button>
         </div>
-        <div className="col-md-6 d-flex justify-content-center">
+        <div className="col-md-6 d-flex justify-content-center f1">
           <img src={basin} alt="basin" className="basin " />
         </div>
       </div>

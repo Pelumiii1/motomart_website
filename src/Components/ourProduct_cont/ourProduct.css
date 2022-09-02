@@ -81,8 +81,21 @@ p{
     }
 }
 
-@media (min-width:1025px) and (max-width:1440px) {
+   /* Media Query for Large screens */
+   @media (min-width: 1281px) and (max-width:2559px){
     .our-product-container{
-        height: 140vh;
+        padding-bottom: 80rem !important;
     }
 }
+
+ /* 4k screens */
+ @media (min-width:2560px){
+    .our-product-container p{
+        font-size: 40px;
+    }
+
+    .btn2{
+        padding: 20px 200px !important;
+        font-weight: 500;
+    }
+ }

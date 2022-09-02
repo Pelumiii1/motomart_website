@@ -133,6 +133,40 @@
     }
 
     .p1-container{
-        height: 110vh;
+        height: 100%;
+        padding-bottom: 70px;
+    }
+ }
+
+ /* 4k screens */
+ @media (min-width:2560px){
+    .text7 p{
+        font-size: 35px;
+    }
+
+    .about_motomart{
+        width: 55rem;
+    }
+
+    .s-2{
+        margin-top: 0px;
+        padding-bottom: 80px;
+    }
+    .s-1 .door{
+        width: 27rem;
+    }
+
+    .btn-op{
+        transform: translateY(-60px);
+        padding: 15px 120px 15px 120px;
+    }
+    .s-2 .f1{
+        display: grid;
+        align-items: center;
+    }
+
+    .s-2 .f1 .basin{
+        width: 40rem;
+        height: 50rem;
     }
  }

@@ -117,6 +117,7 @@
 
     .text_head{
         margin-top: 10px ;
+        /* width: 20px; */
     }
 }
 
@@ -124,7 +125,7 @@
 /* tablet and laptop screen */
 @media (min-width:769px) and (max-width:1024px){
     .text_head{
-        width: 35rem !important;
+        width: 25rem !important;
     }
     
     .banner-bg{
@@ -140,7 +141,7 @@
     }
 
     .foot h4{
-        font-size: 15px !important;
+        font-size: 10px !important;
         width: 70%;
     }
     
@@ -157,14 +158,36 @@
 /* laptops */
 @media (min-width: 769px) and (max-width: 1024px){
     .foot h4{
-        font-size: 30px !important;
-        width: 100% !important;
+        font-size: 20px !important;
+        width:80% !important;
     }
 }
 
  /* large screens */
-@media (min-width:1025px) and (max-width:1200px){
+@media (min-width:1025px){
     .text_head{
-        width: 0rem;
+        width: 30rem;
+    }
+
+    .foot h4{
+        font-size: 20px;
+    }
+
+    .foot {
+        padding-top: 20px;
+    }
+}
+
+/* 4k Screens */
+@media (min-width:2560px){
+    .text_head{
+        /* background: red; */
+        width: 60rem;
+    }
+
+    .foot h4{
+        font-size:3.1rem;
+        /* background: red; */
+        width: 80%;
     }
 }

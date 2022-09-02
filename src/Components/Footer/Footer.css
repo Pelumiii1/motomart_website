@@ -78,4 +78,62 @@ textarea{
     .list1 {
         padding-left: 0px !important;
     }
+
+    .form_g{
+        width: 100%;
+    }
+    .form_g:first-child{
+        margin-bottom: 10px;
+    }
 }
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .form_head{
+        display: flex;
+        gap: 10px;
+        padding-bottom: 10px; 
+    }
+
+    .form_head .g3 {
+        width: 100%;
+    }
+
+    .form_head .g5{
+        width: 90%;
+    }
+
+
+    .info-a .list1 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1281px) and (max-width:2559px){
+    .form_head{
+        display: flex;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width:2560px){
+    .form_head{
+        display: flex;
+        padding-bottom: 10px;
+    }
+
+    .g5
+    {
+        width: 95% !important;
+    }
+
+    .footer-container input,
+    .footer-container textarea{
+        padding: 20px 30px !important;
+    }
+
+    .f4, .f4 a li{
+        font-size: 20px !important;
+    }
+}
+
