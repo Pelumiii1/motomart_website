@@ -1,14 +1,42 @@
 import "./MustHave.css";
+// import { gsap } from "gsap";
+// import React, { useRef, useEffect } from "react";
 import chair3 from "../img/chair3.png";
 import mustHave from "../img/mustHave.png";
 import tub from "../img/tub.png";
 import light from "../img/light.png";
 import musthave_foot from "../img/musthave_foot.png";
 import door2 from "../img/door2.png";
+// import { ScrollTrigger } from "gsap-trial/ScrollTrigger"
+// gsap.registerPlugin(ScrollTrigger);
+
 
 function MustHave() {
+  // const mustHAve = useRef(null);
+
+
+  // useEffect(() => {
+  //   const tl = gsap.timeline({
+  //     defaults: { duration: 1.5, ease: "power4.easeOut" },
+  //   })
+
+
+  //   tl.fromTo(
+  //     ".part1",
+  //     {
+  //       opacity: 0,
+  //       yPercent: -100,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       yPercent: 0,
+  //       stagger: 0.7,
+  //     }
+  //   )
+  // }, [])
+
   return (
-    <div className="musthave_container text-white">
+    <div className="musthave_container text-white" ref={mustHave}>
       <div className="container-fluid ps-4">
         <div className="part1 row">
           <div className="col-md-6 d-md-flex text-center align-items-center">

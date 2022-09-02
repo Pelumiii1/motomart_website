@@ -5,8 +5,8 @@ import Lux from "./Components/Lux/Lux";
 import OurProduct1 from "./Components/our_product/Our_product";
 import Footer from "./Components/Footer/Footer";
 import About_sm from "./Components/About-sm/About-sm";
-import OurProduct2 from "./Components/ourProduct_cont/Ourproduct";
-// import MustHave from "./Components/MustHave/MustHave";
+import OurProductcont from "./Components/ourProduct_cont/Ourproduct";
+import OurProducts2 from "./Components/OurProducts2/OurProducts2";
 import MustHave from "./Components/MustHave/MustHave";
 
 
@@ -17,7 +17,8 @@ function App() {
       <MustHave />
       <About_motomart />
       <OurProduct1 />
-      <OurProduct2 />
+      <OurProductcont />
+      {/* <OurProducts2 /> */}
       <Lux />
       <About_sm />
       <Footer />
