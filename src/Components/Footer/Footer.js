@@ -1,13 +1,22 @@
 import "./Footer.css";
 import motomart from "../img/motomart.png";
+import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 function Footer() {
   return (
     <div className="footer-container p-3 container-fluid">
       <div className="d-flex row justify-content-evenly p-5 align-items-center ">
         <div className="col-md-6 col-xs-12 gy-xs-3 f4">
-          <div className="text-center">
-            <img src={motomart} alt="motomart-logo" />
+          <div className="text-center row">
+            <div className="col-md-6">
+              <img src={motomart} alt="motomart-logo" />
+            </div>
+
+            <div className=" icons text-white d-flex bg-succes col-md-6 align-items-center justify-content-center">
+              <a href="#" className="text-white"><FiFacebook/></a>
+              <a href="#" className="text-white"><FiInstagram /></a>
+              <a href="#" className="text-white"><FiTwitter /></a>
+            </div>
           </div>
           <div className="info-a d-md-flex p-3 row my-5 text-center">
             <div className="col-md-6 list1">
@@ -25,7 +34,10 @@ function Footer() {
             </div>
             <div className="col-md-6 sec2 text-center">
               <p>
-                Contact:<span className="d-flex justify-content-center">+234 909 532 1622; </span>
+                Contact:
+                <span className="d-flex justify-content-center">
+                  +234 909 532 1622;{" "}
+                </span>
                 <span>+234 802 411 2236</span>
               </p>
               <div>
@@ -61,7 +73,7 @@ function Footer() {
             type="email"
             id="email"
             placeholder="Email Address"
-            className="w-100 py-1 p-2 text-white"
+            className="w-100 py-1 p-2 text-white z1"
           ></input>
           <input
             type="tel"
@@ -70,7 +82,7 @@ function Footer() {
             className="w-100 my-3 py-1 p-2 text-white"
           ></input>
           <textarea
-            class="w-100 p-2 mb-2"
+            className="w-100 p-2 mb-2"
             placeholder="Let us know how we can help ..."
             id="Textarea1"
             rows="2"

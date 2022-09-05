@@ -11,7 +11,7 @@ function Navbar() {
 
   useEffect(() => {
     const tl = gsap.timeline({
-      defaults: { duration: 1.5, ease: "power4.easeOut" },
+      defaults: { duration: 2, ease: "power4.easeOut" },
     })
 
 
@@ -24,7 +24,7 @@ function Navbar() {
       {
         opacity: 1,
         yPercent: 0,
-        stagger: 0.7,
+        stagger: 0.6,
       }
     )
   }, [])

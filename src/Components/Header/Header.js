@@ -17,20 +17,13 @@ function Header() {
       ".banner-text",
       {
         opacity: 0,
-        yPercent: -30,
+          yPercent: -30,
       },
       {
         opacity: 1,
         yPercent: 0,
       }
     );
-  }, []);
-
-  useEffect(() => {
-    const tl = gsap.timeline({
-      defaults: { duration: 1.5, ease: "power4.easeOut" },
-    });
-
     tl.fromTo(
       ".foot",
       {
@@ -43,6 +36,14 @@ function Header() {
       }
     );
   }, []);
+
+  // useEffect(() => {
+  //   const tl = gsap.timeline({
+  //     defaults: { duration: 1.5, ease: "power4.easeOut" },
+  //   });
+
+    
+  // }, []);
 
 
 

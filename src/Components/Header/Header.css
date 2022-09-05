@@ -161,7 +161,7 @@
 }
 
  /* large screens */
-@media (min-width:1025px){
+@media (min-width:1025px) and (max-width:2559px){
     .text_head{
         width: 30rem;
     }
@@ -179,12 +179,23 @@
 @media (min-width:2560px){
     .text_head{
         /* background: red; */
-        width: 60rem;
+        width: 70rem;
     }
 
     .foot h4{
         font-size:3.1rem;
         /* background: red; */
         width: 80%;
+    }
+    
+}
+
+@media (min-width:1441px) {
+    .text_head{
+        width: 50rem;
+    }
+
+    .foot h4{
+        font-size: 2rem;
     }
 }

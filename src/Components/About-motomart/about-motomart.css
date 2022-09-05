@@ -130,6 +130,8 @@
 
     .btn-op{
         transform: translateY(30px);
+        padding: 10px 40px;
+        margin-top: 30px;
     }
 
     .p1-container{
@@ -139,7 +141,7 @@
  }
 
  /* 4k screens */
- @media (min-width:2560px){
+ @media (min-width: 1025px) and (max-width:2560px){
     .text7 p{
         font-size: 35px;
     }
@@ -147,6 +149,7 @@
     .about_motomart{
         width: 55rem;
     }
+
 
     .s-2{
         margin-top: 0px;
@@ -157,6 +160,8 @@
     }
 
     .btn-op{
+        display: flex;
+        align-items: flex-end;
         transform: translateY(-60px);
         padding: 15px 120px 15px 120px;
     }
@@ -170,3 +175,5 @@
         height: 50rem;
     }
  }
+
+ 

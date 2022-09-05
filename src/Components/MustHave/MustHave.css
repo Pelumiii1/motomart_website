@@ -17,7 +17,6 @@
 }
 
 .chair3{
-    /* height: 30rem; */
     border-radius: 20px;
 }
 
@@ -261,5 +260,29 @@
         text-align: left;
         align-items: flex-end;
 
+    }
+}
+
+@media (min-width:1441px) {
+    .light{
+        /* background: red; */
+        transform: translateX(200px);
+        width: 30rem;
+    }
+
+    .door_text{
+        /* background: grey !important; */
+        text-align: left;
+        align-items: flex-end;
+        width: 20rem;
+
+    }
+
+    .tub{
+        width: 35rem;
+    }
+
+    .door2{
+        width: 27rem;
     }
 }
