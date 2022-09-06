@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import "./MustHave.css";
-import chair3 from "../img/chair3.png";
-import mustHave from "../img/mustHave.png";
-import tub from "../img/tub.png";
-import light from "../img/light.png";
-import musthave_foot from "../img/musthave_foot.png";
-import door2 from "../img/door2.png";
+import chair3 from "../../Assets/img/chair3.png";
+import mustHave from "../../Assets/img/mustHave.png";
+import tub from "../../Assets/img/tub.png";
+import light from "../../Assets/img/light.png";
+import musthave_foot from "../../Assets/img/musthave_foot.png";
+import door2 from "../../Assets/img/door2.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);

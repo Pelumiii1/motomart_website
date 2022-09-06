@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import Navbar from "./Navbar/Navbar";
 import "./Header.css";
-import text from "../img/head-text.png";
+import text from "../../Assets/img/head-text.png";
 import { gsap } from "gsap";
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
 
   useEffect(() => {
     const tl = gsap.timeline({
-      defaults: { duration: 1.5, ease: "power2.easeIn" },
+      defaults: { duration: 1.3, ease: "power2.easeIn" },
     });
 
     tl.fromTo(

@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import About_sm from "./Components/About-sm/About-sm";
 import OurProductcont from "./Components/OurProduct_cont/Ourproduct";
 import MustHave from "./Components/MustHave/MustHave";
+import OurProducts2 from "./Components/OurProducts2/OurProducts2";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About_motomart />
       <OurProduct1 />
       <OurProductcont />
+      <OurProducts2 />
       <Lux />
       <About_sm />
       <Footer />

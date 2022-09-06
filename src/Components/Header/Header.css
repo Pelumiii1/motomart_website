@@ -10,7 +10,7 @@
 
 
 .banner-bg {
-    background: url(../img/banner-logo.png) no-repeat center center/cover;
+    background: url(../../Assets/img/banner-logo.png) no-repeat center center/cover;
     position: relative;
     height: 100vh;
     opacity: .9;

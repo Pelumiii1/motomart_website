@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import React, { useRef, useEffect } from "react";
-import motomart from "../../img/motomart.png";
+import motomart from "../../../Assets/img/motomart.png";
 import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi'
 import { gsap } from "gsap";
 

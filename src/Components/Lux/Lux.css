@@ -5,7 +5,7 @@
 }
 
 .lux-container{
-    background: url(../img/lux-bg.png) no-repeat center center/cover;
+    background: url(../../Assets/img/lux-bg.png) no-repeat center center/cover;
     position: relative;
     z-index: -89;
     width: 100vw;
@@ -23,7 +23,7 @@
     opacity: 0.6;
 }
 .lux {
-    background: url(../img/lux-head.png) no-repeat center center/cover;
+    background: url(../../Assets/img/lux-head.png) no-repeat center center/cover;
     position: absolute;
     z-index: 1;height: 30%;
 }

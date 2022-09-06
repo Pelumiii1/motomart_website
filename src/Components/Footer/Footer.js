@@ -1,5 +1,5 @@
 import "./Footer.css";
-import motomart from "../img/motomart.png";
+import motomart from "../../Assets/img/motomart.png";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 function Footer() {

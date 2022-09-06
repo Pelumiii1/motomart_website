@@ -1,11 +1,11 @@
 import "./ourProduct.css";
 import React, { useRef, useEffect } from "react";
-import tap1 from "../img/img1.png";
-import tap2 from "../img/img2.png";
-import tap3 from "../img/img3.png";
-import tap4 from "../img/img4.png";
-import tap5 from "../img/img5.png";
-import tap6 from "../img/img6.png";
+import tap1 from "../../Assets/img/img1.png";
+import tap2 from "../../Assets/img/img2.png";
+import tap3 from "../../Assets/img/img3.png";
+import tap4 from "../../Assets/img/img4.png";
+import tap5 from "../../Assets/img/img5.png";
+import tap6 from "../../Assets/img/img6.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -18,10 +18,10 @@ function OurProduct() {
       ".l5",
       {
         yPercent: 50,
-        opacity: 0,
+        // opacity: 0,
       },
       {
-        opacity: 1,
+        // opacity: 1,
         yPercent: 0,
         stagger: 0.5,
         duration: 5,

@@ -1,6 +1,6 @@
 import "./About-sm.css";
-import suji from "../img/suji.png";
-import aboutsm from "../img/about-sm.png";
+import suji from "../../Assets/img/suji.png";
+import aboutsm from "../../Assets/img/about-sm.png";
 
 
 function About_sm() {

@@ -1,5 +1,5 @@
 import "./our-product.css";
-import Ourproduct_text from '../img/ourProduct-text.png'
+import Ourproduct_text from '../../Assets/img/ourProduct-text.png'
 
 function Our_product() {
   return (

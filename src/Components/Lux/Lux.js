@@ -1,7 +1,7 @@
 import "./Lux.css";
 import React, { useRef, useEffect } from "react";
-import chair2 from "../img/chair2.png";
-import sign from "../img/sign.png";
+import chair2 from "../../Assets/img/chair2.png";
+import sign from "../../Assets/img/sign.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);

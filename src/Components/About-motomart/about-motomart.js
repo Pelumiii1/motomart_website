@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import "./about-motomart.css";
-import door from "../img/door.png";
-import chair from "../img/chair.png";
-import basin from "../img/basin.png";
-import about_m from "../img/about-m.png";
+import door from "../../Assets/img/door.png";
+import chair from "../../Assets/img/chair.png";
+import basin from "../../Assets/img/basin.png";
+import about_m from "../../Assets/img/about-m.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
