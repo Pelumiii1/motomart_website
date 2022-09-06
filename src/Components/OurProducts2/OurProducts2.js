@@ -1,5 +1,5 @@
 import "./OurProducts2.css";
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import toilet1 from "../../Assets/img/toilet1.svg";
 import toilet2 from "../../Assets/img/toilet2.svg";
 import toilet3 from "../../Assets/img/toilet3.svg";
@@ -13,15 +13,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 function OurProducts2() {
   useEffect(() => {
-    // console.log(ScrollTrigger);
     gsap.fromTo(
       ".p7",
       {
-        yPercent: 10,
-        // opacity: 0,
+        yPercent: 20,
       },
       {
-        // opacity: 1,
         yPercent: 0,
         stagger: 0.5,
         duration: 5,
@@ -30,15 +27,12 @@ function OurProducts2() {
           trigger: ".Ourproducts-container",
           start: "top 50%",
           end: "bottom 60%",
-          // markers:true,
           scrub: 1,
         },
       }
     );
-    
   }, []);
 
-  
   return (
     <div className="Ourproducts-container">
       <div className="container-fluid wrapper">
@@ -118,45 +112,48 @@ function OurProducts2() {
 
         <div className="part4 p7">
           <div>
-          <div className="xr">
-            <div className="x1 text-white">
-              <h3>Toilet Wares</h3>
-            </div>
-            <div>
-              <img src={toilet5} alt="toilet" className="toilet5" />
-              <div className="r5">
-                <h2>Product Name</h2>
-                <div className="r3">
-                  <p>MMIXI350</p>
-                  <a href="#">
-                    <img src={arrow} alt="arrow" className="arrow" />
-                  </a>
+            <div className="xr">
+              <div className="x1 text-white">
+                <h3>Toilet Wares</h3>
+              </div>
+              <div>
+                <img src={toilet5} alt="toilet" className="toilet5" />
+                <div className="r5">
+                  <h2>Product Name</h2>
+                  <div className="r3">
+                    <p>MMIXI350</p>
+                    <a href="#">
+                      <img src={arrow} alt="arrow" className="arrow" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
         <div className="part5 p7">
           <div>
-          <div className="xr">
-            <div className="x1 text-white">
-              <h3>Toilet Wares</h3>
-            </div>
-            <div>
-              <img src={toilet6} alt="toilet" className="toilet6" />
-              <div className="r5">
-                <h2>Product Name</h2>
-                <div className="r3">
-                  <p>MMIXI350</p>
-                  <a href="#">
-                    <img src={arrow} alt="arrow" className="arrow" />
-                  </a>
+            <div className="xr">
+              <div className="x1 text-white">
+                <h3>Toilet Wares</h3>
+              </div>
+              <div>
+                <img src={toilet6} alt="toilet" className="toilet6" />
+                <div className="r5">
+                  <h2>Product Name</h2>
+                  <div className="r3">
+                    <p>MMIXI350</p>
+                    <a href="#">
+                      <img src={arrow} alt="arrow" className="arrow" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
+        </div>
+        <div className="d-flex justify-content-center pr">
+          <button className="">OTHER PRODUCTS</button>
         </div>
       </div>
     </div>

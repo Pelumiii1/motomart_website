@@ -37,15 +37,6 @@ function Header() {
     );
   }, []);
 
-  // useEffect(() => {
-  //   const tl = gsap.timeline({
-  //     defaults: { duration: 1.5, ease: "power4.easeOut" },
-  //   });
-
-    
-  // }, []);
-
-
 
   return (
     <div>

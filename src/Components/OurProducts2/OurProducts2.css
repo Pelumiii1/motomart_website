@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
 
-.Ourproducts-container{
+.Ourproducts-container {
     background: #E9EAE1;
     height: 100%;
     width: 100vw;
@@ -14,8 +14,8 @@
 
 
 .Ourproducts-container .wrapper {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 1em;
     padding: 30px;
@@ -30,20 +30,22 @@
     padding-left: 30px;
     width: fit-content;
     padding-right: 70px;
+    cursor: pointer;
 }
 
 .Ourproducts-container .wrapper .part2 {
     justify-self: center;
+    cursor: pointer;
 }
 
-.toilet1{
+.toilet1 {
     display: grid;
     place-items: center;
     justify-content: center;
     height: 40rem;
 }
 
-.Ourproducts-container .wrapper .part2{
+.Ourproducts-container .wrapper .part2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
@@ -53,44 +55,58 @@
 }
 
 .Ourproducts-container .wrapper .part2 .toilet2,
-.Ourproducts-container .wrapper .part2 .toilet3{
+.Ourproducts-container .wrapper .part2 .toilet3 {
     height: 15rem;
 }
 
-.Ourproducts-container .wrapper .part2 .toilet3{
+.Ourproducts-container .wrapper .part2 .toilet3 {
     height: 20rem !important;
 }
 
 
-.Ourproducts-container .wrapper .part3 .toilet4{
+.Ourproducts-container .wrapper .part3 .toilet4 {
     height: 20rem;
 }
 
-.Ourproducts-container .wrapper .part3{
+.Ourproducts-container .wrapper .part3 {
     justify-self: center;
+    cursor: pointer;
 }
 
-.Ourproducts-container .wrapper .part4 .toilet5{
+.Ourproducts-container .wrapper .part4 .toilet5 {
     height: 30rem;
 }
 
 .Ourproducts-container .wrapper .part4 {
     justify-self: end;
+    cursor: pointer;
 }
 
-.Ourproducts-container .wrapper .part5 .toilet6{
+.Ourproducts-container .wrapper .part5 .toilet6 {
     height: 30rem;
 }
 
 .Ourproducts-container .wrapper .part5 {
     justify-self: center;
+    cursor: pointer;
 }
 
-.r1{
+.r1 {
     display: grid;
     place-items: center;
     /* padding: 0px 20px; */
 }
+
+.toilet1:hover,
+.toilet2:hover,
+.toilet3:hover,
+.toilet4:hover,
+.toilet5:hover,
+.toilet6:hover{
+    transform: scale(1.05);
+    transition: all 1s ease-in-out;
+}
+
 .r2 {
     width: 40rem;
     display: flex;
@@ -102,7 +118,7 @@
 
 }
 
-.r3{
+.r3 {
     /* background-color: orange; */
     display: flex;
     justify-content: space-between;
@@ -110,11 +126,11 @@
     align-self: center;
 }
 
-.arrow{
+.arrow {
     height: 30px;
 }
 
-.x1{
+.x1 {
     background-color: #D9D9D9;
     width: fit-content;
     padding: 10px 30px;
@@ -122,7 +138,7 @@
     border-radius: 5px;
 }
 
-.r5{
+.r5 {
     width: 25rem;
     display: flex;
     justify-content: space-around;
@@ -132,60 +148,78 @@
     margin-top: 30px;
 }
 
-.r5 h2{
+.r5 h2 {
     font-size: 20px;
 }
 
-.r5 .r3 p{
+.r5 .r3 p {
     font-size: 15px;
 }
 
-.xr{
+.xr {
     border: 4px solid white;
     padding: 20px;
     border-radius: 10px;
     margin-right: 10px;
 }
 
-.part2 .xr .x1{
+.part2 .xr .x1 {
     margin-bottom: 50px;
 }
 
-.xx{
+.xx {
     height: fit-content;
     padding: 60px 20px
 }
 
-.toilet2{
+.toilet2 {
     margin-bottom: 80px;
 }
 
-.toilet6{
+.toilet6 {
     width: 25rem;
 }
 
+.pr {
+    transform: translateX(600px);
+}
+
+.pr button {
+    padding: 10px 140px;
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
 /* phone screens */
-@media (max-width:767px){
+@media (max-width:767px) {}
 
-}
+@media (min-width:1025px) and (max-width:1441px) {
+    .Ourproducts-container .wrapper {
+        /* background: red; */
+        display: grid;
+    }
 
-@media (min-width:1025px) and (max-width:1441px){
-.Ourproducts-container .wrapper{
-    background: red;
-    display: grid;
-}
-.Ourproducts-container .wrapper .part1 {
-    /* grid-row: 1/1; */
-    display: flex;
-    border: 4px solid white;
-    border-radius: 20px;
-    align-items: center;
-    padding-left: 30px;
-    width: fit-content;
-    padding-right: 70px;
-}
-.Ourproducts-container .wrapper .part2 {
-    display: flex;
-    flex-direction: column;
-}
+    .Ourproducts-container .wrapper .part1 {
+        /* grid-row: 1/1; */
+        display: flex;
+        border: 4px solid white;
+        border-radius: 20px;
+        align-items: center;
+        padding-left: 30px;
+        width: fit-content;
+        padding-right: 70px;
+    }
+
+    .Ourproducts-container .wrapper .part2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pr {
+        transform: translateX(300px);
+    }
+
 }
