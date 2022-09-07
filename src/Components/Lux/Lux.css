@@ -20,7 +20,7 @@
     background: black;
     position: absolute;
     z-index: -69;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .lux {
     background: url(../../Assets/img/lux-head.png) no-repeat center center/cover;

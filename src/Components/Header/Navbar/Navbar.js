@@ -38,8 +38,8 @@ function Navbar() {
             <img src={motomart} alt="motomart-logo"  className="motomart-logo come"/>
             <div className="navbar_links text-white pt-3 come">
               <a href="#">HOME</a>
-              <a href="#" className="text-center">ALL PRODUCTS</a>
-              <a href="#">CONTACT</a>
+              <a href="#all-product" className="text-center">ALL PRODUCTS</a>
+              <a href="#contact">CONTACT</a>
             </div>
             <div className=" icons text-white d-flex come">
               <FiFacebook />

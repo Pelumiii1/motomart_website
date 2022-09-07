@@ -9,7 +9,6 @@ import toilet6 from "../../Assets/img/toilet6.svg";
 import arrow from "../../Assets/img/arrow.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Container } from "react-bootstrap";
 gsap.registerPlugin(ScrollTrigger);
 
 function OurProducts2() {

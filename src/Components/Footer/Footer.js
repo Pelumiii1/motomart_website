@@ -4,7 +4,7 @@ import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 function Footer() {
   return (
-    <div className="footer-container p-3 container-fluid">
+    <div className="footer-container p-3 container-fluid" id="contact">
       <div className="d-flex row justify-content-evenly p-5 align-items-center ">
         <div className="col-md-6 col-xs-12 gy-xs-3 f4">
           <div className=" row l3">

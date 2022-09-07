@@ -22,7 +22,7 @@
 
 
 .head6{
-    opacity: 0.1;
+    opacity: 0.4;
     position: relative;
     z-index: -95;
 }
@@ -63,6 +63,9 @@
 .btnc {
     margin-top: 100px;
     margin-bottom: 100px;
+    position: relative;
+    cursor: pointer;
+    background-color: red;
 }
 
 .btn11{
@@ -72,6 +75,7 @@
     color: white;
     cursor: pointer;
     z-index: 99;
+    position: absolute;
 }
 
 @media only screen and (max-width:426px){
