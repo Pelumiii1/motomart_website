@@ -7,15 +7,21 @@ function Footer() {
     <div className="footer-container p-3 container-fluid">
       <div className="d-flex row justify-content-evenly p-5 align-items-center ">
         <div className="col-md-6 col-xs-12 gy-xs-3 f4">
-          <div className="text-center row">
-            <div className="col-md-6">
-              <img src={motomart} alt="motomart-logo" />
+          <div className=" row l3">
+            <div className="col-md-6 ll">
+              <img src={motomart} alt="motomart-logo" className="motomart-logo"/>
             </div>
 
-            <div className=" icons text-white d-flex bg-succes col-md-6 align-items-center justify-content-center">
-              <a href="#" className="text-white"><FiFacebook/></a>
-              <a href="#" className="text-white"><FiInstagram /></a>
-              <a href="#" className="text-white"><FiTwitter /></a>
+            <div className="icons text-white d-flex bg-succes col-md-6 align-items-center justify-content-center">
+              <a href="#" className="text-white">
+                <FiFacebook />
+              </a>
+              <a href="#" className="text-white">
+                <FiInstagram />
+              </a>
+              <a href="#" className="text-white">
+                <FiTwitter />
+              </a>
             </div>
           </div>
           <div className="info-a d-md-flex p-3 row my-5 text-center">
@@ -34,16 +40,16 @@ function Footer() {
             </div>
             <div className="col-md-6 sec2 text-center">
               <p>
-                Contact:
-                <span className="d-flex justify-content-center">
-                  +234 909 532 1622;{" "}
-                </span>
+                Contact:<br/>
+                <span className=" justify-content-center">
+                  +234 909 532 1622;
+                </span><br/>
                 <span>+234 802 411 2236</span>
               </p>
               <div>
                 <p>
-                  Address:
-                  <span className="d-flex text-center justify-content-center">
+                  Address:<br/>
+                  <span className="float-right justify-content-center">
                     168 Awolowo Road Ikoyi, Lagos.
                   </span>
                 </p>
@@ -92,7 +98,7 @@ function Footer() {
           </button>
         </div>
       </div>
-      <div className="d-flex text-center justify-content-center">
+      <div className="d-flex text-center justify-content-center bottom">
         <p>Copyright 2022. Motomart by Sujimoto.</p>
       </div>
     </div>

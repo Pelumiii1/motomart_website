@@ -193,12 +193,11 @@
     margin-bottom: 60px;
 }
 
-/* phone screens */
-@media (max-width:767px) {}
+
+
 
 @media (min-width:1025px) and (max-width:1441px) {
     .Ourproducts-container .wrapper {
-        /* background: red; */
         display: grid;
     }
 
@@ -221,5 +220,154 @@
     .pr {
         transform: translateX(300px);
     }
+
+}
+
+/* Small Laptops Screens */
+@media (min-width: 1024px) and (max-width: 1200px){
+    .Ourproducts-container .wrapper{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+
+    .part2{
+        margin-top: 2rem !important;
+        /* background-color: green; */
+    }
+
+    .part3,
+    .part4,
+    .part5{
+        width: 50%;
+    }
+
+    .Ourproducts-container .pr{
+        transform: translateX(0px);
+    }
+
+    .xx{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* Tablets Screens */
+@media (min-width: 768px) and (max-width: 1023px){
+    
+    .Ourproducts-container .wrapper{
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+
+    
+    .part2{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 70%;
+    }
+
+    .part2 .r5{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .part1 .r2{
+        width: 100%;
+    }
+
+    .part3,
+    .part4,
+    .part5{
+        width: 70%;
+    }
+
+    .Ourproducts-container .pr{
+        transform: translateX(0px);
+    }
+
+    .xx{
+        display: flex;
+        justify-content: center;
+    }
+
+    .xy{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 2600px){
+    .xx{
+        display: flex;
+        justify-content: center;
+    }
+
+    .xy{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Phone Screens */
+@media (max-width:766px){
+    .Ourproducts-container .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .part1{
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .part1 .toilet1,
+    .toilet2,
+    .toilet3,
+    .toilet4,
+    .toilet5,
+    .toilet6{
+        width: 100%;
+        height: auto;
+    }
+
+    .part1 .r2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part1 .r2 p,
+    .part1 .r2 h2{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .Ourproducts-container .part2{
+        display: flex !important;
+        flex-direction: column ;
+    }
+
+    .Ourproducts-container .part2 .r1,
+    .Ourproducts-container .part2 .r5,
+    .Ourproducts-container .part3 .r5,
+    .Ourproducts-container .part4 .r5,
+    .Ourproducts-container .part5 .r5{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .Ourproducts-container .xx1{
+        height: 100% !important;
+        padding: 0px !important;
+    }
+    
+
 
 }

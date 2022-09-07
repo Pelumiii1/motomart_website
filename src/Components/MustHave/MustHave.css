@@ -117,7 +117,7 @@
         width: 20rem;
     }
 
-    .part2 {
+    .musthave_container .part22 {
         display: grid !important;
         place-items: center !important;
 
@@ -145,8 +145,12 @@
 
 /* Large Sreens */
 @media only screen and (max-width:1024px){
-    .part1{
+    .musthave_container .part11{
         display: grid !important;
+    }
+
+    .musthave_container{
+        width: 100vw !important;
     }
 
     .light{
@@ -188,7 +192,7 @@
 
 
 /* Tablets  to Laptops Screens*/
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width:1023px) {
     .d1 p{
         display: flex;
         text-align: left;
@@ -200,6 +204,10 @@
         z-index: 99;
     }
 
+    .musthave_container .part11{
+        margin-left: 100px !important;
+        margin-bottom: 100px;
+    }
     .g4{
         z-index: -99;
     }
@@ -207,6 +215,10 @@
     .g4 p{
         width: 80%;
         text-align: center;
+    }
+
+    .musthave_container{
+        max-width: 900px;
     }
     
 
@@ -286,3 +298,5 @@
         width: 27rem;
     }
 }
+
+

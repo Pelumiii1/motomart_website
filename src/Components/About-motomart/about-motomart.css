@@ -78,7 +78,8 @@
 
 .btn-op {
     padding: 10px 90px 10px 90px;
-    transform: translateY(-160px)
+    transform: translateY(-160px);
+    border: none;
     
 }
 

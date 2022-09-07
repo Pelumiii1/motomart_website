@@ -9,6 +9,7 @@ import toilet6 from "../../Assets/img/toilet6.svg";
 import arrow from "../../Assets/img/arrow.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Container } from "react-bootstrap";
 gsap.registerPlugin(ScrollTrigger);
 
 function OurProducts2() {
@@ -21,7 +22,7 @@ function OurProducts2() {
       {
         yPercent: 0,
         stagger: 0.5,
-        duration: 5,
+        duration: 4,
         ease: "power2.easeIn",
         scrollTrigger: {
           trigger: ".Ourproducts-container",
@@ -55,13 +56,30 @@ function OurProducts2() {
             </div>
           </div>
         </div>
-        <div className="part2 p7">
-          <div className="xr">
-            <div className="x1 text-white">
-              <h3>Toilet Wares</h3>
+        <div className="xy xx1">
+          <div className="part2 p7">
+            <div className="xr">
+              <div className="x1 text-white">
+                <h3>Toilet Wares</h3>
+              </div>
+              <img src={toilet2} alt="toilet" className="toilet2" />
+              <div className="r1">
+                <div className="r5">
+                  <h2>Product Name</h2>
+                  <div className="r3">
+                    <p>MMIXI350</p>
+                    <a href="#">
+                      <img src={arrow} alt="arrow" className="arrow" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <img src={toilet2} alt="toilet" className="toilet2" />
-            <div className="r1">
+            <div className="xr">
+              <div className="x1 text-white">
+                <h3>Toilet Wares</h3>
+              </div>
+              <img src={toilet3} alt="toilet" className="toilet3 " />
               <div className="r5">
                 <h2>Product Name</h2>
                 <div className="r3">
@@ -73,85 +91,77 @@ function OurProducts2() {
               </div>
             </div>
           </div>
-          <div className="xr">
-            <div className="x1 text-white">
-              <h3>Toilet Wares</h3>
-            </div>
-            <img src={toilet3} alt="toilet" className="toilet3 " />
-            <div className="r5">
-              <h2>Product Name</h2>
-              <div className="r3">
-                <p>MMIXI350</p>
-                <a href="#">
-                  <img src={arrow} alt="arrow" className="arrow" />
-                </a>
+        </div>
+
+        <div className="xx xx1 xx3">
+          <div className="part3 p7">
+            <div className="xr">
+              <div className="x1 text-white">
+                <h3>Toilet Wares</h3>
+              </div>
+              <div>
+                <img src={toilet4} alt="toilet" className="toilet4" />
+                <div className="r5">
+                  <h2>Product Name</h2>
+                  <div className="r3">
+                    <p>MMIXI350</p>
+                    <a href="#">
+                      <img src={arrow} alt="arrow" className="arrow" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="part3 p7">
-          <div className="xr">
-            <div className="x1 text-white">
-              <h3>Toilet Wares</h3>
-            </div>
+        <div className="xx xx1">
+          <div className="part4 p7">
             <div>
-              <img src={toilet4} alt="toilet" className="toilet4" />
-              <div className="r5">
-                <h2>Product Name</h2>
-                <div className="r3">
-                  <p>MMIXI350</p>
-                  <a href="#">
-                    <img src={arrow} alt="arrow" className="arrow" />
-                  </a>
+              <div className="xr">
+                <div className="x1 text-white">
+                  <h3>Toilet Wares</h3>
+                </div>
+                <div>
+                  <img src={toilet5} alt="toilet" className="toilet5" />
+                  <div className="r5">
+                    <h2>Product Name</h2>
+                    <div className="r3">
+                      <p>MMIXI350</p>
+                      <a href="#">
+                        <img src={arrow} alt="arrow" className="arrow" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="xx xx1">
+          <div className="part5 p7">
+            <div>
+              <div className="xr">
+                <div className="x1 text-white">
+                  <h3>Toilet Wares</h3>
+                </div>
+                <div>
+                  <img src={toilet6} alt="toilet" className="toilet6" />
+                  <div className="r5">
+                    <h2>Product Name</h2>
+                    <div className="r3">
+                      <p>MMIXI350</p>
+                      <a href="#">
+                        <img src={arrow} alt="arrow" className="arrow" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="part4 p7">
-          <div>
-            <div className="xr">
-              <div className="x1 text-white">
-                <h3>Toilet Wares</h3>
-              </div>
-              <div>
-                <img src={toilet5} alt="toilet" className="toilet5" />
-                <div className="r5">
-                  <h2>Product Name</h2>
-                  <div className="r3">
-                    <p>MMIXI350</p>
-                    <a href="#">
-                      <img src={arrow} alt="arrow" className="arrow" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="part5 p7">
-          <div>
-            <div className="xr">
-              <div className="x1 text-white">
-                <h3>Toilet Wares</h3>
-              </div>
-              <div>
-                <img src={toilet6} alt="toilet" className="toilet6" />
-                <div className="r5">
-                  <h2>Product Name</h2>
-                  <div className="r3">
-                    <p>MMIXI350</p>
-                    <a href="#">
-                      <img src={arrow} alt="arrow" className="arrow" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="d-flex justify-content-center pr">
           <button className="">OTHER PRODUCTS</button>
         </div>

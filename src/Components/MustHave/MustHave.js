@@ -37,7 +37,7 @@ function MustHave() {
     <div className="musthave_container text-white">
       <div className="container-fluid ps-4 l1 l2">
         <div className="">
-          <div className="part1 row">
+          <div className="part11 row">
             <div className="col-md-6 d-md-flex text-center align-items-center l3">
               <img src={mustHave} alt="must have" className="musthave pe-3 " />
               <img src={chair3} alt="chair" className="chair3" />
@@ -46,7 +46,7 @@ function MustHave() {
               <img src={light} alt="light" className="light l3" />
             </div>
           </div>
-          <div className="part2 row d-md-flex text-center">
+          <div className="part22 row d-md-flex text-center">
             <div className="col-md-6 text-center g4 l3">
               <img src={tub} alt="tub" className="tub" />
               <p className="tub-text">

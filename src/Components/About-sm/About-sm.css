@@ -41,16 +41,28 @@
 }
 
 
-@media only screen and (max-width:600px) {
+@media (max-width:600px) {
     .About_sm {
         height: 100%;
         padding-bottom: 3rem;
         padding: 3rem;
     }
 
+    .About_sm::after{
+        height: 100%;
+    }
+
+
     .about-sm {
-        width: 23rem;
+        width: 16rem !important;
         margin-top: 2rem;
+        /* background-color: red; */
+    }
+
+    .ll{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
 }
@@ -67,7 +79,7 @@
 
 
 /* Phone screen */
-@media (min-width:426px) and (max-width:768px) {
+@media (min-width:426px) and (max-width:767px) {
     .about-sm {
         width: 20rem !important;
         /* background: red; */
@@ -77,11 +89,12 @@
 /* Tablets And Laptops */
 @media (min-width:768px) and (max-width:1024px) {
     .about-sm {
-        width: 26rem;
+        width: 20rem !important;
     }
 
     .about_text p {
-        font-size: 13px;
+        font-size: 11px !important;
+
     }
 
 }
