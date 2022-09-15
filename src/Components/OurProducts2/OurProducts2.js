@@ -44,9 +44,8 @@ function OurProducts2() {
             <img src={toilet1} alt="toilet" className="toilet1" />
             <div className="r1">
               <div className="r2">
-                <h2>Product Name</h2>
+                <h2 className="fs-4 fw-bold">SQUARE FREESTANDING BATHTUB</h2>
                 <div className="r3">
-                  <p>MMIXI350</p>
                   <a href="#">
                     <img src={arrow} alt="arrow" className="arrow" />
                   </a>
@@ -64,9 +63,8 @@ function OurProducts2() {
               <img src={toilet2} alt="toilet" className="toilet2" />
               <div className="r1">
                 <div className="r5">
-                  <h2>Product Name</h2>
+                  <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">RIMLESS WALL-HUNG TOILET</h2>
                   <div className="r3">
-                    <p>MMIXI350</p>
                     <a href="#">
                       <img src={arrow} alt="arrow" className="arrow" />
                     </a>
@@ -80,9 +78,8 @@ function OurProducts2() {
               </div>
               <img src={toilet3} alt="toilet" className="toilet3 " />
               <div className="r5">
-                <h2>Product Name</h2>
+                <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">RIMLESS WALL-HUNG TOILET/RED</h2>
                 <div className="r3">
-                  <p>MMIXI350</p>
                   <a href="#">
                     <img src={arrow} alt="arrow" className="arrow" />
                   </a>
@@ -101,9 +98,8 @@ function OurProducts2() {
               <div>
                 <img src={toilet4} alt="toilet" className="toilet4" />
                 <div className="r5">
-                  <h2>Product Name</h2>
+                  <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">FLOOR BIDET</h2>
                   <div className="r3">
-                    <p>MMIXI350</p>
                     <a href="#">
                       <img src={arrow} alt="arrow" className="arrow" />
                     </a>
@@ -123,10 +119,9 @@ function OurProducts2() {
                 </div>
                 <div>
                   <img src={toilet5} alt="toilet" className="toilet5" />
-                  <div className="r5">
-                    <h2>Product Name</h2>
+                  <div className="r5 ">
+                    <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">BACK TO WALL RIMLESS WC</h2>
                     <div className="r3">
-                      <p>MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>
@@ -147,9 +142,8 @@ function OurProducts2() {
                 <div>
                   <img src={toilet6} alt="toilet" className="toilet6" />
                   <div className="r5">
-                    <h2>Product Name</h2>
+                    <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">TERRAZZO CRAFT ABOVE COUNTER BASIN SERIES</h2>
                     <div className="r3">
-                      <p>MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>

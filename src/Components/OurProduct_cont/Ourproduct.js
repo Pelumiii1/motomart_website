@@ -1,5 +1,5 @@
 import "./ourProduct.css";
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import tap1 from "../../Assets/img/img1.png";
 import tap2 from "../../Assets/img/img2.png";
 import tap3 from "../../Assets/img/img3.png";
@@ -13,15 +13,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 function OurProduct() {
   useEffect(() => {
-    // console.log(ScrollTrigger);
     gsap.fromTo(
       ".l5",
       {
         yPercent: 50,
-        // opacity: 0,
       },
       {
-        // opacity: 1,
         yPercent: 0,
         stagger: 0.5,
         duration: 5,
@@ -30,7 +27,6 @@ function OurProduct() {
           trigger: ".our-product-container",
           start: "top 90%",
           end:"bottom 60%",
-          // markers:true,
           scrub: 1,
         },
       }
@@ -38,35 +34,35 @@ function OurProduct() {
   }, []);
   return (
     <div className="our-product-container d-flex container-fluid row justify-content-center">
-      <div className="d-md-flex w-75 mb-5 pb-3">
+      <div className="d-md-flex w-75 mb-5 pb-5">
         <div className="group1 grid1 text-white col-md-4 l5">
           <div>
             <img src={tap1} alt="tap" className="img1" />
-            <p>MMSWIII38</p>
+            <p>KITCHEN MIXER WITH PULL OUT SPARY/SWIVEL</p>
           </div>
           <div>
             <img src={tap2} alt="tap" className="img2" />
-            <p className="text3">MMSWIII38</p>
+            <p className="text3 text-uppercase">Multiple washbasin Crono</p>
           </div>
         </div>
         <div className="group1 grid2 text-white col-md-4 l5">
           <div>
             <img src={tap3} alt="tap" className="img1" />
-            <p>MMSWIII38</p>
+            <p className="pb-2">BASIS MIXER CURVE WHITE MARBLE CHROME</p>
           </div>
           <div>
             <img src={tap4} alt="tap" className="img2" />
-            <p className="text3">MMSWIII38</p>
+            <p className="text3">MOTOMART BASIN MIXER/CHROME</p>
           </div>
         </div>
         <div className="group1 grid1 text-white col-md-4 l5">
           <div>
-            <img src={tap5} alt="tap" className="img1" />
-            <p>MMSWIII38</p>
-          </div>
+            <img src={tap5} alt="tap" className="img1"  />
+            <p className="pb-2">KITCHEN MIXER</p>
+          </div >
           <div>
             <img src={tap6} alt="tap" className="img2" />
-            <p className="text3">MMSWIII38</p>
+            <p className="text3">BASIN FAUCET</p>
           </div>
         </div>
           </div>

@@ -49,19 +49,9 @@ function MustHave() {
           <div className="part22 row d-md-flex text-center">
             <div className="col-md-6 text-center g4 l3">
               <img src={tub} alt="tub" className="tub" />
-              <p className="tub-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                tempus augue malesuada erat ultrices vulputate tempor et magna.
-              </p>
             </div>
             <div className="col-md-6 d-md-flex d1 l3">
               <img src={door2} alt="door" className="door2" />
-              <p className="door_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                tempus augue malesuada erat ultrices vulputate tempor et magna.
-                In hac habitasse platea dictumst. Morbi enim orci, bibendum sit
-                amet massa sed.
-              </p>
             </div>
           </div>
           <div className="d-flex justify-content-center btnc">
