@@ -73,6 +73,9 @@ p{
     .grid2{
         transform: translateY(0px) !important;
     }
+    .our-product-container p{
+        background-color: red !important;
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */

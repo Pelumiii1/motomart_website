@@ -38,36 +38,36 @@ function OurProduct() {
         <div className="group1 grid1 text-white col-md-4 l5">
           <div>
             <img src={tap1} alt="tap" className="img1" />
-            <p>KITCHEN MIXER WITH PULL OUT SPARY/SWIVEL</p>
+            <p>MMSWIII38</p>
           </div>
           <div>
             <img src={tap2} alt="tap" className="img2" />
-            <p className="text3 text-uppercase">Multiple washbasin Crono</p>
+            <p className="text3 text-uppercase">MMSWIII41</p>
           </div>
         </div>
         <div className="group1 grid2 text-white col-md-4 l5">
           <div>
             <img src={tap3} alt="tap" className="img1" />
-            <p className="pb-2">BASIS MIXER CURVE WHITE MARBLE CHROME</p>
+            <p className="pb-2">MMSWIII39</p>
           </div>
           <div>
             <img src={tap4} alt="tap" className="img2" />
-            <p className="text3">MOTOMART BASIN MIXER/CHROME</p>
+            <p className="text3">MMSWIII42</p>
           </div>
         </div>
         <div className="group1 grid1 text-white col-md-4 l5">
           <div>
             <img src={tap5} alt="tap" className="img1"  />
-            <p className="pb-2">KITCHEN MIXER</p>
+            <p className="pb-2">MMSWIII40</p>
           </div >
           <div>
             <img src={tap6} alt="tap" className="img2" />
-            <p className="text3">BASIN FAUCET</p>
+            <p className="text3">MMSWIII41</p>
           </div>
         </div>
           </div>
           <div className="d-flex justify-content-center btn1 mt-5">
-          <button className="btn2 rounded">OPEN PRODUCTS</button>
+          <button className="btn2 rounded">OTHER PRODUCTS</button>
           </div>
 
     </div>

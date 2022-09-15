@@ -1,5 +1,6 @@
 import "./OurProducts2.css";
 import React, { useEffect } from "react";
+import Foot from './Components/Foot'
 import toilet1 from "../../Assets/img/toilet1.svg";
 import toilet2 from "../../Assets/img/toilet2.svg";
 import toilet3 from "../../Assets/img/toilet3.svg";
@@ -46,6 +47,7 @@ function OurProducts2() {
               <div className="r2">
                 <h2 className="fs-4 fw-bold">SQUARE FREESTANDING BATHTUB</h2>
                 <div className="r3">
+                  <p>MMIXI350</p>
                   <a href="#">
                     <img src={arrow} alt="arrow" className="arrow" />
                   </a>
@@ -63,8 +65,11 @@ function OurProducts2() {
               <img src={toilet2} alt="toilet" className="toilet2" />
               <div className="r1">
                 <div className="r5">
-                  <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">RIMLESS WALL-HUNG TOILET</h2>
+                  <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                    RIMLESS WALL-HUNG TOILET
+                  </h2>
                   <div className="r3">
+                    <p>MMIXI350</p>
                     <a href="#">
                       <img src={arrow} alt="arrow" className="arrow" />
                     </a>
@@ -78,8 +83,11 @@ function OurProducts2() {
               </div>
               <img src={toilet3} alt="toilet" className="toilet3 " />
               <div className="r5">
-                <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">RIMLESS WALL-HUNG TOILET/RED</h2>
+                <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                  RIMLESS WALL-HUNG TOILET/RED
+                </h2>
                 <div className="r3">
+                  <p>MMIXI350</p>
                   <a href="#">
                     <img src={arrow} alt="arrow" className="arrow" />
                   </a>
@@ -98,8 +106,11 @@ function OurProducts2() {
               <div>
                 <img src={toilet4} alt="toilet" className="toilet4" />
                 <div className="r5">
-                  <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">FLOOR BIDET</h2>
+                  <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                    FLOOR BIDET
+                  </h2>
                   <div className="r3">
+                    <p>MMIXI350</p>
                     <a href="#">
                       <img src={arrow} alt="arrow" className="arrow" />
                     </a>
@@ -120,8 +131,11 @@ function OurProducts2() {
                 <div>
                   <img src={toilet5} alt="toilet" className="toilet5" />
                   <div className="r5 ">
-                    <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">BACK TO WALL RIMLESS WC</h2>
+                    <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                      BACK TO WALL RIMLESS WC
+                    </h2>
                     <div className="r3">
+                      <p>MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>
@@ -142,8 +156,11 @@ function OurProducts2() {
                 <div>
                   <img src={toilet6} alt="toilet" className="toilet6" />
                   <div className="r5">
-                    <h2 className="fs-6 fw-bold mb-0 d-flex align-items-center">TERRAZZO CRAFT ABOVE COUNTER BASIN SERIES</h2>
+                    <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                      TERRAZZO CRAFT ABOVE COUNTER BASIN SERIES
+                    </h2>
                     <div className="r3">
+                      <p>MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>
@@ -159,6 +176,7 @@ function OurProducts2() {
           <button className="">OTHER PRODUCTS</button>
         </div>
       </div>
+      <Foot />
     </div>
   );
 }

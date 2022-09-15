@@ -58,20 +58,12 @@ function Footer() {
           </div>
         </div>
         <div className="col-md-6 col-xs-12 px-3 info">
-          <div className=" form_head gx-0 form-row">
-            <div className="col-md-6">
+          <div className=" form_head">
+            <div className="w-100">
               <input
                 type="text"
-                placeholder="First Name"
+                placeholder="Full Name"
                 className=" p-2 form_g text g5"
-              ></input>
-            </div>
-            <div className="col">
-              <input
-                type="text"
-                id="lastname"
-                placeholder="Last Name"
-                className="col-lg-12 p-2 form_g g3 text"
               ></input>
             </div>
           </div>
@@ -79,13 +71,13 @@ function Footer() {
             type="email"
             id="email"
             placeholder="Email Address"
-            className="w-100 py-1 p-2 text-white z1"
+            className="w-100 py-2 p-2 text-white z1"
           ></input>
           <input
             type="tel"
             id="phone"
             placeholder="Phone Number"
-            className="w-100 my-3 py-1 p-2 text-white"
+            className="w-100 my-3 py-2 p-2 text-white"
           ></input>
           <textarea
             className="w-100 p-2 mb-2"

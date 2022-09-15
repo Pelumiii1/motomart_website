@@ -11,7 +11,20 @@
     width: 100vw;
 }
 
+.Ourproducts-container .head6{
+    position: relative;
+}
 
+.Ourproducts-container .head6::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
 
 .Ourproducts-container .wrapper {
     display: grid;
@@ -108,6 +121,7 @@
     width: 40rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 5px;
     padding: 20px 10px;
     background: white;
@@ -115,12 +129,22 @@
 
 }
 
+
+.r2 h2 {
+    margin-bottom: 0px;
+}
+
 .r3 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     column-gap: 40px;
     align-self: center;
 }
+
+/* .r3 p {
+    font-size: 8px;
+} */
 
 .arrow {
     height: 30px;
@@ -138,6 +162,7 @@
     width: 25rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 5px;
     padding: 5px 30px;
     background: white;
@@ -145,11 +170,11 @@
 }
 
 .r5 h2 {
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .r5 .r3 p {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .xr {
@@ -244,6 +269,9 @@
         display: flex;
         justify-content: center;
     }
+
+
+
 }
 
 
@@ -337,6 +365,7 @@
     .part1 .r2 p,
     .part1 .r2 h2 {
         font-size: 20px;
+        margin: none;
         padding-left: 20px;
     }
 
@@ -358,5 +387,12 @@
     .Ourproducts-container .xx1 {
         height: 100% !important;
         padding: 0px !important;
+    }
+
+    .Ourproducts-container h2 {
+        font-size: 0.8rem !important;
+        display: flex;
+        text-align: center;
+        justify-content: center !important;
     }
 }

@@ -9,16 +9,15 @@ import OurProductcont from "./Components/OurProduct_cont/Ourproduct";
 import MustHave from "./Components/MustHave/MustHave";
 import OurProducts2 from "./Components/OurProducts2/OurProducts2";
 
-
 function App() {
   return (
     <div className="App">
       <Header />
       <MustHave />
-      <About_motomart />
       <OurProduct1 />
       <OurProductcont />
       <OurProducts2 />
+      <About_motomart />
       <Lux />
       <About_sm />
       <Footer />

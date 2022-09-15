@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./about-motomart.css";
-import door from "../../Assets/img/door.png";
-import chair from "../../Assets/img/chair.png";
-import basin from "../../Assets/img/basin.png";
+import Chair from './Components/Chair'
+import Basin from './Components/Basin'
+import Door from './Components/Door'
 import about_m from "../../Assets/img/about-m.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -14,10 +14,10 @@ function AboutMotomart() {
       ".l4",
       {
         xPercent: 30,
-        opacity: 0,
+        // opacity: 0,
       },
       {
-        opacity: 1,
+        // opacity: 1,
         xPercent: 0,
         stagger: 0.3,
         duration: 3,
@@ -52,16 +52,17 @@ function AboutMotomart() {
           </p>
         </div>
         <div className="col-md-6 d-flex justify-content-center l4">
-          <img src={chair} alt="chair" className="chair" />
+          <Chair />
         </div>
       </div>
       <div className="d-flex row s-2 ">
         <div className="col-md-6 text-center s-1 l4">
-          <img src={door} alt="door" className="d-flex door" />
-          <button className="btn-op rounded">OTHER PRODUCTS</button>
+          <Door />
+          
         </div>
         <div className="col-md-6 d-flex justify-content-center f1 l4">
-          <img src={basin} alt="basin" className="basin " />
+          <Basin />
+          
         </div>
       </div>
     </div>

@@ -14,7 +14,9 @@
     border: 2px solid white;
 }
 
-
+.g5{
+    width: 100%;
+}
 
 li {
     list-style: none;
@@ -179,7 +181,7 @@ textarea{
         padding-bottom: 10px;
     }
     .g5{
-        width: 95%;
+        /* width: 95%; */
     }
    
 }
@@ -190,10 +192,6 @@ textarea{
         padding-bottom: 10px;
     }
 
-    .g5
-    {
-        width: 95% !important;
-    }
 
     .footer-container input,
     .footer-container textarea{

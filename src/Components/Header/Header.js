@@ -17,7 +17,7 @@ function Header() {
       ".banner-text",
       {
         opacity: 0,
-          yPercent: -30,
+        yPercent: -30,
       },
       {
         opacity: 1,
@@ -37,7 +37,6 @@ function Header() {
     );
   }, []);
 
-
   return (
     <div>
       <div className="banner-bg  container-fluid">
@@ -47,10 +46,14 @@ function Header() {
           <div className="d-flex"></div>
           <div className="banner-text" ref={heroText}>
             <div className="">
-              <img src={text} alt="text_text" className="text_head" />
+              <img src={text} alt="text_text" className="text_head" style={{objectFit:'contain'}}/>
             </div>
           </div>
         </div>
+        <div className="circle"></div>
+        <div className="circle1"></div>
+        <div className="circle2"></div>
+        <div className="circle3"></div>
         <div className="foot text-center" ref={heroFoot}>
           <h4 className="text-white d-flex ">
             AFFORDABLE LUXURY SANITARY WARES, DOORS,FUNITURES AND BUILDING
