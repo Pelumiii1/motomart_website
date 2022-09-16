@@ -21,7 +21,7 @@ h1 {
 }
 
 
-.circle1 {
+.banner-bg .circle1 {
   background-color: white;
   width: .85rem;
   height: .85rem;
@@ -33,7 +33,7 @@ h1 {
   animation: pop 1.5s infinite;
 }
 
-.circle2 {
+.banner-bg .circle2 {
   background-color: white;
   width: .85rem;
   height: .85rem;
@@ -45,7 +45,7 @@ h1 {
   animation: pop 1.5s infinite;
 }
 
-.circle3 {
+.banner-bg .circle3 {
   background-color: white;
   width: .85rem;
   height: .85rem;

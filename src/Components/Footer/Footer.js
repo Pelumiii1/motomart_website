@@ -9,10 +9,14 @@ function Footer() {
         <div className="col-md-6 col-xs-12 gy-xs-3 f4">
           <div className=" row l3">
             <div className="col-md-6 ll">
-              <img src={motomart} alt="motomart-logo" className="motomart-logo"/>
+              <img
+                src={motomart}
+                alt="motomart-logo"
+                className="motomart-logo"
+              />
             </div>
 
-            <div className="icons text-white d-flex bg-succes col-md-6 align-items-center justify-content-center">
+            <div className="icons text-white d-flex bg-succes col-md-6 align-items-center justify-content-evenly">
               <a href="#" className="text-white">
                 <FiFacebook />
               </a>
@@ -40,15 +44,18 @@ function Footer() {
             </div>
             <div className="col-md-6 sec2 text-center">
               <p>
-                Contact:<br/>
+                Contact:
+                <br />
                 <span className=" justify-content-center">
                   +234 909 532 1622;
-                </span><br/>
+                </span>
+                <br />
                 <span>+234 802 411 2236</span>
               </p>
               <div>
                 <p>
-                  Address:<br/>
+                  Address:
+                  <br />
                   <span className="float-right justify-content-center">
                     168 Awolowo Road Ikoyi, Lagos.
                   </span>

@@ -119,6 +119,10 @@ textarea{
         font-size: 13px;
         text-align: center !important;
     }
+
+    .sec2 p, .sec2 p span{
+        text-align: center !important;
+    }
     .list1 {
         padding-left: 0px !important;
         text-align: center;
@@ -130,6 +134,13 @@ textarea{
 
     .form_g:first-child{
         margin-bottom: 10px;
+    }
+
+    .sec2{
+       display: flex !important;
+       flex-direction: column;
+       justify-content: center !important;
+       align-items: center !important;
     }
 }
 

@@ -1,36 +1,26 @@
-
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.navbar_links {
-    display: flex;
-    gap: 50px;
-    cursor: pointer;
-    z-index: 99;
-}
 
-.full a{
+
+.full a {
     font-weight: 400;
 }
-.navbar_links a{
-    text-decoration: none;
-    color: white;
+
+.drop-down{
+    /* background-color: red; */
+    display: none;
+    /* visibility: hidden; */
 }
 
-.navbar_links a:hover{
-    transition: 0.5s all ease-in-out;
-    transform: scale(1.2,1.2);
-    color: white !important;
-}
-
-p{
+p {
     margin-bottom: 0 !important;
 }
 
-.navbar-wrapper{
+.navbar-wrapper {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -45,8 +35,8 @@ p{
 }
 
 
-@media only screen and (max-width:600px){
-    .empty{
+@media only screen and (max-width:600px) {
+    .empty {
         display: none;
     }
 
@@ -55,40 +45,60 @@ p{
         text-align: center;
         justify-content: center;
     }
-
-    .navbar_links {
-        gap: 30px;
-    }
-    .navbar_links p {
-        display: flex;
-        padding-top: 10px;
-        font-size: 13px !important;
-    }
-    
-    .icons{
-        display: flex;
-        margin-top: 10px;
-        justify-content: center;
-    }
 }
 
-@media only screen and (max-width:1024px){
 
-    .navbar_links{
-        gap: 20px;
-    }
-}
 
+/* Large Screens */
 @media (min-width:2559px) {
-    .motomart-logo{
+    .motomart-logo {
         width: 12rem !important;
         height: 5rem;
     }
 
-    .full a,
-    .icons {
-        font-size: 30px;
+}
+
+/* Mobile to tablet */
+@media (max-width: 800px) {
+    .links--icons {
+        visibility: hidden;
+        display: none !important;
     }
-    
+
+    .navbar--wrapper {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .navbar-logo{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .dropdown{
+        display: flex  !important;
+        justify-content: center !important;
+        background-color: transparent;
+    }
+
+    .arrow-off::after{
+        display: none !important;
+    }
+
+    /* .arrow-off::after */
+    .drop-item:hover{
+        background-color: #462828 !important;
+        color: white !important;
+    }
+}
+
+@media (min-width:768px) and(max-width:1030px){
+    .links--icons{
+        background-color: red !important;
+    }
+
 
 }
+
+

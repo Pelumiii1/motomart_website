@@ -4,7 +4,7 @@ import mustHave from "../../../Assets/img/mustHave.png";
 function Chair() {
     return ( 
         <>
-        <div className="circle1"></div>
+        {/* <div className="circle"></div> */}
         <img src={mustHave} alt="must have" className="musthave pe-3 " style={{objectFit:'contain'}}/>
               <img src={chair3} alt="chair" className="chair3" />
         </>

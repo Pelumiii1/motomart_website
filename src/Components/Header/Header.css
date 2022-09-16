@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Jacques Francois', serif;
+    font-family: 'Jacques Francois', serif;
 }
 
 
@@ -20,11 +20,15 @@
 }
 
 
+.ff {
+    font-family: "'Jacques Francois', serif" !important;
+}
 
-.banner-bg::after{
+
+.banner-bg::after {
     content: '';
     width: 100%;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
     background: black;
@@ -33,13 +37,17 @@
     opacity: 0.6;
 }
 
-.banner-text{
+.banner-text {
     color: white;
     display: flex;
     flex-direction: column;
     left: 0;
     float: left;
     margin-left: 8rem;
+}
+
+.icons-wrapper{
+    width: 100vh;
 }
 
 .foot {
@@ -50,7 +58,7 @@
     font-size: 25px;
 }
 
-.btn5{
+.btn5 {
     background-color: transparent;
     padding: 10px 30px 10px 30px;
     margin-bottom: 40px;
@@ -58,24 +66,25 @@
     z-index: 99;
     cursor: pointer;
 }
-.btn5:hover{
+
+.btn5:hover {
     transition: 0.6s all ease-in-out;
 }
 
-.icons{
+.icons {
     gap: 30px;
 }
 
 
 /* Moblie Screens  */
-@media (max-width:768px){
-    .text_head{
+@media (max-width:768px) {
+    .text_head {
         margin-top: 50px;
         width: 90%;
         height: 300px;
     }
 
-    .banner-text{
+    .banner-text {
         display: flex;
         flex-direction: column;
         left: 0;
@@ -90,35 +99,36 @@
         font-size: 10px;
     }
 
-    .foot h4{
-        font-size: 15px !important;
-    }
-    .banner-bg::after{
-        height: 100%;
-    }
-
-    .banner-bg{
-        height: 100%;
-    }
-
-    .foot h4{
+    .foot h4 {
         font-size: 15px !important;
     }
 
-    .text_head{
-        margin-top: 10px ;
+    .banner-bg::after {
+        height: 100%;
+    }
+
+    .banner-bg {
+        height: 100%;
+    }
+
+    .foot h4 {
+        font-size: 15px !important;
+    }
+
+    .text_head {
+        margin-top: 10px;
         /* width: 20px; */
     }
 }
 
 
 /* tablet and laptop screen */
-@media (min-width:769px) and (max-width:1024px){
-    .text_head{
+@media (min-width:769px) and (max-width:1024px) {
+    .text_head {
         width: 25rem !important;
     }
-    
-    .banner-bg{
+
+    .banner-bg {
         height: 100vh;
     }
 
@@ -126,74 +136,144 @@
         margin-top: 50px;
     }
 
-    .text_head{
+    .text_head {
         margin-top: 0px !important;
         margin-left: 0 !important;
     }
 
-    .foot h4{
+    .foot h4 {
         font-size: 10px !important;
         width: 70%;
     }
-    
-    .btn5{
+
+    .btn5 {
         padding: 5px 30px;
         font-size: 18px;
     }
 
-    .banner-bg::after{
+    .banner-bg::after {
         height: 100%;
     }
 }
 
 /* laptops */
-@media (min-width: 769px) and (max-width: 1024px){
-    .foot h4{
+@media (min-width: 769px) and (max-width: 1024px) {
+    .foot h4 {
         font-size: 20px !important;
-        width:80% !important;
+        width: 80% !important;
     }
-    .text_head{
-        height: 50vh;
+
+    .text_head {
+        height: 30vh;
+
     }
 }
 
- /* large screens */
-@media (min-width:1025px) and (max-width:2559px){
-    .text_head{
+/* large screens */
+@media (min-width:1025px) and (max-width:2559px) {
+    .text_head {
         width: 30rem;
         height: 450px;
         margin-top: -35px;
     }
 
-    .foot h4{
+    .foot h4 {
         font-size: 20px;
     }
-
-    .foot {
-        padding-top: 20px;
-    }
+   
 }
 
 /* 4k Screens */
-@media (min-width:2560px){
-    .text_head{
+@media (min-width:2560px) {
+    .text_head {
         /* background: red; */
         width: 70rem;
     }
 
-    .foot h4{
+    .foot h4 {
         font-size: 3rem !important;
         width: 80%;
     }
-    
+
 }
 
 @media (min-width:1441px) {
-    .text_head{
+    .text_head {
         width: 50rem;
     }
 
-    .foot h4{
+    .foot h4 {
         font-size: 2rem;
     }
+}
+
+
+/* Small Laptop Screen */
+
+@media(min-width:1020px) and (max-width:1500px) {
+    .text_head {
+        height: 20rem;
+    }
+
+    .icon--img {
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .btn5 {
+        font-size: 0.7rem;
+    }
+
+}
+
+/* Mobile to tablet */
+@media (max-width: 1020px) {
+    .icons-wrapper {
+        width: 75% !important;
+    }
+
+    .icon--img{
+        height: 50px;
+        width: 50px;
+    }
+
+
+    .ff {
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 1;
+    }
+
+    .banner-bg .circle,
+    .banner-bg .circle1,
+    .banner-bg .circle2,
+    .banner-bg .circle3 {
+        display: none !important;
+    }
+}
+
+
+@media (max-width:765px) {
+    .icons-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .icon--img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .ff{
+       font-size: 10px; 
+       width: 50%;
+    }
+
+    .banner-bg .circle,
+    .banner-bg .circle1,
+    .banner-bg .circle2,
+    .banner-bg .circle3 {
+        display: none !important;
+    }
+
 }

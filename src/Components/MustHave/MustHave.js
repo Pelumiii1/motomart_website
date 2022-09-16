@@ -10,34 +10,34 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function MustHave() {
-  useEffect(() => {
-    gsap.fromTo(
-      ".l3",
-      {
-        yPercent: 30,
-        // opacity: 0,
-        ease: "power2.easeIn",
-      },
-      {
-        // opacity: 1,
-        yPercent: 0,
-        duration: 2,
-        ease: "power2.easeIn",
-        scrollTrigger: {
-          trigger: ".l2",
-          start: "top 95%",
-          scrub: 1,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   gsap.fromTo(
+  //     ".l3",
+  //     {
+  //       yPercent: 30,
+  //       // opacity: 0,
+  //       ease: "power2.easeIn",
+  //     },
+  //     {
+  //       // opacity: 1,
+  //       yPercent: 0,
+  //       duration: 2,
+  //       ease: "power2.easeIn",
+  //       scrollTrigger: {
+  //         trigger: ".l2",
+  //         start: "top 95%",
+  //         scrub: 1,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
   return (
     <div className="musthave_container text-white">
-      <div className="container-fluid ps-4 l1 l2 d-flex align-items-ce">
+      <div className="container-fluid ps-4 l1 l2 d-flex align-items-center">
         <div className="">
           <div className="part11 row">
-            <div className="col-md-6 d-md-flex text-center align-items-center l3">
+            <div className="col-md-6 d-md-flex text-center align-items-center l3 lll">
               <Chair />
             </div>
             <div className="col-md-6 w-md-25 g2 l3">
@@ -48,7 +48,7 @@ function MustHave() {
             <div className="col-md-6 text-center g4 l3">
               <Tub />
             </div>
-            <div className="col-md-6 d-md-flex d1 l3">
+            <div className="col-md-6 d-md-flex d1 l3 door-wrapper">
               <Door />
             </div>
           </div>

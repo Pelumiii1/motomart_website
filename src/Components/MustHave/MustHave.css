@@ -13,6 +13,7 @@
     position: absolute;
     left: 12vw;
     top: 15vh;
+    /* z-index: 99; */
     animation: pop 1.5s infinite;
 }
 
@@ -107,7 +108,7 @@
 
 .btnc {
     margin-top: 100px;
-    padding-top:100px;
+    padding-top: 100px;
     margin-bottom: 100px;
     position: relative;
     cursor: pointer;
@@ -132,7 +133,7 @@
 
     .chair3 {
         height: 20rem;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
 
     .g2 {
@@ -141,7 +142,22 @@
     }
 
     .light {
+        display: flex !important;
+        height: 20rem !important;
+        padding-bottom: 20px;
+    }
+
+    .g2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .musthave_container .circle,
+    .musthave_container .circle1,
+    .musthave_container .circle2,
+    .musthave_container .circle3 {
         display: none;
+        visibility: hidden;
     }
 
     .tub {
@@ -159,7 +175,6 @@
 
     .g4 p {
         padding-right: 5px;
-        /* background: red; */
         text-align: center;
     }
 
@@ -278,6 +293,18 @@
         z-index: 99;
     }
 
+    .light {
+        display: flex;
+        padding: 10px;
+        width: 27rem;
+        height: 35rem;
+    }
+
+    .g2 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .musthave_container .part11 {
         margin-left: 100px !important;
         margin-bottom: 100px;
@@ -296,7 +323,13 @@
         max-width: 900px;
     }
 
-    
+    .musthave_container .circle,
+    .musthave_container .circle1,
+    .musthave_container .circle2,
+    .musthave_container .circle3 {
+        display: none;
+        visibility: hidden;
+    }
 
 }
 
@@ -352,7 +385,7 @@
         text-align: left;
         align-items: flex-end;
     }
-    
+
     .musthave_container .circle {
         background-color: white;
         width: .85rem;
@@ -368,7 +401,6 @@
 
 @media (min-width:1441px) {
     .light {
-        /* background: red; */
         transform: translateX(200px);
         width: 30rem;
     }
@@ -387,5 +419,33 @@
 
     .door2 {
         width: 27rem;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .door_text {
+        width: 75%;
+    }
+
+    .door-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tun{
+        transform: translateX(0px) !important;
+        display: grid !important;
+        place-items: center !important;
+    }
+    
+
+    .g4{
+        height: fit-content !important;
+        z-index: 99 !important;
+        justify-content: center !important;
+        align-items: center !important;
+
     }
 }

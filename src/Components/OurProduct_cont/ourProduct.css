@@ -60,6 +60,7 @@ p{
 .btn2 {
     padding: 0px 90px 0px 90px !important;
     border: 1px  solid white;
+    color:black !important;
 }
 
 
@@ -72,9 +73,6 @@ p{
 
     .grid2{
         transform: translateY(0px) !important;
-    }
-    .our-product-container p{
-        background-color: red !important;
     }
 }
 
