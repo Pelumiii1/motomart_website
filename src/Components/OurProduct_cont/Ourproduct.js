@@ -10,7 +10,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-
 function OurProduct() {
   useEffect(() => {
     // gsap.fromTo(
@@ -57,19 +56,18 @@ function OurProduct() {
         </div>
         <div className="group1 grid1 text-white col-md-4 l5">
           <div>
-            <img src={tap5} alt="tap" className="img1"  />
+            <img src={tap5} alt="tap" className="img1" />
             <p className="pb-2">MMSWIII40</p>
-          </div >
+          </div>
           <div>
             <img src={tap6} alt="tap" className="img2" />
             <p className="text3">MMSWIII41</p>
           </div>
         </div>
-          </div>
-          <div className="d-flex justify-content-center btn1 mt-5">
-          <button className="btn2 rounded text-white">OTHER PRODUCTS</button>
-          </div>
-
+      </div>
+      <div className="d-flex justify-content-center btn1 mt-5">
+        <button className="btn2 rounded text-dark">OTHER PRODUCTS</button>
+      </div>
     </div>
   );
 }

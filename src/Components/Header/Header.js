@@ -71,6 +71,7 @@ function Header() {
                 {Icons.map((icon) => (
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <img
+                      key={icon.id}
                       src={icon.icon}
                       alt="icons"
                       height={70}

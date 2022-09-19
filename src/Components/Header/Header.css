@@ -25,6 +25,55 @@
 }
 
 
+.banner-bg .circle {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 30vw;
+    top: 30vh;
+    animation: pop 1.5s infinite;
+}
+
+
+.banner-bg .circle1 {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: 17vw;
+    bottom: 24vh;
+    animation: pop 1.5s infinite;
+}
+
+.banner-bg .circle2 {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: 33vw;
+    bottom: 38vh;
+    animation: pop 1.5s infinite;
+}
+
+.banner-bg .circle3 {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 19vw;
+    bottom: 30vh;
+    animation: pop 1s infinite;
+}
+
 .banner-bg::after {
     content: '';
     width: 100%;
@@ -46,7 +95,7 @@
     margin-left: 8rem;
 }
 
-.icons-wrapper{
+.icons-wrapper {
     width: 100vh;
 }
 
@@ -165,7 +214,26 @@
 
     .text_head {
         height: 30vh;
+    }
 
+    .banner-bg .circle {
+        top: 33vh !important;
+        right: 24vw !important;
+    }
+
+    .banner-bg .circle1 {
+        bottom: 33vh !important;
+        left: 14vw !important;
+    }
+
+    .banner-bg .circle2 {
+        bottom: 40vh !important;
+        left: 27vw !important;
+    }
+
+    .banner-bg .circle3 {
+        bottom: 32vh !important;
+        right: 10vw !important;
     }
 }
 
@@ -180,7 +248,7 @@
     .foot h4 {
         font-size: 20px;
     }
-   
+
 }
 
 /* 4k Screens */
@@ -232,9 +300,10 @@
         width: 75% !important;
     }
 
-    .icon--img{
+    .icon--img {
         height: 50px;
         width: 50px;
+        line-height: 0%;
     }
 
 
@@ -259,14 +328,14 @@
         justify-content: center !important;
     }
 
-    .icon--img{
+    .icon--img {
         height: 40px;
         width: 40px;
     }
 
-    .ff{
-       font-size: 10px; 
-       width: 50%;
+    .ff {
+        font-size: 10px;
+        width: 50%;
     }
 
     .banner-bg .circle,

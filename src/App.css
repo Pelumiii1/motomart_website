@@ -8,54 +8,7 @@ h1 {
   scroll-behavior: smooth;
 }
 
-.circle {
-  background-color: white;
-  width: .85rem;
-  height: .85rem;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  right: 30vw;
-  top: 30vh;
-  animation: pop 1.5s infinite;
-}
 
-
-.banner-bg .circle1 {
-  background-color: white;
-  width: .85rem;
-  height: .85rem;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  left: 17vw;
-  bottom: 24vh;
-  animation: pop 1.5s infinite;
-}
-
-.banner-bg .circle2 {
-  background-color: white;
-  width: .85rem;
-  height: .85rem;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  left: 33vw;
-  bottom: 38vh;
-  animation: pop 1.5s infinite;
-}
-
-.banner-bg .circle3 {
-  background-color: white;
-  width: .85rem;
-  height: .85rem;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  right: 19vw;
-  bottom: 30vh;
-  animation: pop 1s infinite;
-}
 
 
 @keyframes pop {

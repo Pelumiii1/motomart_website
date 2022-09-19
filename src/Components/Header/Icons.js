@@ -5,18 +5,22 @@ import buildingMaterials from "../../Assets/icons/building-materials.png";
 
 const Icons = [
   {
+    id: 1,
     icon: sanitaryWares,
     name: "Sanitary Wares",
   },
   {
+    id: 2,
     icon: Doors,
     name: "Doors",
   },
   {
+    id: 3,
     icon: Furnitures,
     name: "Furnitures",
   },
   {
+    id: 4,
     icon: buildingMaterials,
     name: "Building Materials",
   },

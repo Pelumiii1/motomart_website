@@ -7,7 +7,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-.our-product-container{
+.our-product-container {
     background: #462828;
     height: 190vh;
     /* width: 1px; */
@@ -15,90 +15,90 @@
     padding-top: 40px;
     margin-left: 0 !important;
     margin-right: 0 !important;
-} 
+}
 
-.group1{
+.group1 {
     padding-top: 20px;
     display: grid;
     text-align: center;
 }
 
-.img1{
+.img1 {
     width: 90%;
     /* height: ; */
     border-radius: 10px;
     cursor: pointer;
 }
 
-.img2{
+.img2 {
     width: 90%;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .img1:hover,
-.img2:hover{
+.img2:hover {
     transform: scale(1.02);
     transition: all 1s ease-in-out;
 }
 
-p{
+p {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
 }
 
-.grid2{
+.grid2 {
     transform: translateY(100px) !important;
 }
 
 .btn1 {
-    height:4rem;
+    height: 4rem;
     /* border: 1px  solid white; */
 }
 
 .btn2 {
     padding: 0px 90px 0px 90px !important;
-    border: 1px  solid white;
-    color:black !important;
+    border: 1px solid white;
+    /* color:black !important; */
 }
 
 
 /* phone screens */
-@media (max-width:767px){
-    .our-product-container{
+@media (max-width:767px) {
+    .our-product-container {
         height: 100% !important;
         padding-bottom: 50px;
     }
 
-    .grid2{
+    .grid2 {
         transform: translateY(0px) !important;
     }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
-    .our-product-container{
+@media (min-width: 768px) and (max-width: 1024px) {
+    .our-product-container {
         height: 100%;
         padding-bottom: 40px;
     }
 }
 
-   /* Media Query for Large screens */
-   @media (min-width: 1281px) and (max-width:2559px){
-    .our-product-container{
+/* Media Query for Large screens */
+@media (min-width: 1281px) and (max-width:2559px) {
+    .our-product-container {
         padding-bottom: 80rem !important;
     }
 }
 
- /* 4k screens */
- @media (min-width:2560px){
-    .our-product-container p{
+/* 4k screens */
+@media (min-width:2560px) {
+    .our-product-container p {
         font-size: 40px;
     }
 
-    .btn2{
+    .btn2 {
         padding: 20px 200px !important;
         font-weight: 500;
     }
- }
+}

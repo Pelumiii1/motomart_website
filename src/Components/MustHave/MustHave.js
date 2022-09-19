@@ -37,15 +37,15 @@ function MustHave() {
       <div className="container-fluid ps-4 l1 l2 d-flex align-items-center">
         <div className="">
           <div className="part11 row">
-            <div className="col-md-6 d-md-flex text-center align-items-center l3 lll">
+            <div className="col-md-6 d-md-flex text-center align-items-center l3 text--chair">
               <Chair />
             </div>
-            <div className="col-md-6 w-md-25 g2 l3">
+            <div className="col-md-6 w-md-25 g2 l3 light-wrapper">
               <Light />
             </div>
           </div>
           <div className="part22 row d-md-flex text-center">
-            <div className="col-md-6 text-center g4 l3">
+            <div className="col-md-6 text-center g4 l3 tub-wrapper">
               <Tub />
             </div>
             <div className="col-md-6 d-md-flex d1 l3 door-wrapper">
