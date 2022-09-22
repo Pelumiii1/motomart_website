@@ -9,8 +9,7 @@
 
 .our-product-container {
     background: #462828;
-    height: 190vh;
-    /* width: 1px; */
+    height: 100vh;
     padding-bottom: px;
     padding-top: 40px;
     margin-left: 0 !important;
@@ -23,17 +22,12 @@
     text-align: center;
 }
 
-.img1 {
-    width: 90%;
+.img1, .img2 {
+    width: 60%;
     /* height: ; */
-    border-radius: 10px;
+    border-radius: 25px;
     cursor: pointer;
-}
-
-.img2 {
-    width: 90%;
-    border-radius: 10px;
-    cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .img1:hover,
@@ -46,19 +40,20 @@ p {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 40px !important;
 }
 
 .grid2 {
-    transform: translateY(100px) !important;
+    transform: translateY(130px) !important;
 }
 
 .btn1 {
-    height: 4rem;
+    /* height: 4rem; */
     /* border: 1px  solid white; */
 }
 
 .btn2 {
-    padding: 0px 90px 0px 90px !important;
+    padding: 10px 80px 10px 80px !important;
     border: 1px solid white;
     /* color:black !important; */
 }

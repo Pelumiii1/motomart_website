@@ -133,6 +133,10 @@
         height: 300px;
     }
 
+    .icon--container {
+        width: 100% !important;
+    }
+
     .banner-text {
         display: flex;
         flex-direction: column;
@@ -140,6 +144,7 @@
         float: left;
         margin-left: 2rem;
     }
+
 
     .foot {
         display: grid;
@@ -345,4 +350,10 @@
         display: none !important;
     }
 
+}
+
+@media (min-width:1000px) {
+    .icons-wrapper {
+        width: 50% !important;
+    }
 }

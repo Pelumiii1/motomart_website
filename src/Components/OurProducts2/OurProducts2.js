@@ -1,6 +1,6 @@
 import "./OurProducts2.css";
 import React, { useEffect } from "react";
-import Foot from './Components/Foot'
+import Foot from "./Components/Foot";
 import toilet1 from "../../Assets/img/toilet1.svg";
 import toilet2 from "../../Assets/img/toilet2.svg";
 import toilet3 from "../../Assets/img/toilet3.svg";
@@ -13,26 +13,26 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function OurProducts2() {
-  useEffect(() => {
-    gsap.fromTo(
-      ".p7",
-      {
-        yPercent: 20,
-      },
-      {
-        yPercent: 0,
-        stagger: 0.5,
-        duration: 4,
-        ease: "power2.easeIn",
-        scrollTrigger: {
-          trigger: ".Ourproducts-container",
-          start: "top 50%",
-          end: "bottom 60%",
-          scrub: 1,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   gsap.fromTo(
+  //     ".p7",
+  //     {
+  //       yPercent: 20,
+  //     },
+  //     {
+  //       yPercent: 0,
+  //       stagger: 0.5,
+  //       duration: 4,
+  //       ease: "power2.easeIn",
+  //       scrollTrigger: {
+  //         trigger: ".Ourproducts-container",
+  //         start: "top 50%",
+  //         end: "bottom 60%",
+  //         scrub: 1,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
   return (
     <div className="Ourproducts-container">
@@ -135,7 +135,7 @@ function OurProducts2() {
                       BACK TO WALL RIMLESS WC
                     </h2>
                     <div className="r3">
-                      <p>MMIXI350</p>
+                      <p className="">MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>
@@ -171,11 +171,12 @@ function OurProducts2() {
             </div>
           </div>
         </div>
-
+        <div className="motomartBackText"></div>
         <div className="d-flex justify-content-center pr">
           <button className="">OTHER PRODUCTS</button>
         </div>
       </div>
+
       <Foot />
     </div>
   );

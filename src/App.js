@@ -12,33 +12,15 @@ import OurProducts2 from "./Components/OurProducts2/OurProducts2";
 function App() {
   return (
     <div className="App">
-      <header>
-        <Header />
-      </header>
-      <section>
-        <MustHave />
-      </section>
-      <section>
-        <OurProduct1 />
-      </section>
-      <section>
-        <OurProductcont />
-      </section>
-      <section>
-        <OurProducts2 />
-      </section>
-      <section>
-        <About_motomart />
-      </section>
-      <section>
-        <Lux />
-      </section>
-      <section>
-        <About_sm />
-      </section>
-      <footer>
-        <Footer />
-      </footer>
+      <Header />
+      <MustHave />
+      <OurProduct1 />
+      <OurProductcont />
+      <OurProducts2 />
+      <About_motomart />
+      <Lux />
+      <About_sm />
+      <Footer />
     </div>
   );
 }

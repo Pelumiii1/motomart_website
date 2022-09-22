@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.musthave_container .circle {
+/* .musthave_container .circle {
     background-color: white;
     width: .85rem;
     height: .85rem;
@@ -13,7 +13,7 @@
     position: absolute;
     left: 12vw;
     top: 15vh;
-    /* z-index: 99; */
+    z-index: 99;
     animation: pop 1.5s infinite;
 }
 
@@ -60,17 +60,15 @@
     top: 40vh;
     animation: pop 1.5s infinite;
     z-index: 99;
-}
+} */
 
-.musthave_container {
+/* .musthave_container {
     background: #221313;
     height: 100%;
-    /* position: relative; */
-    /* z-index: -96; */
     padding-top: 100px;
-}
+} */
 
-.musthave {
+/* .musthave {
     height: 10rem;
 }
 
@@ -83,12 +81,11 @@
 .door2,
 .tub {
     width: 27em;
-}
+} */
 
-.door_text {
+/* .door_text {
     display: flex;
     align-items: baseline;
-    margin-top: 200px;
     margin-left: 30px;
 }
 
@@ -130,14 +127,13 @@
     z-index: 99;
     display: flex;
     bottom: 0;
-}
+} */
 
 
 /* Phones */
-@media only screen and (max-width:426px) {
+/* @media only screen and (max-width:426px) {
     .musthave {
         width: 20rem;
-        /* margin-bottom: 5rem; */
     }
 
     .chair3 {
@@ -212,10 +208,10 @@
 
 }
 
-
+ */
 
 /* small Sreens */
-@media (min-width:770px) and (max-width:1024px) {
+/* @media (min-width:770px) and (max-width:1024px) {
 
     .g2 {
         transform: translate(0px, 0px) !important;
@@ -242,9 +238,9 @@
         left: 24vw !important;
         bottom: 42vh;
         animation: pop 1.5s infinite;
-    }
+    } */
 
-    .musthave_container .light-circle {
+/* .musthave_container .light-circle {
         background-color: white;
         width: .85rem;
         height: .85rem;
@@ -254,7 +250,6 @@
         left: 37vw;
         top: 42vh;
         animation: pop 1.5s infinite;
-        /* z-index: 99; */
     }
 
     .text--chair,
@@ -288,11 +283,11 @@
         animation: pop 1.5s infinite;
     }
 
-}
+} */
 
 
 /* Tablets  to Laptops Screens*/
-@media (min-width: 768px) and (max-width:1023px) {
+/* @media (min-width: 768px) and (max-width:1023px) {
     .d1 p {
         display: flex;
         text-align: left;
@@ -342,10 +337,10 @@
         visibility: hidden;
     }
 
-}
+} */
 
 /* 4k screens */
-@media (min-width:2560px) {
+/* @media (min-width:2560px) {
     .musthave {
         width: 40rem;
         height: 17rem;
@@ -386,14 +381,11 @@
         padding: 20px 200px 20px 200px;
         font-size: 30px;
     }
-}
+} */
 
 
 /* large laptop Screen */
-@media (min-width:1024px) and (max-width:1440px) {
-    .door_text {
-        /* width: 60% !important; */
-        /* text-align: center !important; */
+/* @media (min-width:1024px) and (max-width:1440px) {
     }
 
     .door-wrapper {
@@ -413,10 +405,9 @@
         left: 17vw;
         top: 11vh !important;
         animation: pop 1.5s infinite;
-    }
+    } */
 
-    .text--chair {
-        /* width: 100% !important; */
+/* .text--chair {
         margin-bottom: 40px !important;
     }
 
@@ -432,15 +423,14 @@
 
     .tub {
         transform: translateX(0px) !important;
-    }
+    } */
 
-    .tub-text {
+/* .tub-text {
         width: 75% !important;
-        /* text-align: center !important; */
         padding-right: 0px !important;
-    }
+    } */
 
-    /* .light-wrapper {
+/* .light-wrapper {
         width: 100% !important;
         margin-bottom: 30px !important;
     }
@@ -451,7 +441,7 @@
         object-fit: contain !important;
     } */
 
-    .musthave_container .circle {
+/* .musthave_container .circle {
         background-color: white;
         width: .85rem;
         height: .85rem;
@@ -513,10 +503,9 @@
     .light {
         transform: translateX(200px);
         width: 30rem;
-    }
+    } */
 
-    .door_text {
-        /* background: grey !important; */
+/* .door_text {
         text-align: left;
         align-items: flex-end;
         width: 20rem;
@@ -530,11 +519,11 @@
     .door2 {
         width: 27rem;
     }
-}
+} */
 
 /* tablet */
 
-@media (min-width:480px) and (max-width:769px) {
+/* @media (min-width:480px) and (max-width:769px) {
     .door_text {
         width: 75% !important;
         margin-top: auto;
@@ -596,4 +585,85 @@
         margin-bottom: 20px;
     }
 
+} */
+
+.musthave_container {
+    background: #221313;
+    height: 100%;
+    padding-left: 7rem;
+    padding-top: 7rem;
+}
+
+.musthaveTextChair {
+    display: flex;
+    margin-top: -10%;
+    height: fit-content;
+    z-index: 3;
+}
+
+.musthaveText {
+    width: 35rem;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chairInMusthave {
+    height: 40rem;
+    border-radius: 23px;
+}
+
+.lightWrapper {
+    padding-top: 8rem;
+    padding-left: 60px !important;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.lightImg {
+    width: 30rem;
+}
+
+
+.textUnderLight {
+    font-size: 27px;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.section2InMusthave {
+    display: flex !important;
+    flex-direction: row;
+    margin-top: -14% !important;
+}
+
+.tubWrapper {
+    margin-top: 28px !important;
+}
+
+
+.doorImg {
+    margin-top: -15% !important;
+    display: flex;
+    padding-left: 4rem;
+}
+
+.doorWrapperInMusthave {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10rem !important;
+}
+
+.textUnderTub {
+    width: 50rem;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+.musthaveButton {
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0px;
 }

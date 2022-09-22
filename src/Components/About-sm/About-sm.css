@@ -6,7 +6,7 @@
 
 .About_sm {
     background: url(../../Assets/img/about_sm.png) no-repeat center center/cover;
-    height: 70vh;
+    height: 50vh;
     position: relative;
     z-index: -99;
     padding-bottom: 20px;
@@ -48,7 +48,7 @@
         padding: 3rem;
     }
 
-    .About_sm::after{
+    .About_sm::after {
         height: 100%;
     }
 
@@ -59,7 +59,7 @@
         /* background-color: red; */
     }
 
-    .ll{
+    .ll {
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;

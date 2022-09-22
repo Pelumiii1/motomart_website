@@ -1,12 +1,25 @@
 import "./Footer.css";
 import motomart from "../../Assets/img/motomart.png";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
+import FloatingWhatsApp from "react-floating-whatsapp";
 
 function Footer() {
   return (
     <div className="footer-container p-3 container-fluid" id="contact">
-      <div className="d-flex row justify-content-evenly p-5 align-items-center ">
-        <div className="col-md-6 col-xs-12 gy-xs-3 f4">
+      <FloatingWhatsApp
+        style={{ zIndex: "10000" }}
+        className="whatsapp"
+        phoneNumber="+2348039999989"
+        accountName="Motomart Careline"
+        allowClickAway={true}
+        statusMessage="Typically replies within 5 mins"
+        // avatar={CustomerSupportAvatar}
+      />
+      <div className="d-flex row justify-content-evenly px-5 py-3 align-items-center">
+        <div
+          className="col-md-6 col-xs-12 gy-xs-3 f4 "
+          style={{ width: "40rem" }}
+        >
           <div className=" row l3">
             <div className="col-md-6 ll">
               <img
@@ -16,7 +29,7 @@ function Footer() {
               />
             </div>
 
-            <div className="icons text-white d-flex bg-succes col-md-6 align-items-center justify-content-evenly">
+            <div className="icons text-white d-flex col-md-6 align-items-end justify-content-evenly fs-4 ">
               <a href="#" className="text-white">
                 <FiFacebook />
               </a>
@@ -43,34 +56,37 @@ function Footer() {
               </ul>
             </div>
             <div className="col-md-6 sec2 text-center">
-              <p>
+              <p className="contactText">
                 Contact:
                 <br />
                 <span className=" justify-content-center">
-                  +234 909 532 1622;
+                  +234 903 890 9401;
                 </span>
                 <br />
-                <span>+234 802 411 2236</span>
+                <span>+234 907 943 6768</span>
               </p>
               <div>
-                <p>
+                <p className="addressText">
                   Address:
                   <br />
                   <span className="float-right justify-content-center">
-                    168 Awolowo Road Ikoyi, Lagos.
+                    Plot A9 Abuja Street, C Close, Banana Island, Lagos.
                   </span>
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-xs-12 px-3 info">
-          <div className=" form_head">
+        <div
+          className="col-md-6 col-xs-12 px-3 info"
+          style={{ width: "40rem" }}
+        >
+          <div className=" form_head ">
             <div className="w-100">
               <input
                 type="text"
                 placeholder="Full Name"
-                className=" p-2 form_g text g5"
+                className=" p-2 form_g text g5 p-3"
               ></input>
             </div>
           </div>
@@ -78,21 +94,25 @@ function Footer() {
             type="email"
             id="email"
             placeholder="Email Address"
-            className="w-100 py-2 p-2 text-white z1"
+            className="w-100  text-white z1 p-3"
           ></input>
           <input
             type="tel"
             id="phone"
             placeholder="Phone Number"
-            className="w-100 my-3 py-2 p-2 text-white"
+            className="w-100 my-3 text-white p-3"
           ></input>
           <textarea
-            className="w-100 p-2 mb-2"
+            className="w-100 mb-2 p-3"
             placeholder="Let us know how we can help ..."
             id="Textarea1"
             rows="2"
           ></textarea>
-          <button className="btn10 text-white d-flex " type="submit">
+          <button
+            className="btn10 text-white d-flex"
+            type="submit"
+            style={{ fontSize: "25px" }}
+          >
             Shop Now
           </button>
         </div>

@@ -65,11 +65,11 @@ function Header() {
         <div className="circle2"></div>
         <div className="circle3"></div>
         <div className="foot" ref={heroFoot}>
-          <div className="icons-wrapper">
-            <div className="">
-              <div className="d-flex text-white align-items-center justify-content-between">
+          <div className="icons-wrapper ">
+            <div className="icon--container">
+              <div className="d-flex text-white align-items-center justify-content-between ">
                 {Icons.map((icon) => (
-                  <div className="d-flex flex-column align-items-center justify-content-center">
+                  <div className="d-flex flex-column align-items-center justify-content-center ">
                     <img
                       key={icon.id}
                       src={icon.icon}

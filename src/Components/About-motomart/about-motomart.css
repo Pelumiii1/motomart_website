@@ -2,248 +2,113 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+
 }
 
+.aboutMotomartContainer {
+    padding: 0px 70px;
+    padding-bottom: 50px;
+}
 
-.p1-container .circle {
+.section1InAboutMotomart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 70px !important;
+}
+
+.section2InAboutMotomart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -20% !important;
+}
+
+.circleOnDoor {
     background-color: white;
     width: .85rem;
     height: .85rem;
     border-radius: 50%;
     display: flex;
-    position: absolute;
-    right: 18vw;
-    top: 21vh;
     z-index: 99;
+    position: absolute;
+    left: 16vw;
+    bottom: 45vh;
     animation: pop 1.5s infinite;
 }
 
-
-
-.p1-container .circle1 {
+.basinCircle {
     background-color: white;
     width: .85rem;
     height: .85rem;
     border-radius: 50%;
     display: flex;
+    z-index: 99;
     position: absolute;
-    left: 19vw;
-    top: 30vh;
-    z-index: 22;
+    left: 12.5vw;
+    bottom: 55vh;
     animation: pop 1.5s infinite;
 }
 
-.p1-container .circle2 {
+.circleOnChair {
     background-color: white;
     width: .85rem;
     height: .85rem;
     border-radius: 50%;
     display: flex;
+    z-index: 99;
     position: absolute;
-    left: 35vw;
-    top: 12vh;
-    z-index: 22;
+    left: 30vw;
+    top: 45vh;
     animation: pop 1.5s infinite;
 }
 
-.p1-container {
-    background: #462828;
-    /* height: 200vh; */
-    height: 100%;
-    padding-bottom: 200px;
-    max-width: 100vw;
-}
-
-.basin {
-    height: 70%;
-    border-radius: 20px;
-    transform: translateY(-10px);
-    cursor: pointer;
-}
-
-.basin:hover,
-.door:hover {
-    transform: scale(1.02);
-    transition: all 1s ease-in-out;
-}
-
-.chair:hover {
-    animation: bounce 1s;
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(-100px);
-        transition: all 1s ease-in-out;
-    }
-
-    50% {
-        transform: translateY(0px);
-        transition: all 1s ease-in-out;
-    }
-
-    100% {
-        transform: translateY(-100px);
-        transition: all 1s ease-in-out;
-    }
-}
-
-.text7 {
-    font-size: 25px;
-}
-
-.about_motomart {
-    width: 90%;
-
-}
-
-.chair {
-    transform: translateY(-100px);
-    width: 60%;
-    height: 90%;
-    cursor: pointer;
+.basinTapCircle {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    z-index: 99;
+    position: absolute;
+    left: 33vw;
+    bottom: 75vh;
+    animation: pop 1.5s infinite;
 }
 
 .door {
-    width: 45%;
+    z-index: 1;
+    height: 35rem;
+    margin-bottom: 70px;
+}
+
+.basin,
+.door {
     border-radius: 20px;
-    cursor: pointer;
 }
 
-.s-2 {
-    max-height: 100vh;
+.basin {
+    height: 45rem;
 }
 
-.s-1 {
-    display: grid;
-    place-items: center;
+.aboutMotomartText {
+    margin-bottom: 50px;
 }
 
-.btn-op {
-    padding: 10px 90px 10px 90px;
-    transform: translateY(-160px);
-    border: 1px solid white;
-    background-color: white;
-    color:black;
-    
-
+.bottomOnAboutMotomart {
+    padding: 10px 80px;
+    width: 80%;
+    border: none;
+    border-radius: 10px !important;
 }
 
-.text2 {
-    font-family: 'Jacques Francois', serif;
-}
-
-@media only screen and (min-width:320px) and (max-width:767px) {
-    .basin {
-        width: 100px;
-        display: grid;
-        place-items: center;
-        display: none;
-    }
-
-    .door {
-        width: 50%;
-        margin-bottom: 30px;
-        border-radius: 10px;
-    }
-
-    .chair {
-        transform: translateY(0px);
-        width: 60%;
-        height: 90%;
-        padding-top: 50px;
-    }
-
-    .p1-container {
-        height: 100%;
-        max-width: 100vw;
-    }
-
-    .btn-op {
-        padding: 5px 10px 5px 10px;
-        transform: translateY(0px);
-        display: none;
-    }
-    .p1-container .circle,
-    .p1-container .circle1,
-    .p1-container .circle2 {
-        display: none;
-    }
-}
-
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .basin {
-        height: 25rem;
-    }
-
-    .door {
-        height: 25rem;
-        width: 20rem;
-        margin-top: 20px;
-    }
-
-    .btn-op {
-        transform: translateY(30px);
-        padding: 10px 40px;
-        margin-top: 30px;
-    }
-
-    .p1-container {
-        height: 100%;
-        padding-bottom: 70px;
-    }
-    
-    .p1-container .circle {
-        background-color: white;
-        width: .85rem;
-        height: .85rem;
-        border-radius: 50%;
-        display: flex;
-        position: absolute;
-        right: 18vw;
-        top: 8vh;
-        z-index: 99;
-        animation: pop 1.5s infinite;
-    }
-}
-
-/* 4k screens */
-@media (min-width: 1025px) and (max-width:2560px) {
-    .text7 p {
-        font-size: 35px;
-    }
-
-    .about_motomart {
-        width: 55rem;
-    }
-
-
-    .s-2 {
-        margin-top: 0px;
-        padding-bottom: 80px;
-    }
-
-    .s-1 .door {
-        width: 27rem;
-    }
-
-    .btn-op {
-        display: flex;
-        align-items: flex-end;
-        transform: translateY(-60px);
-        padding: 15px 120px 15px 120px;
-    }
-
-    .s-2 .f1 {
-        display: grid;
-        align-items: center;
-    }
-
-    .s-2 .f1 .basin {
-        width: 40rem;
-        height: 50rem;
-    }
+.doorWrapperInAboutMotomart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

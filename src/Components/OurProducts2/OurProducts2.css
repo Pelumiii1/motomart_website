@@ -8,14 +8,15 @@
 .Ourproducts-container {
     background: #E9EAE1;
     height: 100%;
+    position: relative;
     width: 100vw;
 }
 
-.Ourproducts-container .head6{
+.Ourproducts-container .head6 {
     position: relative;
 }
 
-.Ourproducts-container .head6::after{
+.Ourproducts-container .head6::after {
     content: "";
     background-color: black;
     position: absolute;
@@ -26,12 +27,14 @@
     opacity: 0.7;
 }
 
+
+
 .Ourproducts-container .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 1em;
-    padding: 30px;
+    padding: 30px 100px;
 }
 
 .Ourproducts-container .wrapper .part1 {
@@ -67,12 +70,9 @@
 
 .Ourproducts-container .wrapper .part2 .toilet2,
 .Ourproducts-container .wrapper .part2 .toilet3 {
-    height: 15rem;
+    height: 10rem;
 }
 
-.Ourproducts-container .wrapper .part2 .toilet3 {
-    height: 20rem !important;
-}
 
 
 .Ourproducts-container .wrapper .part3 .toilet4 {
@@ -135,11 +135,11 @@
 }
 
 .r3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 40px;
-    align-self: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    column-gap: 40px !important;
+    align-self: center !important;
 }
 
 /* .r3 p {
@@ -159,7 +159,7 @@
 }
 
 .r5 {
-    width: 25rem;
+    width: 20rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -182,19 +182,13 @@
     padding: 20px;
     border-radius: 10px;
     margin-right: 10px;
+    background-color: red;
 }
 
-.part2 .xr .x1 {
-    margin-bottom: 50px;
-}
 
 .xx {
     height: fit-content;
-    padding: 60px 20px
-}
-
-.toilet2 {
-    margin-bottom: 80px;
+    padding: 30px 20px
 }
 
 .toilet6 {
@@ -212,6 +206,12 @@
     border: 1px solid white;
     border-radius: 5px;
     margin-bottom: 60px;
+}
+
+.motomartBackText {
+    background-image: url(../../Assets/img/motomartBackground.png);
+    position: absolute;
+    z-index: 5;
 }
 
 

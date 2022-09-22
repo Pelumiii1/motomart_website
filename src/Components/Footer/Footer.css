@@ -4,17 +4,24 @@
     margin: 0;
 }
 
-.footer-container{
+.footer-container {
     background-color: #462828;
     color: white;
+    /* height: 50vh !important; */
 }
+
+
+.styles-module_whatsappButton__IWx9V {
+    background-color: #673B3B !important;
+}
+
 
 .info {
     padding: 20px;
     border: 2px solid white;
 }
 
-.g5{
+.g5 {
     width: 100%;
 }
 
@@ -24,20 +31,23 @@ li {
 }
 
 .info-a {
-    border-top: 2px white solid;
-    border-bottom: 2px white solid;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    padding-bottom: 0px !important;
+    padding: 0px !important;
     width: 100%;
 }
 
 
-.list1{
+.list1 {
     text-align: left;
+    padding: 0px !important;
 }
 
 .list1 ul {
     padding-left: 0px;
     font-weight: lighter;
-    
+
 }
 
 
@@ -46,7 +56,7 @@ li {
     color: white;
 }
 
-.info-a ul a li{
+.info-a ul a li {
     font-weight: lighter;
     font-size: small;
 }
@@ -54,22 +64,23 @@ li {
 .btn10 {
     background: transparent;
     border: 1px solid white !important;
-    border-radius: 0 !important;
+    border-radius: 5px !important;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px;
+    font-weight: lighter !important;
 }
 
 .sec2 p,
-.sec2 p span{
+.sec2 p span {
     font-size: small;
     font-weight: lighter;
     text-align: right;
 }
 
 input::placeholder,
-textarea::placeholder{
+textarea::placeholder {
     color: white;
     font-family: 'Inter', sans-serif !important;
     font-weight: 10;
@@ -77,26 +88,34 @@ textarea::placeholder{
 }
 
 input,
-textarea{
+textarea {
     /* background-color: ; */
     background: #673B3B;
     border: 0px solid white;
 
 }
 
-.footer-container .motomart-logo{
+.footer-container .motomart-logo {
     width: 15rem;
 }
 
-.footer-container .icons{
+.footer-container .icons {
     font-size: 2rem;
     gap: 50px !important;
 }
 
-.bottom p{
+.bottom p {
     font-size: 15px !important;
     font-weight: lighter !important;
+    margin-bottom: auto !important;
+}
 
+.contactText {
+    margin-bottom: auto !important;
+}
+
+.addressText {
+    margin-bottom: auto !important;
 }
 
 /* For Mobile phone screens */
@@ -108,59 +127,60 @@ textarea{
         justify-content: center;
         text-align: center !important;
         margin-left: 0px !important;
-    }   
+    }
 
 
-    .icons{
+    .icons {
         margin-top: 20px !important;
     }
 
-    .sec2 p span{
+    .sec2 p span {
         font-size: 13px;
         text-align: center !important;
     }
 
-    .sec2 p, .sec2 p span{
+    .sec2 p, .sec2 p span {
         text-align: center !important;
     }
+
     .list1 {
         padding-left: 0px !important;
         text-align: center;
     }
 
-    .form_g{
+    .form_g {
         width: 100%;
     }
 
-    .form_g:first-child{
+    .form_g:first-child {
         margin-bottom: 10px;
     }
 
-    .sec2{
-       display: flex !important;
-       flex-direction: column;
-       justify-content: center !important;
-       align-items: center !important;
+    .sec2 {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
-    .form_head{
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form_head {
         display: flex;
         gap: 10px;
-        padding-bottom: 10px; 
+        padding-bottom: 10px;
     }
 
     .form_head .g3 {
         width: 100%;
     }
 
-    .form_head .g5{
+    .form_head .g5 {
         width: 90%;
     }
 
-    ul{
+    ul {
         padding-left: 0px;
     }
 
@@ -168,12 +188,13 @@ textarea{
         text-align: left;
     }
 
-    .l3{
+    .l3 {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    .footer-container .ll{
+
+    .footer-container .ll {
         width: 100%;
         display: flex;
         align-items: center;
@@ -181,42 +202,40 @@ textarea{
 
     }
 
-    .footer-container .icons{
+    .footer-container .icons {
         width: 100%;
     }
 }
 
-@media (min-width: 1281px) and (max-width:2559px){
-    .form_head{
+@media (min-width: 1281px) and (max-width:2559px) {
+    .form_head {
         display: flex;
         padding-bottom: 10px;
     }
-    .g5{
+
+    .g5 {
         /* width: 95%; */
     }
-   
+
 }
 
-@media (min-width:2560px){
-    .form_head{
+@media (min-width:2560px) {
+    .form_head {
         display: flex;
         padding-bottom: 10px;
     }
 
 
     .footer-container input,
-    .footer-container textarea{
+    .footer-container textarea {
         padding: 20px 30px !important;
     }
 
-    .f4, .f4 a li{
+    .f4, .f4 a li {
         font-size: 20px !important;
     }
 
-    .g5{
+    .g5 {
         width: 100%;
     }
 }
-
-
-

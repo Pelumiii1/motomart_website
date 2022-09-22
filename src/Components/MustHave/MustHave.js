@@ -34,35 +34,36 @@ function MustHave() {
 
   return (
     <div className="musthave_container text-white">
-      <div className="container-fluid ps-4 l1 l2 d-flex align-items-center">
+      <div className="container-fluid ">
         <div className="">
-          <div className="part11 row">
-            <div className="col-md-6 d-md-flex text-center align-items-center l3 text--chair">
+          <div className="row">
+            <div className="col-9 musthaveTextChair">
               <Chair />
             </div>
-            <div className="col-md-6 w-md-25 g2 l3 light-wrapper">
+            <div className="col-3 lightWrapper">
               <Light />
             </div>
           </div>
-          <div className="part22 row d-md-flex text-center">
-            <div className="col-md-6 text-center g4 l3 tub-wrapper">
+          <div className="row section2InMusthave">
+            <div className="col-4 tubWrapper">
               <Tub />
             </div>
-            <div className="col-md-6 d-md-flex d1 l3 door-wrapper">
+            <div className="col-8 doorWrapperInMusthave">
               <Door />
             </div>
           </div>
         </div>
       </div>
       <div>
-        <Container className="py-5 mt-3 d-flex align-items-center justify-content-center">
+        <Container className=" musthaveButton">
           <Button
             variant="bg-none"
-            className="text-white"
+            className="text-white musthaveButton"
             style={{
-              border: "1px solid white",
-              padding: "10px 40px",
-              position: "absolute",
+              border: "0.8px solid white",
+              padding: "5px 30px",
+              fontSize: "30px",
+              // position: "absolute",
             }}
           >
             {" "}

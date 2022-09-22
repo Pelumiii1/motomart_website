@@ -7,11 +7,11 @@ function Chair() {
       <img
         src={mustHave}
         alt="must have"
-        className="musthave pe-3 "
+        className="musthaveText"
         style={{ objectFit: "contain" }}
       />
-      <div className="chair-circle"></div>
-      <img src={chair3} alt="chair" className="chair3" />
+      <div className=""></div>
+      <img src={chair3} alt="chair" className="chairInMusthave" />
     </>
   );
 }

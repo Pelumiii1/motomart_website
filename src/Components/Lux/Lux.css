@@ -11,21 +11,26 @@
     border-radius: 50%;
     display: flex;
     position: absolute;
-    left: 50vw;
-    top: 10vh;
+    left: 70vw;
+    z-index: 99 !important;
+    top: 30vh;
     animation: pop 1.5s infinite;
 }
 
-.gg{
+.luxuryWrapper {
+    margin-top: -1% !important;
+}
+
+.gg {
     position: relative;
-    z-index: 99;
+    z-index: 2;
 }
 
 .lux-container {
     background: url(../../Assets/img/lux-bg.png) no-repeat center center/cover;
     position: relative;
-    z-index: 1;
     width: 100vw;
+    height: 100vh;
 }
 
 .lux-container::after {
@@ -36,12 +41,11 @@
     left: 0;
     background: black;
     position: absolute;
-    z-index: 2;
     opacity: 0.8;
 }
 
+
 .lux {
-    background: url(../../Assets/img/lux-head.png) no-repeat center center/cover;
     position: absolute;
     z-index: 1;
     height: 30%;
@@ -49,7 +53,7 @@
 
 .lux-chair {
     width: 20rem;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 .sign {
@@ -60,11 +64,10 @@
     display: grid;
     place-items: center;
     text-align: center;
-    /* width: 100%; */
 }
 
 .bottom-text p {
-    width: 50%;
+    width: 27%;
     color: white;
     font-family: 'Jacques Francois', serif;
     padding-bottom: 40px;

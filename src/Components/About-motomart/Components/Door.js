@@ -1,15 +1,23 @@
 import door from "../../../Assets/img/door.png";
 
-
 function Door() {
-    return ( 
-        <>
-
-        <div className="circle1"></div>
-        <img src={door} alt="door" className="d-flex door" />
-          <button className="btn-op rounded text-dark">OTHER PRODUCTS</button>
-        </>
-     );
+  return (
+    <>
+      <div className="circleOnDoor"></div>
+      <img
+        src={door}
+        alt="door"
+        className="d-flex door"
+        style={{ position: "relative" }}
+      />
+      <button
+        className="bottomOnAboutMotomart rounded text-dark fw-bold"
+        style={{ fontFamily: " font-family: 'Inter', sans-serif;" }}
+      >
+        OTHER PRODUCTS
+      </button>
+    </>
+  );
 }
 
 export default Door;

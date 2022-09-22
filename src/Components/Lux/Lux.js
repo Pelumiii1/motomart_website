@@ -2,6 +2,7 @@ import "./Lux.css";
 import React, { useEffect } from "react";
 import Chair from "./Components/Chair";
 import sign from "../../Assets/img/sign.png";
+import luxury_head_bg from "../../Assets/img/luxury-head-bg.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -31,16 +32,12 @@ function Lux() {
     );
   }, []);
 
-  function hello() {
-    console.log("hello")
-  }
-
-
   return (
     <div className="lux-container container-fluid py-5 ">
       <div className="gg">
+        <img src={luxury_head_bg} alt="luxury" />
         <div className=" d-flex justify-content-center">
-          <div className="d-flex row w-75 alig l6">
+          <div className="d-flex row w-75 luxuryWrapper">
             <div className="col-6 d-md-flex justify-content-center align-items-center ">
               <img src={sign} alt="sign" className="sign" />
             </div>
@@ -54,11 +51,7 @@ function Lux() {
             Motomart has a collection of LUXURY this is COMFORTABLE and
             AFFORDABLE for every home or office arrangement.
           </p>
-          <button
-            className="btn4 rounded"
-            style={{ zIndex: "4" }}
-            onClick={hello}
-          >
+          <button className="btn4 rounded" style={{ zIndex: "4" }}>
             SHOP NOW
           </button>
         </div>
