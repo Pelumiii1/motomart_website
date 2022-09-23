@@ -4,7 +4,13 @@ function Light() {
   return (
     <>
       <div className="musthaveLightCircle"></div>
-      <img src={light} alt="light" className="lightImg" />
+      <img
+        src={light}
+        alt="light"
+        className="lightImg"
+        style={{ position: "relative" }}
+      />
+      <div className="circlOnLight"></div>
       <p
         className="textUnderLight"
         style={{ fontFamily: "'Jacques Francois', serif" }}

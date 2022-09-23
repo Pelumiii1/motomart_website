@@ -4,7 +4,13 @@ function Tub() {
   return (
     <>
       <div className="circle2"></div>
-      <img src={tub} alt="tub" className="tubImg" />
+      <img
+        src={tub}
+        alt="tub"
+        className="tubImg"
+        style={{ position: "relative" }}
+      />
+      <div className="circleOnTub"></div>
       <p
         className="textUnderTub"
         style={{ fontFamily: "'Jacques Francois', serif" }}

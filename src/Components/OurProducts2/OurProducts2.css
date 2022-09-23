@@ -34,7 +34,7 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 1em;
-    padding: 30px 100px;
+    padding: 30px 200px;
 }
 
 .Ourproducts-container .wrapper .part1 {
@@ -47,6 +47,8 @@
     width: fit-content;
     padding-right: 70px;
     cursor: pointer;
+    margin-top: -4% !important;
+
 }
 
 .Ourproducts-container .wrapper .part2 {
@@ -71,12 +73,16 @@
 .Ourproducts-container .wrapper .part2 .toilet2,
 .Ourproducts-container .wrapper .part2 .toilet3 {
     height: 10rem;
+    margin-top: 5rem;
 }
 
 
 
 .Ourproducts-container .wrapper .part3 .toilet4 {
     height: 20rem;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .Ourproducts-container .wrapper .part3 {
@@ -85,7 +91,10 @@
 }
 
 .Ourproducts-container .wrapper .part4 .toilet5 {
-    height: 30rem;
+    height: 25rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .Ourproducts-container .wrapper .part4 {
@@ -94,12 +103,19 @@
 }
 
 .Ourproducts-container .wrapper .part5 .toilet6 {
-    height: 30rem;
+    height: 25rem;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .Ourproducts-container .wrapper .part5 {
     justify-self: center;
     cursor: pointer;
+}
+
+.lastProductDetail {
+    column-gap: -0px !important;
 }
 
 .r1 {
@@ -118,12 +134,12 @@
 }
 
 .r2 {
-    width: 40rem;
+    width: 35rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
-    padding: 20px 10px;
+    padding: 20px 20px;
     background: white;
     margin-top: 50px;
 
@@ -134,20 +150,54 @@
     margin-bottom: 0px;
 }
 
-.r3 {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    column-gap: 40px !important;
-    align-self: center !important;
+.textAndArrowWrapper {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .r3 p {
-    font-size: 8px;
-} */
+
+.toilet1 {
+    margin-top: 12rem;
+}
+
+.paragraphText {
+    margin-bottom: 0px !important;
+}
+
+.toiletWaresText {
+    font-size: 13px;
+}
+
+.productCode {
+    font-size: 10px !important;
+}
+
+.productID {
+    margin-left: -18px !important;
+    font-size: 10px !important;
+    width: 100%;
+}
+
+.bigProductID {
+    margin-left: 0px !important;
+}
+
+.bigArrow {
+    height: 30px;
+}
 
 .arrow {
-    height: 30px;
+    height: 20px;
+}
+
+.infoWrapper {
+    width: 100% !important;
+}
+
+.font {
+    font-size: 15px !important;
 }
 
 .x1 {
@@ -159,30 +209,28 @@
 }
 
 .r5 {
-    width: 20rem;
+    width: 15rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
     padding: 5px 30px;
     background: white;
-    margin-top: 30px;
+    margin-top: 2rem;
+    column-gap: 10px;
 }
 
 .r5 h2 {
     font-size: 12px;
 }
 
-.r5 .r3 p {
-    font-size: 10px;
-}
 
 .xr {
     border: 4px solid white;
     padding: 20px;
     border-radius: 10px;
     margin-right: 10px;
-    background-color: red;
+    height: fit-content;
 }
 
 
@@ -191,9 +239,7 @@
     padding: 30px 20px
 }
 
-.toilet6 {
-    width: 25rem;
-}
+
 
 .pr {
     transform: translateX(500px);

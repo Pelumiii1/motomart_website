@@ -45,11 +45,13 @@ function OurProducts2() {
             <img src={toilet1} alt="toilet" className="toilet1" />
             <div className="r1">
               <div className="r2">
-                <h2 className="fs-4 fw-bold">SQUARE FREESTANDING BATHTUB</h2>
-                <div className="r3">
-                  <p>MMIXI350</p>
+                <h2 className="fs-4 fw-bold bigProductID">
+                  SQUARE FREESTANDING BATHTUB
+                </h2>
+                <div className="textAndArrowWrapper">
+                  <p className="paragraphText">MMIXI350</p>
                   <a href="#">
-                    <img src={arrow} alt="arrow" className="arrow" />
+                    <img src={arrow} alt="arrow" className="bigArrow" />
                   </a>
                 </div>
               </div>
@@ -60,16 +62,18 @@ function OurProducts2() {
           <div className="part2 p7">
             <div className="xr">
               <div className="x1 text-white">
-                <h3>Toilet Wares</h3>
+                <p className="paragraphText toiletWaresText">Toilet Wares</p>
               </div>
               <img src={toilet2} alt="toilet" className="toilet2" />
               <div className="r1">
                 <div className="r5">
-                  <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                  <h2 className="productID fw-bold mb-0 d-flex align-items-center">
                     RIMLESS WALL-HUNG TOILET
                   </h2>
-                  <div className="r3">
-                    <p>MMIXI350</p>
+                  <div className="r3 textAndArrowWrapper">
+                    <p className="text-dark productCode paragraphText">
+                      MMIXI350
+                    </p>
                     <a href="#">
                       <img src={arrow} alt="arrow" className="arrow" />
                     </a>
@@ -79,15 +83,15 @@ function OurProducts2() {
             </div>
             <div className="xr">
               <div className="x1 text-white">
-                <h3>Toilet Wares</h3>
+                <p className="paragraphText toiletWaresText">Toilet Wares</p>
               </div>
               <img src={toilet3} alt="toilet" className="toilet3 " />
               <div className="r5">
-                <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                <h2 className=" fw-bold mb-0 d-flex align-items-center productID">
                   RIMLESS WALL-HUNG TOILET/RED
                 </h2>
-                <div className="r3">
-                  <p>MMIXI350</p>
+                <div className="r3 textAndArrowWrapper">
+                  <p className="productCode paragraphText">MMIXI350</p>
                   <a href="#">
                     <img src={arrow} alt="arrow" className="arrow" />
                   </a>
@@ -101,16 +105,16 @@ function OurProducts2() {
           <div className="part3 p7">
             <div className="xr">
               <div className="x1 text-white">
-                <h3>Toilet Wares</h3>
+                <h3 className="toiletWaresText">Toilet Wares</h3>
               </div>
               <div>
                 <img src={toilet4} alt="toilet" className="toilet4" />
-                <div className="r5">
-                  <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                <div className="r5 infoWrapper py-3">
+                  <h2 className="productID fw-bold mb-0 d-flex align-items-center font">
                     FLOOR BIDET
                   </h2>
-                  <div className="r3">
-                    <p>MMIXI350</p>
+                  <div className="textAndArrowWrapper">
+                    <p className="paragraphText productCode fs-6">MMIXI350</p>
                     <a href="#">
                       <img src={arrow} alt="arrow" className="arrow" />
                     </a>
@@ -121,21 +125,21 @@ function OurProducts2() {
           </div>
         </div>
 
-        <div className="xx xx1">
-          <div className="part4 p7">
+        <div className="xx xx1 d-flex justify-content-end">
+          <div className="part4 p7 ">
             <div>
               <div className="xr">
                 <div className="x1 text-white">
-                  <h3>Toilet Wares</h3>
+                  <h3 className="toiletWaresText">Toilet Wares</h3>
                 </div>
                 <div>
                   <img src={toilet5} alt="toilet" className="toilet5" />
-                  <div className="r5 ">
+                  <div className="r5 infoWrapper">
                     <h2 className=" fw-bold mb-0 d-flex align-items-center">
                       BACK TO WALL RIMLESS WC
                     </h2>
-                    <div className="r3">
-                      <p className="">MMIXI350</p>
+                    <div className="r3 textAndArrowWrapper">
+                      <p className="paragraphText productCode fs-6">MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>
@@ -151,16 +155,16 @@ function OurProducts2() {
             <div>
               <div className="xr">
                 <div className="x1 text-white">
-                  <h3>Toilet Wares</h3>
+                  <h3 className="toiletWaresText">Toilet Wares</h3>
                 </div>
-                <div>
+                <div style={{ width: "23rem" }}>
                   <img src={toilet6} alt="toilet" className="toilet6" />
-                  <div className="r5">
-                    <h2 className=" fw-bold mb-0 d-flex align-items-center">
+                  <div className="r5 infoWrapper lastProductDetail">
+                    <h4 className=" fw-bold mb-0 d-flex align-items-center productID w-50">
                       TERRAZZO CRAFT ABOVE COUNTER BASIN SERIES
-                    </h2>
-                    <div className="r3">
-                      <p>MMIXI350</p>
+                    </h4>
+                    <div className="r3 textAndArrowWrapper ">
+                      <p className="paragraphText productCode fs-6">MMIXI350</p>
                       <a href="#">
                         <img src={arrow} alt="arrow" className="arrow" />
                       </a>

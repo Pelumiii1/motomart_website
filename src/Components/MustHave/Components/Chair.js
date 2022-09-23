@@ -10,8 +10,13 @@ function Chair() {
         className="musthaveText"
         style={{ objectFit: "contain" }}
       />
-      <div className=""></div>
-      <img src={chair3} alt="chair" className="chairInMusthave" />
+      <div className="circleOnChairInMusthave"></div>
+      <img
+        src={chair3}
+        alt="chair"
+        className="chairInMusthave"
+        style={{ position: "relative" }}
+      />
     </>
   );
 }

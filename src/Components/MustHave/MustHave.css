@@ -667,3 +667,55 @@
     justify-content: center;
     padding: 8rem 0px;
 }
+
+.circleOnChairInMusthave {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 19vw;
+    z-index: 99;
+    bottom: 46vh;
+    animation: pop 1.5s infinite;
+}
+
+.circlOnLight {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 6vw;
+    z-index: 99;
+    top: 38vh;
+    animation: pop 1.5s infinite;
+}
+
+.circleOnTub {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 9vw;
+    z-index: 99;
+    top: 31vh;
+    animation: pop 1.5s infinite;
+}
+
+.circleOnDoorInMusthave {
+    background-color: white;
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: 27vw;
+    z-index: 99;
+    top: 1vh;
+    animation: pop 1.5s infinite;
+}
