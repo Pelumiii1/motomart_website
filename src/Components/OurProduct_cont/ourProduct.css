@@ -24,7 +24,6 @@
 
 .img1, .img2 {
     width: 60%;
-    /* height: ; */
     border-radius: 25px;
     cursor: pointer;
     margin-bottom: 10px;
@@ -60,10 +59,11 @@ p {
 
 
 /* phone screens */
-@media (max-width:767px) {
+@media (max-width:480px) {
     .our-product-container {
         height: 100% !important;
         padding-bottom: 50px;
+        padding-top: 5rem !important;
     }
 
     .grid2 {

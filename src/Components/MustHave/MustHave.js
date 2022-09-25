@@ -34,31 +34,31 @@ function MustHave() {
 
   return (
     <div className="musthave_container text-white">
-      <div className="container-fluid ">
+      <div className="container-fluid">
         <div className="">
           <div className="row">
-            <div className="col-9 musthaveTextChair">
+            <div className="col-12 col-md-9 musthaveTextChair">
               <Chair />
             </div>
-            <div className="col-3 lightWrapper">
+            <div className="col-12 col-md-3 lightWrapper">
               <Light />
             </div>
           </div>
           <div className="row section2InMusthave">
-            <div className="col-4 tubWrapper">
+            <div className="col-md-4 tubWrapper">
               <Tub />
             </div>
-            <div className="col-8 doorWrapperInMusthave">
+            <div className="col-md-8 doorWrapperInMusthave">
               <Door />
             </div>
           </div>
         </div>
       </div>
-      <div>
+      <div className="btnWrapper">
         <Container className=" musthaveButton">
           <Button
             variant="bg-none"
-            className="text-white musthaveButton"
+            className="text-white musthaveBtn"
             style={{
               border: "0.8px solid white",
               padding: "5px 30px",
