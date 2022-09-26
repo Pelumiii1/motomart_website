@@ -37,7 +37,6 @@ function MustHave() {
       <div className="container-fluid">
         <div className="">
           <div className="row">
-<<<<<<< HEAD
             <div
               className="col-9 musthaveTextChair"
               style={{ position: "relative" }}
@@ -62,20 +61,6 @@ function MustHave() {
               className="col-8 doorWrapperInMusthave"
               style={{ position: "relative" }}
             >
-=======
-            <div className="col-12 col-md-9 musthaveTextChair">
-              <Chair />
-            </div>
-            <div className="col-12 col-md-3 lightWrapper">
-              <Light />
-            </div>
-          </div>
-          <div className="row section2InMusthave">
-            <div className="col-md-4 tubWrapper">
-              <Tub />
-            </div>
-            <div className="col-md-8 doorWrapperInMusthave">
->>>>>>> 287f630fbec8c91907bb1f73dc83c59128059a11
               <Door />
             </div>
           </div>
