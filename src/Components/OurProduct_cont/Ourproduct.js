@@ -65,7 +65,7 @@ function OurProduct() {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-center btn1 mt-5">
+      <div className="d-flex justify-content-center btn1 mt-md-5">
         <button className="btn2 rounded text-dark">OTHER PRODUCTS</button>
       </div>
     </div>

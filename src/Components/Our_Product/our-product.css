@@ -34,12 +34,13 @@
     height: 40%;
 }
 
-@media (max-width:768px){
+@media (max-width:480px){
     .our-product {
-        height: 25% !important;
+        height: 50% !important;
+        padding: 0px 10px !important;
     }
     .op-container {
-        height: 10%;
+        height: 20%;
     }
 
     .banner{
@@ -47,6 +48,7 @@
     }
 }
 
+/* 
 @media only screen and (max-width:1024px){
     .our-product{
         height: 30%;
@@ -59,4 +61,4 @@
         height: 100%;
     }
     
-}
+} */

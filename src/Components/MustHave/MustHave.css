@@ -668,6 +668,7 @@
     padding: 8rem 0px;
 }
 
+<<<<<<< HEAD
 .circleOnChairInMusthave {
     background-color: white;
     width: .85rem;
@@ -719,3 +720,83 @@
     top: 1vh;
     animation: pop 1.5s infinite;
 }
+=======
+@media (max-width:480px){
+    *{
+        margin: 0px !important;
+        padding: 0px !important;
+        box-sizing: border-box !important;
+        max-width: 480px !important;
+    }
+    .musthave_container{
+        height: 100%;
+        padding-top: 5rem !important;
+    }
+
+    .musthaveTextChair{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .musthaveText{
+        margin-bottom: 1rem !important;
+        width: 25rem;
+    }
+
+    .chairInMusthave{
+        height:20rem;
+        margin-bottom: 1rem !important; 
+    }
+
+    .lightWrapper{
+        display: grid !important;
+        place-items: center;
+        padding: 0px !important;
+    }
+
+    .lightImg{
+        width: 16rem;
+    }
+
+    .textUnderLight{
+        font-size: 20px !important;
+    }
+
+    .tubWrapper{
+        display: grid !important;
+        place-items: center;
+    }
+
+    .tubImg{
+        width: 25rem !important;
+    }
+
+    .textUnderTub{
+        font-size: 20px !important;
+        padding: 1rem 20px !important;
+        text-align: center;
+    }
+
+    .doorWrapperInMusthave{
+        display:grid !important;
+        place-items: center;
+        padding: 0px !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .doorImg{
+        margin-top: 0px !important;
+        width: 16rem;
+    }
+
+    .btnWrapper{
+        padding-bottom: 2rem !important;
+    }
+
+    .musthaveBtn{
+        padding: 5px 20px !important;
+        font-size: 15px !important; 
+    }
+}
+
+>>>>>>> 287f630fbec8c91907bb1f73dc83c59128059a11
