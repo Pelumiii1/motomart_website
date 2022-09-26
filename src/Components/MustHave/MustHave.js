@@ -38,13 +38,13 @@ function MustHave() {
         <div className="">
           <div className="row">
             <div
-              className="col-9 musthaveTextChair"
+              className="col-lg-9 musthaveTextChair"
               style={{ position: "relative" }}
             >
               <Chair />
             </div>
             <div
-              className="col-3 lightWrapper "
+              className="col-lg-3 lightWrapper "
               style={{ position: "relative" }}
             >
               <Light />
@@ -54,11 +54,14 @@ function MustHave() {
             className="row section2InMusthave"
             style={{ position: "relative" }}
           >
-            <div className="col-4 tubWrapper " style={{ position: "relative" }}>
+            <div
+              className="col-lg-4 tubWrapper "
+              style={{ position: "relative" }}
+            >
               <Tub />
             </div>
             <div
-              className="col-8 doorWrapperInMusthave"
+              className="col-lg-8 doorWrapperInMusthave"
               style={{ position: "relative" }}
             >
               <Door />

@@ -668,7 +668,6 @@
     padding: 8rem 0px;
 }
 
-<<<<<<< HEAD
 .circleOnChairInMusthave {
     background-color: white;
     width: .85rem;
@@ -682,7 +681,7 @@
     animation: pop 1.5s infinite;
 }
 
-.circlOnLight {
+.circleOnLight {
     background-color: white;
     width: .85rem;
     height: .85rem;
@@ -720,83 +719,269 @@
     top: 1vh;
     animation: pop 1.5s infinite;
 }
-=======
-@media (max-width:480px){
-    *{
+
+
+
+@media (max-width:480px) {
+    * {
         margin: 0px !important;
         padding: 0px !important;
         box-sizing: border-box !important;
         max-width: 480px !important;
     }
-    .musthave_container{
+
+    .musthave_container {
         height: 100%;
         padding-top: 5rem !important;
     }
 
-    .musthaveTextChair{
+    .musthaveTextChair {
         display: flex !important;
         flex-direction: column;
         align-items: center;
     }
-    .musthaveText{
+
+    .musthaveText {
         margin-bottom: 1rem !important;
         width: 25rem;
     }
 
-    .chairInMusthave{
-        height:20rem;
-        margin-bottom: 1rem !important; 
+    .chairInMusthave {
+        height: 20rem;
+        margin-bottom: 1rem !important;
     }
 
-    .lightWrapper{
+    .lightWrapper {
         display: grid !important;
         place-items: center;
         padding: 0px !important;
     }
 
-    .lightImg{
+    .lightImg {
         width: 16rem;
     }
 
-    .textUnderLight{
+    .textUnderLight {
         font-size: 20px !important;
     }
 
-    .tubWrapper{
+    .tubWrapper {
         display: grid !important;
         place-items: center;
     }
 
-    .tubImg{
+    .tubImg {
         width: 25rem !important;
     }
 
-    .textUnderTub{
+    .textUnderTub {
         font-size: 20px !important;
         padding: 1rem 20px !important;
         text-align: center;
     }
 
-    .doorWrapperInMusthave{
-        display:grid !important;
+    .doorWrapperInMusthave {
+        display: grid !important;
         place-items: center;
         padding: 0px !important;
         margin-bottom: 1rem !important;
     }
 
-    .doorImg{
+    .doorImg {
         margin-top: 0px !important;
         width: 16rem;
     }
 
-    .btnWrapper{
+    .btnWrapper {
         padding-bottom: 2rem !important;
     }
 
-    .musthaveBtn{
+    .musthaveBtn {
         padding: 5px 20px !important;
-        font-size: 15px !important; 
+        font-size: 15px !important;
+    }
+
+    .circleOnChairInMusthave,
+    .circleOnLight,
+    .circleOnTub,
+    .circleOnDoorInMusthave {
+        display: none;
+    }
+
+    .tubWrapper {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
->>>>>>> 287f630fbec8c91907bb1f73dc83c59128059a11
+@media (min-width:481px) and (max-width:768px) {
+    * {
+        padding: 0px !important;
+        margin: 0px !important;
+        box-sizing: border-box !important;
+        max-width: 768px !important;
+    }
+
+    .musthave_container {
+        padding-top: 3rem !important;
+    }
+
+    .textUnderLight {
+        width: 90%;
+
+    }
+
+    .doorImg {
+        margin: 0px !important;
+    }
+
+    .musthaveTextChair {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem !important;
+    }
+
+    .circleOnTub {
+        background-color: white;
+        width: .85rem;
+        height: .85rem;
+        border-radius: 50%;
+        display: flex;
+        position: absolute;
+        right: 35vw;
+        z-index: 99;
+        top: 38vh;
+        animation: pop 1.5s infinite;
+    }
+
+    .chairInMusthave {
+        width: 30rem;
+    }
+
+    .section2InMusthave {
+        margin-top: 0px !important;
+    }
+
+    .circleOnChairInMusthave {
+        background-color: white;
+        width: .85rem;
+        height: .85rem;
+        border-radius: 50%;
+        display: flex;
+        position: absolute;
+        right: 62vw;
+        z-index: 99;
+        bottom: 53vh;
+        animation: pop 1.5s infinite;
+    }
+
+    .lightWrapper {
+        display: flex !important;
+        align-items: center !important;
+        padding-left: 0px !important;
+        padding: 1rem !important;
+        height: 100%;
+    }
+
+    .tubWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textUnderTub {
+        width: 90%;
+    }
+
+    .circleOnLight {
+        background-color: white;
+        width: .85rem;
+        height: .85rem;
+        border-radius: 50%;
+        display: flex;
+        position: absolute;
+        right: 42vw;
+        z-index: 99;
+        top: 30vh;
+        animation: pop 1.5s infinite;
+    }
+
+    .musthaveText {
+        margin-bottom: 2rem !important;
+    }
+
+    .musthave_container {
+        padding-left: 0px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .doorWrapperInMusthave {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-left: 0px !important;
+    }
+
+    .circleOnDoorInMusthave {
+        background-color: white;
+        width: .85rem;
+        height: .85rem;
+        border-radius: 50%;
+        display: flex;
+        position: absolute;
+        left: 55vw;
+        z-index: 99;
+        top: 20vh;
+        animation: pop 1.5s infinite;
+    }
+
+    .doorWrapperInMusthave {
+        margin-bottom: 2rem !important;
+    }
+
+    .musthaveBtn {
+        font-size: 25px !important;
+        padding: 0.3rem 1rem !important;
+    }
+}
+
+@media (min-width:769px) and (max-width:1800px) {
+    .musthave_container {
+        padding-left: 1px !important;
+    }
+
+    .musthaveText {
+        width: 25rem !important;
+    }
+
+    .chairInMusthave {
+        height: 35rem;
+    }
+
+    .textUnderTub {
+        font-size: 1.5rem !important;
+    }
+
+    .textUnderLight {
+        font-size: 1.3rem !important;
+    }
+
+    .textUnderTub {
+        padding-right: 16rem !important;
+    }
+
+    .tubImg {
+        width: 30rem !important;
+    }
+
+    .doorImg {
+        height: 35rem !important;
+    }
+
+    .doorWrapperInMusthave {
+        padding-left: 5rem !important;
+    }
+}
