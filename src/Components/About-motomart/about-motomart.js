@@ -38,15 +38,15 @@ function AboutMotomart() {
       style={{ backgroundColor: "#462828" }}
     >
       <div className="container-fluid row wrapper">
-        <div className="col-6 section1InAboutMotomart">
-          <div className="">
+        <div className="col-lg-6 section1InAboutMotomart">
+          <div className="aboutMotomartTextWrapper">
             <img
               src={about_m}
               alt="about-motomart"
               className="aboutMotomartText"
             />
             <p
-              className="text-white"
+              className="text-white aboutMotomartSubtext"
               style={{
                 fontFamily: "'Jacques Francois', serif",
                 fontSize: "25px",
@@ -57,7 +57,7 @@ function AboutMotomart() {
               wholly owned subsidiary of Sujimoto Construction.
             </p>
             <p
-              className="text-white"
+              className="text-white aboutMotomartSubtext"
               style={{
                 fontFamily: "'Jacques Francois', serif",
                 fontSize: "25px",
@@ -72,7 +72,7 @@ function AboutMotomart() {
             <Door />
           </div>
         </div>
-        <div className="col-6 section2InAboutMotomart">
+        <div className="col-lg-6 section2InAboutMotomart">
           <div className="my-5">
             <Chair />
           </div>

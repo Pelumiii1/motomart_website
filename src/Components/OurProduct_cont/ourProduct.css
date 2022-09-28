@@ -9,8 +9,8 @@
 
 .our-product-container {
     background: #462828;
-    height: 100vh;
-    padding-bottom: px;
+    height: 100%;
+    padding-bottom: 2rem;
     padding-top: 40px;
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -46,15 +46,9 @@ p {
     transform: translateY(130px) !important;
 }
 
-.btn1 {
-    /* height: 4rem; */
-    /* border: 1px  solid white; */
-}
-
 .btn2 {
     padding: 10px 80px 10px 80px !important;
     border: 1px solid white;
-    /* color:black !important; */
 }
 
 
@@ -62,7 +56,7 @@ p {
 @media (max-width:480px) {
     .our-product-container {
         height: 100% !important;
-        padding-bottom: 50px;
+        padding-bottom: 50px !important;
         padding-top: 5rem !important;
     }
 
@@ -71,18 +65,35 @@ p {
     }
 }
 
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
+
+@media (min-width:481px) and (max-width:768px) {
     .our-product-container {
-        height: 100%;
-        padding-bottom: 40px;
+        padding-top: 5rem !important;
+        padding-bottom: 3rem !important;
+        height: 100% !important;
+    }
+
+    .our-product-container p {
+        font-size: 15px !important;
+        margin-top: 0.3rem !important;
+    }
+
+    .btn2 {
+        font-size: 13px !important;
+        font-weight: bold;
+        padding: 10px 50px !important;
+    }
+
+    .img1, .img2 {
+        border-radius: 13px !important;
+        width: 70%;
     }
 }
 
-/* Media Query for Large screens */
-@media (min-width: 1281px) and (max-width:2559px) {
+@media (min-width:769px) and (max-width:1800px) {
     .our-product-container {
-        padding-bottom: 80rem !important;
+        height: 100%;
+        padding-bottom: 2rem;
     }
 }
 

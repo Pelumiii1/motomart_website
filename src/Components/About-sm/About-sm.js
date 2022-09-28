@@ -20,7 +20,7 @@ function About_sm() {
             private clients, mixed-used development, Commercial and hospitality
             development, and lots more.
           </p>
-          <p className="pt-4 text1">
+          <p className="pt-lg-4 text1">
             Our services caters to the discerning client who wishes to be
             associated only with bespoke and iconic structures. We build
             utilizing the best quality materials for residential or commercial

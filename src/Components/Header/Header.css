@@ -126,11 +126,25 @@
 
 
 /* Moblie Screens  */
-@media (max-width:768px) {
+@media (max-width:480px) {
     .text_head {
         margin-top: 50px;
         width: 90%;
         height: 300px;
+    }
+
+    .btn5 {
+        padding: 2px 20px !important;
+    }
+
+    .iconAndTextWrapper {
+        width: 70px;
+    }
+
+    .ff {
+        width: 100% !important;
+        text-align: center !important;
+        padding-top: 10px !important;
     }
 
     .icon--container {
@@ -163,6 +177,7 @@
 
     .banner-bg {
         height: 100%;
+        padding: 20px !important;
     }
 
     .foot h4 {
@@ -171,10 +186,23 @@
 
     .text_head {
         margin-top: 10px;
-        /* width: 20px; */
     }
 }
 
+
+@media (min-width:481px) and (max-width:768px) {
+    .banner-bg {
+        padding: 2rem !important;
+    }
+
+    .text_head {
+        height: 15rem !important;
+    }
+
+    .btn5 {
+        padding: 0.3rem 1rem !important;
+    }
+}
 
 /* tablet and laptop screen */
 @media (min-width:769px) and (max-width:1024px) {
@@ -201,7 +229,7 @@
     }
 
     .btn5 {
-        padding: 5px 30px;
+        padding: 5px 30px !important;
         font-size: 18px;
     }
 

@@ -69,7 +69,7 @@ function Header() {
             <div className="icon--container">
               <div className="d-flex text-white align-items-center justify-content-between ">
                 {Icons.map((icon) => (
-                  <div className="d-flex flex-column align-items-center justify-content-center ">
+                  <div className="d-flex flex-column align-items-center justify-content-center iconAndTextWrapper">
                     <img
                       key={icon.id}
                       src={icon.icon}

@@ -10,27 +10,27 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function MustHave() {
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     ".l3",
-  //     {
-  //       yPercent: 30,
-  //       // opacity: 0,
-  //       ease: "power2.easeIn",
-  //     },
-  //     {
-  //       // opacity: 1,
-  //       yPercent: 0,
-  //       duration: 2,
-  //       ease: "power2.easeIn",
-  //       scrollTrigger: {
-  //         trigger: ".l2",
-  //         start: "top 95%",
-  //         scrub: 1,
-  //       },
-  //     }
-  //   );
-  // }, []);
+  useEffect(() => {
+    gsap.fromTo(
+      ".l3",
+      {
+        yPercent: 30,
+        // opacity: 0,
+        ease: "power2.easeIn",
+      },
+      {
+        // opacity: 1,
+        yPercent: 0,
+        duration: 2,
+        ease: "power2.easeIn",
+        scrollTrigger: {
+          trigger: ".l2",
+          start: "top 95%",
+          scrub: 1,
+        },
+      }
+    );
+  }, []);
 
   return (
     <div className="musthave_container text-white">

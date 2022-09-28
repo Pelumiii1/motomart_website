@@ -41,86 +41,49 @@
 }
 
 
-@media (max-width:600px) {
+@media (max-width:480px) {
+    .About_sm {
+        padding: 1.5rem 0.8rem !important;
+        height: 100%;
+    }
+
+    .about-sm {
+        width: 20rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .text1 {
+        text-align: center;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
     .About_sm {
         height: 100%;
-        padding-bottom: 3rem;
-        padding: 3rem;
+        padding: 20px 10px !important;
     }
 
-    .About_sm::after {
+
+    .about_text p {
+        margin-bottom: 20px !important;
+    }
+
+    .about-sm {
+        width: 20rem !important;
+        float: left;
+        margin-bottom: 1rem !important;
+    }
+
+    .text1 {
+        font-size: 0.9rem !important;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1800px) {
+    .About_sm {
         height: 100%;
-    }
-
-
-    .about-sm {
-        width: 16rem !important;
-        margin-top: 2rem;
-        /* background-color: red; */
-    }
-
-    .ll {
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-}
-
-@media (max-width:426px) {
-    .about-sm {
-        width: 14.5rem;
-    }
-
-    .text1 {
-        font-size: 13px;
-    }
-}
-
-
-/* Phone screen */
-@media (min-width:426px) and (max-width:767px) {
-    .about-sm {
-        width: 20rem !important;
-        /* background: red; */
-    }
-}
-
-/* Tablets And Laptops */
-@media (min-width:768px) and (max-width:1024px) {
-    .about-sm {
-        width: 20rem !important;
-    }
-
-    .about_text p {
-        font-size: 11px !important;
-
-    }
-
-}
-
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {}
-
-/* Large Screens */
-@media (min-width:1025px) {
-    .about-sm {
-        width: 40rem;
-    }
-
-    .text1 {
-        font-size: 1.4rem;
-    }
-
-    .suji {
-        height: 25rem;
-    }
-
-    .about_text {
-        font-size: 100px !important;
-    }
-
-    .about_text p {
-        font-size: 18px;
+        padding-top: 3rem !important;
     }
 }

@@ -948,17 +948,21 @@
     }
 }
 
-@media (min-width:769px) and (max-width:1800px) {
+@media (min-width:769px) and (max-width:1439px) {
     .musthave_container {
         padding-left: 1px !important;
     }
 
     .musthaveText {
-        width: 25rem !important;
+        width: 30vw !important;
     }
 
     .chairInMusthave {
         height: 35rem;
+    }
+
+    .chairInMusthave {
+        width: 30vw !important;
     }
 
     .textUnderTub {
@@ -970,18 +974,25 @@
     }
 
     .textUnderTub {
-        padding-right: 16rem !important;
+        padding-right: 17rem !important;
+        /* font-size: 17px !important; */
     }
 
     .tubImg {
-        width: 30rem !important;
+        width: 31vw !important;
     }
 
     .doorImg {
-        height: 35rem !important;
+        /* height: 50vw !important; */
+        padding-left: 0px !important;
+        margin-top: -4% !important;
     }
 
     .doorWrapperInMusthave {
         padding-left: 5rem !important;
+    }
+
+    .circleOnDoorInMusthave {
+        top: 23vh !important;
     }
 }

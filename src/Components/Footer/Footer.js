@@ -15,7 +15,7 @@ function Footer() {
         statusMessage="Typically replies within 5 mins"
         // avatar={CustomerSupportAvatar}
       />
-      <div className="d-flex row justify-content-evenly px-5 py-3 align-items-center">
+      <div className="d-flex row justify-content-evenly px-5 py-3 align-items-center ">
         <div
           className="col-md-6 col-xs-12 gy-xs-3 f4 "
           style={{ width: "40rem" }}
@@ -69,7 +69,7 @@ function Footer() {
                 <p className="addressText">
                   Address:
                   <br />
-                  <span className="float-right justify-content-center">
+                  <span className="float-right justify-content-center officeAddress">
                     Plot A9 Abuja Street, C Close, Banana Island, Lagos.
                   </span>
                 </p>
@@ -81,12 +81,12 @@ function Footer() {
           className="col-md-6 col-xs-12 px-3 info"
           style={{ width: "40rem" }}
         >
-          <div className=" form_head ">
-            <div className="w-100">
+          <div className="form_head">
+            <div className="w-100 ">
               <input
                 type="text"
                 placeholder="Full Name"
-                className=" p-2 form_g text g5 p-3"
+                className=" p-2 form_g text g5 p-3 fullnameOnForm"
               ></input>
             </div>
           </div>
