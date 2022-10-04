@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -287,10 +287,10 @@
         transform: translateX(300px);
     }
 
-}
+} */
 
 /* Small Laptops Screens */
-@media (min-width: 1024px) and (max-width: 1200px) {
+/* @media (min-width: 1024px) and (max-width: 1200px) {
     .Ourproducts-container .wrapper {
         display: flex !important;
         flex-direction: column !important;
@@ -318,11 +318,11 @@
 
 
 
-}
+} */
 
 
 /* Tablets Screens */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 768px) and (max-width: 1024px) {
 
     .Ourproducts-container .wrapper {
         display: flex !important;
@@ -367,9 +367,9 @@
         background-color: blue;
         align-items: center;
     }
-}
+} */
 
-@media (min-width: 1200px) and (max-width: 2600px) {
+/* @media (min-width: 1200px) and (max-width: 2600px) {
     .xx {
         display: flex;
         justify-content: center;
@@ -380,10 +380,10 @@
         flex-direction: column;
         align-items: center;
     }
-}
+} */
 
 /* Phone Screens */
-@media (max-width:480px) {
+/* @media (max-width:480px) {
     .Ourproducts-container .wrapper {
         display: flex;
         flex-direction: column;
@@ -454,4 +454,20 @@
         text-align: center;
         justify-content: center !important;
     }
+} */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.Ourproducts-container {
+    background: #462828;
+    height: 100% !important;
+    position: relative;
+    width: 100vw;
 }
