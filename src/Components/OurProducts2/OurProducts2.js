@@ -1,12 +1,8 @@
 import "./OurProducts2.css";
 import React, { useEffect } from "react";
 import Foot from "./Components/Foot";
+import Products from "./Products";
 import toilet1 from "../../Assets/img/toilet1.svg";
-import toilet2 from "../../Assets/img/toilet2.svg";
-import toilet3 from "../../Assets/img/toilet3.svg";
-import toilet4 from "../../Assets/img/toilet4.svg";
-import toilet5 from "../../Assets/img/toilet5.svg";
-import toilet6 from "../../Assets/img/toilet6.svg";
 import arrow from "../../Assets/img/arrow.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

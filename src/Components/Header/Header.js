@@ -15,7 +15,7 @@ function Header() {
 
   useEffect(() => {
     const tl = gsap.timeline({
-      defaults: { duration: 1.3, ease: "power2.easeIn" },
+      defaults: { duration: 1, ease: "power2.easeIn" },
     });
 
     tl.fromTo(
