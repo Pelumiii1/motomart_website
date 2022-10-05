@@ -53,7 +53,11 @@ function OurProducts2() {
             </div>
 
             <div>
-              <img src={toilet1} alt="motomart-toilet" />
+              <img
+                src={toilet1}
+                alt="motomart-toilet"
+                style={{ width: "30rem" }}
+              />
             </div>
 
             <div className="d-flex" style={{ backgroundColor: "white" }}>
