@@ -13,7 +13,17 @@
 
 .styles-module_whatsappButton__IWx9V {
     background-color: #673B3B !important;
+    animation: pop 1s infinite !important;
 }
+
+
+.styles-module_whatsappButton__IWx9V::after {
+    content: '';
+    display: none;
+}
+
+
+
 
 
 .info {

@@ -4,7 +4,7 @@ function Chair() {
   return (
     <>
       <div className="circleOnChair"></div>
-      <img src={chair} alt="chair" className="chair" />
+      <img src={chair} alt="chair" className="chair" style={{ zIndex: "5" }} />
     </>
   );
 }

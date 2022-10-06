@@ -472,6 +472,10 @@
     width: 100vw;
 }
 
+.head6 {
+    /* background: url('../../Assets/img/Vector.png'); */
+}
+
 @media (max-width:480px) {
     .products_head_text {
         font-size: 1rem !important;

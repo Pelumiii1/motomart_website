@@ -110,13 +110,22 @@ function Navbar() {
             className="d-flex justify-content-between w-50 text-white text-decoration-none"
             style={{ fontSize: "0.6rem" }}
           >
-            <a href="#" className="text-white text-decoration-none">
+            <a
+              href="#"
+              className="text-white text-decoration-none navbar_links"
+            >
               HOME
             </a>
-            <a href="#all-product" className="text-white text-decoration-none">
+            <a
+              href="#all-product"
+              className="text-white text-decoration-none navbar_links"
+            >
               ALL PRODUCTS
             </a>
-            <a href="#contact" className="text-white text-decoration-none">
+            <a
+              href="#contact"
+              className="text-white text-decoration-none navbar_links"
+            >
               CONTACT
             </a>
           </div>

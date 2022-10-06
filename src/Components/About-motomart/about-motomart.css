@@ -67,6 +67,11 @@
     animation: pop 1.5s infinite;
 }
 
+.chair {
+    z-index: 20 !important;
+    position: relative;
+}
+
 .basinTapCircle {
     background-color: white;
     width: .85rem;

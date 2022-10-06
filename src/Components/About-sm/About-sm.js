@@ -10,7 +10,11 @@ function About_sm() {
           <img src={suji} alt="suji" className="suji" />
         </div>
         <div className="about_text col-md-6 text-white text-center">
-          <img src={aboutsm} alt="suji" className="about-sm" />
+          <img
+            src={aboutsm}
+            alt="suji"
+            className="about-sm d-flex align-items-left"
+          />
 
           <p className="text1">
             Sujimoto is a luxury real estate and construction company with a

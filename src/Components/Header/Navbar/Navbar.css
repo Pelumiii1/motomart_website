@@ -5,6 +5,10 @@
 }
 
 
+.navbar_links:hover {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in;
+}
 
 .full a {
     font-weight: 400;
