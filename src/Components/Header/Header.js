@@ -9,10 +9,6 @@ function Header() {
   const heroText = useRef(null);
   const heroFoot = useRef(null);
 
-  // const iconsImg = Icons.map((icon){})
-
-  // console.log(iconImg);
-
   useEffect(() => {
     const tl = gsap.timeline({
       defaults: { duration: 1, ease: "power2.easeIn" },
@@ -67,9 +63,12 @@ function Header() {
         <div className="foot" ref={heroFoot}>
           <div className="icons-wrapper ">
             <div className="icon--container">
-              <div className="d-flex text-white align-items-center justify-content-between ">
+              <div className="d-flex text-white align-items-center justify-content-between">
                 {Icons.map((icon) => (
-                  <div className="d-flex flex-column align-items-center justify-content-center iconAndTextWrapper">
+                  <div
+                    key={icon.id}
+                    className="d-flex flex-column align-items-center justify-content-center iconAndTextWrapper"
+                  >
                     <img
                       key={icon.id}
                       src={icon.icon}

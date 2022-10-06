@@ -752,6 +752,7 @@
     }
 
     .lightWrapper {
+        height: fit-content;
         display: grid !important;
         place-items: center;
         padding: 0px !important;
@@ -759,10 +760,13 @@
 
     .lightImg {
         width: 16rem;
+        margin-top: 70px !important;
     }
 
     .textUnderLight {
         font-size: 20px !important;
+        margin-bottom: 70px !important;
+        text-align: center !important;
     }
 
     .tubWrapper {
@@ -777,6 +781,7 @@
     .textUnderTub {
         font-size: 20px !important;
         padding: 1rem 20px !important;
+        width: auto;
         text-align: center;
     }
 

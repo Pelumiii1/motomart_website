@@ -11,29 +11,29 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function OurProduct() {
-  useEffect(() => {
-    // gsap.fromTo(
-    //   ".l5",
-    //   {
-    //     yPercent: 50,
-    //   },
-    //   {
-    //     yPercent: 0,
-    //     stagger: 0.5,
-    //     duration: 5,
-    //     ease: "power2.easeIn",
-    //     scrollTrigger: {
-    //       trigger: ".our-product-container",
-    //       start: "top 90%",
-    //       end:"bottom 60%",
-    //       scrub: 1,
-    //     },
-    //   }
-    // );
-  }, []);
+  // useEffect(() => {
+  //   gsap.fromTo(
+  //     ".l5",
+  //     {
+  //       yPercent: 50,
+  //     },
+  //     {
+  //       yPercent: 0,
+  //       stagger: 0.5,
+  //       duration: 5,
+  //       ease: "power2.easeIn",
+  //       scrollTrigger: {
+  //         trigger: ".our-product-container",
+  //         start: "top 90%",
+  //         end: "bottom 60%",
+  //         scrub: 1,
+  //       },
+  //     }
+  //   );
+  // }, []);
   return (
     <div className="our-product-container d-flex container-fluid row justify-content-center">
-      <div className="d-md-flex w-75 mb-5 pb-5">
+      <div className="d-md-flex mb-5 pb-5" style={{ width: "85%" }}>
         <div className="group1 grid1 text-white col-md-4 l5">
           <div>
             <img src={tap1} alt="tap" className="img1" />

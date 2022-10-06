@@ -12,9 +12,9 @@ gsap.registerPlugin(ScrollTrigger);
 function MustHave() {
   useEffect(() => {
     gsap.fromTo(
-      ".l3",
+      ".musthave--wrapper",
       {
-        yPercent: 30,
+        yPercent: 5,
         // opacity: 0,
         ease: "power2.easeIn",
       },
@@ -24,7 +24,7 @@ function MustHave() {
         duration: 2,
         ease: "power2.easeIn",
         scrollTrigger: {
-          trigger: ".l2",
+          trigger: ".musthave--wrapper",
           start: "top 95%",
           scrub: 1,
         },
@@ -35,7 +35,7 @@ function MustHave() {
   return (
     <div className="musthave_container text-white">
       <div className="container-fluid">
-        <div className="">
+        <div className="musthave--wrapper">
           <div className="row">
             <div
               className="col-lg-9 musthaveTextChair"

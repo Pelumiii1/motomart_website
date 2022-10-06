@@ -471,3 +471,113 @@
     position: relative;
     width: 100vw;
 }
+
+@media (max-width:480px) {
+    .products_head_text {
+        font-size: 1rem !important;
+        padding: 10px 20px !important;
+    }
+
+    .product_head_wrapper {
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .product_wrapper {
+        margin: 0px 20px !important;
+        padding-bottom: 20px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .toilet_wares_wrapper {
+        padding: 10px 20px !important;
+    }
+
+    .product_img {
+        margin: 30px 0px !important;
+    }
+
+    .product_container {
+        padding: 10px !important;
+        margin: 10px 0px !important;
+    }
+
+    .products_ID_container {
+        padding: 5px !important;
+    }
+
+    .btn_container {
+        margin-top: 30px !important;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .product_head_wrapper {
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+        margin-left: 10px !important;
+    }
+
+    .products_head_text {
+        font-size: 1rem !important;
+        padding: 10px 20px !important;
+    }
+
+    .product_img {
+        width: 18rem !important;
+    }
+
+    .product_wrapper {
+        margin: 0px 10px !important;
+        padding: 20px 8px !important;
+        column-gap: 10px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .product_container {
+        margin-bottom: 20px !important;
+        padding: 10px !important;
+    }
+
+    .toilet_wares_wrapper {
+        padding: 10px 20px !important;
+    }
+
+    .product_img {
+        margin: 30px 0px !important;
+    }
+
+    .products_ID_container {
+        padding: 5px 20px !important;
+        margin: 0px 20px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .btn_container {
+        margin-top: 30px !important;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1439px) {
+    .product_wrapper {
+        margin: 0px 100px !important;
+        padding: 20px 10px !important;
+        column-gap: 50px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .product_head_wrapper {
+        /* border-top-left-radius: 20px !important; */
+        /* border-top-right-radius: 20px !important; */
+        margin-left: 100px !important;
+        margin-bottom: -1% !important;
+    }
+
+    .btn_container {
+        margin-bottom: 50px !important;
+    }
+}

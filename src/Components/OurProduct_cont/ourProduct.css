@@ -81,6 +81,7 @@ p {
     .btn2 {
         font-size: 13px !important;
         font-weight: bold;
+        background-color: white;
         padding: 10px 50px !important;
     }
 

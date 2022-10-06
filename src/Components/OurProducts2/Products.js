@@ -8,7 +8,34 @@ import toilet6 from "../../Assets/img/toilet6.svg";
 const Products = [
   {
     id: 1,
-    Name: "",
-    ProductImg: toilet1,
+    name: "SQUARE FREESTANDING BATHTUB",
+    productImg: toilet1,
+  },
+  {
+    id: 2,
+    name: "RIMLESS WALL-HUNG TOILET",
+    productImg: toilet2,
+  },
+  {
+    id: 3,
+    name: "RIMLESS WALL-HUNG TOILET/RED",
+    productImg: toilet3,
+  },
+  {
+    id: 4,
+    name: "FLOOR BIDET",
+    productImg: toilet4,
+  },
+  {
+    id: 5,
+    name: "BACK TO WALL RIMLESS WC",
+    productImg: toilet5,
+  },
+  {
+    id: 6,
+    name: "TERRAZZO CRAFT ABOVE COUNTER BASIN SERIES",
+    productImg: toilet6,
   },
 ];
+
+export default Products;

@@ -74,7 +74,7 @@ function Navbar() {
             >
               <BsList />
             </Dropdown.Toggle>
-            <Dropdown.Menu>
+            <Dropdown.Menu className="dropdown--wrapper">
               <Dropdown.Item eventKey="1" className="drop-item">
                 <a href="#" className=" text-dark text-decoration-none">
                   HOME
@@ -96,7 +96,7 @@ function Navbar() {
               <Dropdown.Divider />
               <Dropdown.Item
                 eventKey="4"
-                className="d-flex justify-content-evenly"
+                className="d-flex justify-content-evenly icons--in--dropdown"
               >
                 <FiFacebook />
                 <FiInstagram />

@@ -9,28 +9,28 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function AboutMotomart() {
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     ".l4",
-  //     {
-  //       xPercent: 30,
-  //       // opacity: 0,
-  //     },
-  //     {
-  //       // opacity: 1,
-  //       xPercent: 0,
-  //       stagger: 0.3,
-  //       duration: 3,
-  //       ease: "power2.easeIn",
-  //       scrollTrigger: {
-  //         trigger: ".p1-container",
-  //         start: "top 90%",
-  //         end:"bottom 60%",
-  //         scrub: 1,
-  //       },
-  //     }
-  //   );
-  // }, []);
+  useEffect(() => {
+    gsap.fromTo(
+      ".wrapper",
+      {
+        xPercent: 30,
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        xPercent: 0,
+        stagger: 0.3,
+        duration: 3,
+        ease: "power2.easeIn",
+        scrollTrigger: {
+          trigger: ".p1-container",
+          start: "top 90%",
+          end: "bottom 60%",
+          scrub: 1,
+        },
+      }
+    );
+  }, []);
 
   return (
     <div

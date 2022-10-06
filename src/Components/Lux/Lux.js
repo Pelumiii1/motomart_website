@@ -11,7 +11,7 @@ function Lux() {
   useEffect(() => {
     // console.log(ScrollTrigger);
     gsap.fromTo(
-      ".l6",
+      ".gg",
       {
         yPercent: 50,
         opacity: 0,
