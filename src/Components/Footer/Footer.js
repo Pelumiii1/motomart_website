@@ -13,7 +13,7 @@ function Footer() {
         accountName="Motomart Careline"
         allowClickAway={true}
         statusMessage="Typically replies within 5 mins"
-        // avatar={CustomerSupportAvatar}
+        // avatar={motomart}
       />
       <div className="d-flex row justify-content-evenly px-5 py-3 align-items-center ">
         <div
@@ -30,13 +30,28 @@ function Footer() {
             </div>
 
             <div className="icons text-white d-flex col-md-6 align-items-end justify-content-evenly fs-4 ">
-              <a href="#" className="text-white">
+              <a
+                href="https://www.facebook.com/motomartNIG"
+                className="text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FiFacebook />
               </a>
-              <a href="#" className="text-white">
+              <a
+                href="https://www.instagram.com/motomart.ng/"
+                className="text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FiInstagram />
               </a>
-              <a href="#" className="text-white">
+              <a
+                href="https://twitter.com/motomartnig"
+                className="text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FiTwitter />
               </a>
             </div>
@@ -47,10 +62,10 @@ function Footer() {
                 <a href="#">
                   <li className="py-2">Home</li>
                 </a>
-                <a href="#">
+                <a href="#all-product">
                   <li className="py-2">OUR PRODUCT</li>
                 </a>
-                <a href="#">
+                <a href="#contact">
                   <li className="py-2">CONTACT US</li>
                 </a>
               </ul>
@@ -60,10 +75,10 @@ function Footer() {
                 Contact:
                 <br />
                 <span className=" justify-content-center">
-                  +234 903 890 9401;
+                  +234 907 943 6768;
                 </span>
                 <br />
-                <span>+234 907 943 6768</span>
+                <span>+234 901 823 7998</span>
               </p>
               <div>
                 <p className="addressText">

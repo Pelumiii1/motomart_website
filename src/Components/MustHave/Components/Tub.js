@@ -15,8 +15,9 @@ function Tub() {
         className="textUnderTub"
         style={{ fontFamily: "'Jacques Francois', serif" }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus augue
-        malesuada erat ultrices vulputate tempor et magna.
+        Explore our wash Basins and bathtubs in a variety of materials,
+        including porcelain tubs, ceramic tubs, and fiberglass tubs. Elevate the
+        aesthetics of Bathroom.
       </p>
     </>
   );

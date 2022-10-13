@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import { BsList } from "react-icons/bs";
 import motomart from "../../../Assets/img/motomart.png";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
@@ -7,7 +7,7 @@ import { gsap } from "gsap";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
 function Navbar() {
-  const navBar = useRef(null);
+  // const navBar = useRef(null);
 
   useEffect(() => {
     const tl = gsap.timeline({
@@ -130,9 +130,30 @@ function Navbar() {
             </a>
           </div>
           <div className="icons d-flex gx-3 text-white">
-            <FiFacebook />
-            <FiInstagram />
-            <FiTwitter />
+            <a
+              href="https://www.facebook.com/motomartNIG"
+              className="text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiFacebook />
+            </a>
+            <a
+              href="https://www.instagram.com/motomart.ng/"
+              className="text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiInstagram />
+            </a>
+            <a
+              href="https://twitter.com/motomartnig"
+              className="text-white"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FiTwitter />
+            </a>
           </div>
         </div>
       </div>
