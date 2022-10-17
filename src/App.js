@@ -1,26 +1,26 @@
 import "./App.css";
-import Header from "./Components/Header/Header";
-import About_motomart from "./Components/About-motomart/about-motomart";
-import Lux from "./Components/Lux/Lux";
-import OurProduct1 from "./Components/Our_Product/Our_product";
-import Footer from "./Components/Footer/Footer";
-import About_sm from "./Components/About-sm/About-sm";
-import OurProductcont from "./Components/OurProduct_cont/Ourproduct";
-import MustHave from "./Components/MustHave/MustHave";
-import OurProducts2 from "./Components/OurProducts2/OurProducts2";
+import HEADER from "./Components/Header/Header";
+import ABOUT_MOTOMART from "./Components/About_Motomart/About_Motomart";
+import LUXURY_SECTION from "./Components/Luxury_Section/Luxury_Section";
+import OUR_PRODUCTS_1 from "./Components/Our_Product_1/Our_Product_1";
+import FOOTER from "./Components/Footer/Footer";
+import ABOUT_SUJIMOTO from "./Components/About_Sujimoto/About_Sujimoto";
+import OUR_PRODUCTS_2 from "./Components/Our_Product_2/Our_Product_2";
+import MUSTHAVE_SECTION from "./Components/MustHave_Section/MustHave_Section";
+import OUR_PRODUCTS_3 from "./Components/Our_Product_3/OurProducts2";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MustHave />
-      <OurProduct1 />
-      <OurProductcont />
-      <OurProducts2 />
-      <About_motomart />
-      <Lux />
-      <About_sm />
-      <Footer />
+      <HEADER />
+      <MUSTHAVE_SECTION />
+      <OUR_PRODUCTS_1 />
+      <OUR_PRODUCTS_2 />
+      <OUR_PRODUCTS_3 />
+      <ABOUT_MOTOMART />
+      <LUXURY_SECTION />
+      <ABOUT_SUJIMOTO />
+      <FOOTER />
     </div>
   );
 }

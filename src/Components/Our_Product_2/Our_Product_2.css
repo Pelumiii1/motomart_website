@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.our-product-container {
+    background: #462828;
+    height: 100%;
+    padding-bottom: 2rem;
+    padding-top: 40px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.group1 {
+    padding-top: 20px;
+    display: grid;
+    text-align: center;
+}
+
+.img1, .img2 {
+    width: 60%;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img1:hover,
+.img2:hover {
+    transform: scale(1.02);
+    transition: all 1s ease-in-out;
+}
+
+p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px !important;
+}
+
+.grid2 {
+    transform: translateY(130px) !important;
+}
+
+.btn2 {
+    padding: 10px 80px 10px 80px !important;
+    border: 1px solid white;
+}
+
+
+/* phone screens */
+@media (max-width:480px) {
+    .our-product-container {
+        height: 100% !important;
+        padding-bottom: 50px !important;
+        padding-top: 5rem !important;
+    }
+
+    .grid2 {
+        transform: translateY(0px) !important;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+    .our-product-container {
+        padding-top: 5rem !important;
+        padding-bottom: 3rem !important;
+        height: 100% !important;
+    }
+
+    .our-product-container p {
+        font-size: 15px !important;
+        margin-top: 0.3rem !important;
+    }
+
+    .btn2 {
+        font-size: 13px !important;
+        font-weight: bold;
+        background-color: white;
+        padding: 10px 50px !important;
+    }
+
+    .img1, .img2 {
+        border-radius: 13px !important;
+        width: 70%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1800px) {
+    .our-product-container {
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+}
+
+/* 4k screens */
+@media (min-width:2560px) {
+    .our-product-container p {
+        font-size: 40px;
+    }
+
+    .btn2 {
+        padding: 20px 200px !important;
+        font-weight: 500;
+    }
+}
