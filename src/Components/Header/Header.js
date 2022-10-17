@@ -80,8 +80,6 @@ function Header() {
                     <p className="fs-md-6 ff">{icon.name}</p>
                   </div>
                 ))}
-                {/* <img src="" alt="sanitary-wares" />
-                <p>Sanitary Wares</p> */}
               </div>
             </div>
           </div>

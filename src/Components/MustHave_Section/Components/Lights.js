@@ -3,14 +3,14 @@ import light from "../../../Assets/img/light.png";
 function Light() {
   return (
     <>
-      <div className="musthaveLightCircle"></div>
+      {/* <div className="musthaveLightCircle"></div> */}
       <img
         src={light}
         alt="light"
         className="lightImg"
         style={{ position: "relative" }}
       />
-      <div className="circleOnLight"></div>
+      {/* <div className="circleOnLight"></div> */}
       <p
         className="textUnderLight"
         style={{ fontFamily: "'Jacques Francois', serif" }}

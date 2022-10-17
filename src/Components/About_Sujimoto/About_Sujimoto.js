@@ -2,9 +2,9 @@ import "./About_Sujimoto.css";
 import suji from "../../Assets/img/suji.png";
 import aboutsm from "../../Assets/img/about-sm.png";
 
-function About_sm() {
+function About_Sujimoto() {
   return (
-    <div className="About_sm d-flex align-items-center justify-content-center">
+    <div className="About_Sujimoto d-flex align-items-center justify-content-center">
       <div className="container row">
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img src={suji} alt="suji" className="suji" />
@@ -37,4 +37,4 @@ function About_sm() {
   );
 }
 
-export default About_sm;
+export default About_Sujimoto;

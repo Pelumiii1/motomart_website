@@ -13,12 +13,12 @@ function AboutMotomart() {
     gsap.fromTo(
       ".wrapper",
       {
-        xPercent: 30,
+        yPercent: 50,
         opacity: 0,
       },
       {
         opacity: 1,
-        xPercent: 0,
+        yPercent: 0,
         stagger: 0.3,
         duration: 3,
         ease: "power2.easeIn",

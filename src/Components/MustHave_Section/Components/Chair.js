@@ -10,7 +10,7 @@ function Chair() {
         className="musthaveText"
         style={{ objectFit: "contain" }}
       />
-      <div className="circleOnChairInMusthave"></div>
+      {/* <div className="circleOnChairInMusthave"></div> */}
       <img
         src={chair3}
         alt="chair"

@@ -3,14 +3,14 @@ import door2 from "../../../Assets/img/door2.png";
 function Door() {
   return (
     <>
-      <div className="circle"></div>
+      {/* <div className="circle"></div> */}
       <img
         src={door2}
         alt="door"
         className="doorImg"
         style={{ position: "relative" }}
       />
-      <div className="circleOnDoorInMusthave"></div>
+      {/* <div className="circleOnDoorInMusthave"></div> */}
     </>
   );
 }
