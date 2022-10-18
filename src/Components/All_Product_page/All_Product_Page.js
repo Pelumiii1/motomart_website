@@ -6,12 +6,12 @@ import Navbar from "../Header/Navbar/Navbar";
 import ALL_PRODUCTS_SECTION from "./Components/Products";
 import Footer from "../Footer/Footer";
 
-function All_Products_Page() {
+function All_Products_Page({ handleClick }) {
   return (
     <div className="App">
       <Navbar />
       <HERO_SECTION />
-      <ALL_PRODUCTS_SECTION />
+      <ALL_PRODUCTS_SECTION handleClick={handleClick} />
       <Footer />
     </div>
   );

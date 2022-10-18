@@ -5,7 +5,7 @@ import "./Header.css";
 import text from "../../Assets/img/head-text.png";
 import { gsap } from "gsap";
 
-function Header() {
+function Header({ handleClick }) {
   const heroText = useRef(null);
   const heroFoot = useRef(null);
 
@@ -42,7 +42,7 @@ function Header() {
     <div>
       <div className="banner-bg  container-fluid">
         <div>
-          <Navbar />
+          <Navbar handleClick={handleClick} />
           <br />
           <div className="d-flex"></div>
           <div className="banner-text" ref={heroText}>

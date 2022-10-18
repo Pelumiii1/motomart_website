@@ -1,6 +1,6 @@
 import AllProducts from "./All-Products";
 
-function Products() {
+function Products({ handleClick }) {
   return (
     <div className="products">
       <div className="products-warpper">
@@ -14,7 +14,7 @@ function Products() {
           </div>
         </div>
       </div>
-      <AllProducts />
+      <AllProducts handleClick={handleClick} />
     </div>
   );
 }

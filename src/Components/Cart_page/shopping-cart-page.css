@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: auto !important;
+}
+
+.shopping-cart-page-container {
+    height: 100vh;
+}
+
+.shopping_cart_header_text {
+    padding: 2rem 10rem;
+}
+
+.shop-cart-heading {
+    gap: 10rem;
+}
+
+.product-ID {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* No Product Page */
+.no-product-page {
+    display: flex;
+    padding: 6rem 0;
+    justify-content: center;
+}

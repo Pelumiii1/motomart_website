@@ -39,17 +39,16 @@
 
 @keyframes scroll {
     0% {
-        /* margin-right: 0px; */
         transform: translateX(0px);
     }
 
     75% {
-        transform: translateX(-5000px);
+        transform: translateX(-4000px);
     }
 
-    100% {
+    /* 100% {
         transform: translateX(5000px);
-    }
+    } */
 }
 
 .chair2InMusthave {

@@ -1,7 +1,8 @@
+// import { useState } from "react";
 import Products_List from "./Products_List";
 import cart_icon from "../Assets/cart-icon.png";
 
-function All_Products() {
+function All_Products({ handleClick }) {
   return (
     <>
       <div className="all-products-container d-flex gap-5 pb-5 mb-4">
@@ -14,9 +15,13 @@ function All_Products() {
                 height={320}
                 className="productImg"
               />
-              <a href="#">
-                <img src={cart_icon} alt="cart" className="cart_icon" />
-              </a>
+              <img
+                src={cart_icon}
+                alt="cart"
+                className="cart_icon"
+                style={{ cursor: "pointer" }}
+                onClick={() => handleClick(product)}
+              />
             </div>
 
             <h4

@@ -2,12 +2,13 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import { BsList } from "react-icons/bs";
+import navbar_cart_icon from "../../../Assets/icons/navbar-cart-icon.png";
 import motomart from "../../../Assets/img/motomart.png";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 import { gsap } from "gsap";
 import { Dropdown } from "react-bootstrap";
 
-function Navbar() {
+function Navbar({ handleClick }) {
   useEffect(() => {
     const tl = gsap.timeline({
       defaults: { duration: 2, ease: "power4.easeOut" },
@@ -83,12 +84,18 @@ function Navbar() {
         </div>
         <div className="d-flex col-9 justify-content-evenly align-items-center links--icons">
           <div
-            className="d-flex justify-content-between w-50 text-white text-decoration-none"
+            className="d-flex justify-content-between w-50 text-white text-decoration-none align-items-center"
             style={{ fontSize: "0.8rem" }}
           >
+            <Link to="cart_page">
+              <div>
+                <img src={navbar_cart_icon} alt="cart" />
+                <span className="cart-count">0</span>
+              </div>
+            </Link>
             <Link
               className="text-white text-decoration-none navbar_links"
-              to="/"
+              to="home"
             >
               HOME
             </Link>

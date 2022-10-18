@@ -46,6 +46,18 @@ p {
     transform: translateY(50px);
 }
 
+.cart-count {
+    background-color: red;
+    padding: 0 3px;
+    border-radius: 5px;
+    position: relative;
+    top: -10px;
+    left: -5px;
+    color: white;
+    text-decoration: none !important;
+    /* font-size: 20rem; */
+}
+
 
 @media only screen and (max-width:600px) {
     .empty {

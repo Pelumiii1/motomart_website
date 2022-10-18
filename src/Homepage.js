@@ -8,10 +8,10 @@ import OUR_PRODUCTS_2 from "./Components/Our_Product_2/Our_Product_2";
 import MUSTHAVE_SECTION from "./Components/MustHave_Section/MustHave_Section";
 import OUR_PRODUCTS_3 from "./Components/Our_Product_3/Our_Product_3";
 
-function Homepage() {
+function Homepage({ handleClick }) {
   return (
     <>
-      <HEADER />
+      <HEADER handleClick={handleClick} />
       <MUSTHAVE_SECTION />
       <OUR_PRODUCTS_1 />
       <OUR_PRODUCTS_2 />

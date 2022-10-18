@@ -21,6 +21,7 @@ function Hero_section() {
         spaceBetween={10}
         autoplay={{ delay: 2500, disableOnInteraction: true }}
         navigation={true}
+        grabCursor={true}
         modules={[Navigation, Autoplay]}
         className="product-images-slider"
       >
