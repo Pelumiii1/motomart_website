@@ -1,11 +1,12 @@
+import React, { useEffect, useContext } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import React, { useEffect } from "react";
 import { BsList } from "react-icons/bs";
 import navbar_cart_icon from "../../../Assets/icons/navbar-cart-icon.png";
 import motomart from "../../../Assets/img/motomart.png";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 import { gsap } from "gsap";
+import CartContext from "../../../Context/cart/cartContext";
 import { Dropdown } from "react-bootstrap";
 
 function Navbar({ handleClick }) {
@@ -27,6 +28,9 @@ function Navbar({ handleClick }) {
       }
     );
   }, []);
+
+  const cartContext = useContext(CartContext);
+  const { carts } = cartContext;
 
   return (
     <div className="d-flex row justify-content-end align-items-center my-3 ">
@@ -87,20 +91,20 @@ function Navbar({ handleClick }) {
             className="d-flex justify-content-between w-50 text-white text-decoration-none align-items-center"
             style={{ fontSize: "0.8rem" }}
           >
-            <Link to="cart_page">
+            <Link to="/cart_page">
               <div>
                 <img src={navbar_cart_icon} alt="cart" />
-                <span className="cart-count">0</span>
+                <span className="cart-count">{carts && carts.length}</span>
               </div>
             </Link>
             <Link
               className="text-white text-decoration-none navbar_links"
-              to="home"
+              to="/home"
             >
               HOME
             </Link>
             <Link
-              to="all_product"
+              to="/all_product"
               className="text-white text-decoration-none navbar_links"
             >
               ALL PRODUCTS

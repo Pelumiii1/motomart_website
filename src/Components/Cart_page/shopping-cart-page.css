@@ -23,8 +23,19 @@ p {
 .product-ID {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between !important;
+    align-items: center;
+
 }
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: white !important;
+}
+
 
 /* No Product Page */
 .no-product-page {

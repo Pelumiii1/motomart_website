@@ -19,7 +19,7 @@ function Hero_section() {
       <Swiper
         loop={true}
         spaceBetween={10}
-        autoplay={{ delay: 2500, disableOnInteraction: true }}
+        autoplay={{ delay: 5000, disableOnInteraction: true }}
         navigation={true}
         grabCursor={true}
         modules={[Navigation, Autoplay]}
