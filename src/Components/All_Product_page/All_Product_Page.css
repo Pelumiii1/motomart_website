@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, p {
 
 .buttons {
   text-transform: uppercase;
-  color: white !important;
+  /* color: white !important; */
   border: 0.5px solid white !important;
   background: transparent;
   padding: 0rem 2rem;
@@ -93,6 +93,20 @@ h1, h2, h3, h4, h5, p {
 .productImg {
   position: relative;
 }
+
+.all_products_btn {
+  padding: 0.2rem 7rem !important;
+  background-color: transparent;
+  color: white;
+  border: 0.6px solid white;
+}
+
+.all_products_btn:hover {
+  background-color: white;
+  color: var(--brown-background) !important;
+  transition: var(--button-transition);
+}
+
 
 
 

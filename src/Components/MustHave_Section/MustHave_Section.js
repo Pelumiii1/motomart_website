@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./MustHave_Section.css";
 import { Button, Container } from "react-bootstrap";
 import Chair from "./Components/Chair";
@@ -13,26 +13,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function MustHave() {
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     ".musthave--wrapper",
-  //     {
-  //       yPercent: 5,
-  //       ease: "power2.easeIn",
-  //     },
-  //     {
-  //       yPercent: 0,
-  //       duration: 2,
-  //       ease: "power2.easeIn",
-  //       scrollTrigger: {
-  //         trigger: ".musthave--wrapper",
-  //         start: "top 95%",
-  //         scrub: 1,
-  //       },
-  //     }
-  //   );
-  // }, []);
-
   return (
     <div className="musthave_container text-white">
       <div className="container-fluid">
@@ -83,36 +63,6 @@ function MustHave() {
         </Container>
       </div>
     </div>
-    // <div className="musthave-section-container">
-    //   <div className="d-flex">
-    //     <div
-    //       className="d-flex .musthave-chair-and-text"
-    //       style={{ position: "relative" }}
-    //     >
-    //       <Chair />
-    //     </div>
-    //     <div className="d-flex light-wrapper" style={{ position: "relative" }}>
-    //       <Light />
-    //     </div>
-    //     <div>
-    //       <Light2 />
-    //     </div>
-    //     <div>
-    //       <Chair />
-    //     </div>
-    //   </div>
-    //   <div className="d-flex">
-    //     <div>
-    //       <Tub />
-    //     </div>
-    //     <div>
-    //       <Door />
-    //     </div>
-    //     <div>
-    //       <Wall />
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 

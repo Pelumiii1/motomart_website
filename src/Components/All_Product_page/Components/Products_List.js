@@ -12,6 +12,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "sanitary wares",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "sanitary wares",
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "sanitary wares",
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "sanitary wares",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 6,
@@ -47,6 +52,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 8,
@@ -61,6 +68,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 9,
@@ -68,6 +76,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 10,
@@ -75,6 +84,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 11,
@@ -82,6 +92,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 12,
@@ -89,6 +100,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "doors",
   },
   {
     id: 13,
@@ -96,6 +108,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "building materials",
   },
   {
     id: 14,
@@ -103,6 +116,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "building materials",
   },
   {
     id: 15,
@@ -110,6 +124,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "building materials",
   },
   {
     id: 16,
@@ -117,6 +132,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "building materials",
   },
   {
     id: 17,
@@ -124,6 +140,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "building materials",
   },
   {
     id: 18,
@@ -131,6 +148,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "building materials",
   },
   {
     id: 19,
@@ -138,7 +156,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
-    // category:
+    category: "building materials",
   },
   {
     id: 20,
@@ -146,6 +164,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "funitures",
   },
   {
     id: 21,
@@ -153,6 +172,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "funitures",
   },
   {
     id: 22,
@@ -160,6 +180,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "funitures",
   },
   {
     id: 23,
@@ -167,6 +188,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "funtiures",
   },
   {
     id: 24,
@@ -174,6 +196,7 @@ const Products_List = [
     productName: "Product name",
     code: "MMSWIIX3I",
     price: 8500,
+    category: "funitures",
   },
 ];
 

@@ -7,7 +7,6 @@
 .footer-container {
     background-color: #462828;
     color: white;
-    /* height: 50vh !important; */
 }
 
 
@@ -22,7 +21,9 @@
     display: none;
 }
 
-
+.fullnameOnForm, textarea {
+    color: white;
+}
 
 
 
@@ -80,6 +81,12 @@ li {
     text-align: center;
     padding: 5px 20px;
     font-weight: lighter !important;
+}
+
+.btn10:hover {
+    background-color: white;
+    color: var(--brown-background) !important;
+    transition: var(--button-transition) !important;
 }
 
 .sec2 p,

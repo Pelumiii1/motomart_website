@@ -1,20 +1,19 @@
-import { useContext } from "react";
-import Products_List from "./Products_List";
+import { useContext, useId } from "react";
 import cart_icon from "../Assets/cart-icon.png";
 import CartContext from "../../../Context/cart/cartContext";
-import toast, { Toaster } from "react-hot-toast";
 
-function All_Products({ handleClick }) {
-  const notify = () => toast("Added to cart");
+function All_Products({ allProducts, showAllProducts, products }) {
+  const id = useId();
   const cartContext = useContext(CartContext);
   const { addToCart } = cartContext;
+
   return (
     <>
       <div className="all-products-container d-flex gap-5 pb-5 mb-4">
-        {Products_List.slice(0, 12).map((product) => {
+        {allProducts.slice(0, products).map((product, index) => {
           product.quantity = 1;
           return (
-            <div>
+            <div key={`${id}-${index}`}>
               <div className="product-card" key={product.id}>
                 <img
                   src={product.productImg}
@@ -51,6 +50,14 @@ function All_Products({ handleClick }) {
             </div>
           );
         })}
+      </div>
+      <div className="d-flex justify-content-center">
+        <button
+          className="text-white all_products_btn text-uppercase"
+          onClick={() => showAllProducts()}
+        >
+          see more
+        </button>
       </div>
     </>
   );

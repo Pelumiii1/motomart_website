@@ -1,15 +1,18 @@
+import { toast } from "react-hot-toast";
 import { ADD_TO_CART, INCREASE, DECREASE, REMOVE } from "../types";
-import toast from "react-hot-toast";
 
 const cartReducer = (state, action) => {
   switch (action.type) {
     case ADD_TO_CART:
+      state.carts.find((cart) => cart.id === action.payload.id)
+        ? toast.success("Quantity updated")
+        : toast.success("Added to cart");
       return {
         ...state,
         carts: state.carts.find((cart) => cart.id === action.payload.id)
           ? state.carts.map((cart) =>
               cart.id === action.payload.id
-                ? { ...action.payload, quantity: cart.quantity++ }
+                ? { ...action.payload, quantity: ++cart.quantity }
                 : cart
             )
           : [action.payload, ...state.carts],
@@ -28,17 +31,17 @@ const cartReducer = (state, action) => {
         ...state,
         carts: state.carts.map((cart) =>
           cart.id === action.payload.id
-            ? { ...action.payload, quantity: cart.quantity++ }
+            ? { ...action.payload, quantity: ++cart.quantity }
             : cart
         ),
       };
 
-    case DECREASE:
+    case "DECREASE":
       return {
         ...state,
         carts: state.carts.map((cart) =>
           cart.id === action.payload.id
-            ? { ...action.payload, quantity: cart.quantity-- }
+            ? { ...action.payload, quantity: --cart.quantity }
             : cart
         ),
       };

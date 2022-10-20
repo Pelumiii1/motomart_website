@@ -49,7 +49,7 @@ function Header({ handleClick }) {
             <div className="">
               <img
                 src={text}
-                alt="text_text"
+                alt=""
                 className="text_head"
                 style={{ objectFit: "contain" }}
               />

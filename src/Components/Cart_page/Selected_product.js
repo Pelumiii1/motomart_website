@@ -14,16 +14,21 @@ function Selected_product() {
 
   return (
     <div>
-      <div>
+      <div className="">
         {carts &&
           carts.map((item, index) => {
             //   item.quantity = 1;
             return (
-              <div className="my-4" key={index}>
+              <div className="each_product mb-3 py-3" key={index}>
                 <div className="row mx-5">
-                  <div className="col-4 d-flex align-items-center justify-content-center ">
-                    <img src={item.productImg} alt="" height={170} />
-                    <div className="mx-4 product-ID gap-3">
+                  <div className="col-4 d-flex align-items-center justify-content-center">
+                    <img
+                      src={item.productImg}
+                      alt=""
+                      height={150}
+                      width={150}
+                    />
+                    <div className="mx-4 product-ID">
                       <p>{item.productName}</p>
                       <code>{item.code}</code>
                       <p>{item.price}</p>
@@ -57,7 +62,10 @@ function Selected_product() {
                   </div>
                   <div className="col-4 d-flex align-items-center">
                     <div className="w-100 d-flex align-items-center">
-                      <p className="w-50">{item.quantity * item.price}</p>
+                      <p className="w-50">
+                        <span>&#8358;</span>
+                        {item.quantity * item.price}
+                      </p>
                       <img
                         src={delete_icon}
                         alt="delete"
@@ -76,9 +84,15 @@ function Selected_product() {
       {carts && carts.length > 0 && (
         <div className="container">
           <div className="total-price d-flex justify-content-end">
-            <h3 className="fw-bold">
-              = <span>&#8358;</span>
-              {total}
+            <h3
+              className="fw-bold"
+              style={{
+                position: "relative",
+                right: "-6rem",
+              }}
+            >
+              ( <span>&#8358;</span>
+              {total} )
             </h3>
           </div>
         </div>

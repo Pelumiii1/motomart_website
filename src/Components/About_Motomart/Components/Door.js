@@ -12,7 +12,7 @@ function Door() {
       />
       <button
         className="bottomOnAboutMotomart rounded text-dark fw-bold"
-        style={{ fontFamily: " font-family: 'Inter', sans-serif;" }}
+        style={{ fontFamily: " fontFamily: 'Inter', sans-serif;" }}
       >
         OTHER PRODUCTS
       </button>
