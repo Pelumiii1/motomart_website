@@ -18,11 +18,9 @@ function Products() {
   const sanitaryWareFilter = () => {
     if (isActive === false) {
       setAllProducts(
-        Products_List.filter(
-          (product) => product.category === "sanitary wares"
-        ),
-        setIsActive(true)
+        Products_List.filter((product) => product.category === "sanitary wares")
       );
+      setIsActive(true);
     } else {
       setIsActive(false);
     }
@@ -31,9 +29,9 @@ function Products() {
   const doorFilter = () => {
     if (isActive === false) {
       setAllProducts(
-        Products_List.filter((product) => product.category === "doors"),
-        setIsActive(true)
+        Products_List.filter((product) => product.category === "doors")
       );
+      setIsActive(true);
     } else {
       setIsActive(false);
     }
